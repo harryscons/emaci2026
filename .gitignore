@@ -1,0 +1,7 @@
+.DS_Store
+emacs2026_original.rtf
+emacs2026.json
+node_modules/
+.gemini/
+.agent/
+brain/

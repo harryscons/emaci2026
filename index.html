@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMACI 2026 Torun</title>
+    <meta name="description" content="Official Reports & Analysis - EMACI 2026 Torun.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <div class="splash-content">
+            <h1 class="splash-title">EMACI 2026 Torun</h1>
+            <p class="splash-subtitle">Torun, Poland</p>
+            <div class="loader-container">
+                <div class="loader-bar"></div>
+            </div>
+            <p id="loading-status">Initializing Data...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header style="margin-bottom: 3rem; display: flex; justify-content: space-between; align-items: flex-start;">
+            <div>
+                <h1>EMACI 2026 Torun</h1>
+                <p style="color: var(--text-secondary); font-size: 1.125rem;">15th European Masters Athletics
+                    Championships Indoor</p>
+            </div>
+            <div class="data-actions" style="display: flex; gap: 1rem;">
+                <button id="backup-btn" class="btn-small"
+                    style="background: rgba(56, 189, 248, 0.1); color: var(--accent-color); border: 1px solid var(--accent-color);">Download
+                    Backup</button>
+                <label for="restore-input" class="btn-small"
+                    style="background: rgba(192, 132, 252, 0.1); color: #c084fc; border: 1px solid #c084fc; cursor: pointer; display: inline-flex; align-items: center; padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 600; font-size: 0.875rem;">Restore
+                    Data</label>
+                <input type="file" id="restore-input" accept=".json" style="display: none;">
+            </div>
+        </header>
+
+        <main>
+            <!-- Welcome screen removed as per user request -->
+
+            <div id="editor-section" class="card" style="margin-top: 2rem; display: none;">
+                <div class="editor-header">
+                    <div class="traffic-lights">
+                        <span class="red"></span>
+                        <span class="yellow"></span>
+                        <span class="green"></span>
+                    </div>
+                    <span class="filename">hello_world.em</span>
+                </div>
+                <div class="editor-content" contenteditable="true" spellcheck="false">
+                    <span class="keyword">function</span> <span class="function">init_emacsi</span>() {
+                    <span class="comment">// Welcome to the future</span>
+                    <span class="keyword">return</span> <span class="string">"Ready."</span>;
+                    }
+                </div>
+            </div>
+
+            <div id="report-section" class="card" style="margin-top: 2rem;">
+                <h2 style="margin-bottom: 2rem;">Reports & Analysis</h2>
+
+                <div class="filter-controls"
+                    style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+                    <!-- Filters will be injected here -->
+                </div>
+
+                <div class="table-container" style="overflow-x: auto;">
+                    <table id="report-table">
+                        <thead>
+                            <tr>
+                                <th>Bib</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Age Group</th>
+                                <th>Gender</th>
+                                <th>Code</th>
+                                <th>Team Name</th>
+                                <th>QP</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be injected here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="dynamic-content" style="margin-top: 2rem;"></div>
+        </main>
+
+        <!-- Footer removed per user request -->
+    </div>
+
+    <script src="src/js/data.js"></script>
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>
