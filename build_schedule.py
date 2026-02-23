@@ -10,32 +10,24 @@ for e in events:
     event_header = e['event']
     full_text = f"{event_header or ''} {desc}".strip()
     
-    # Improved regex: look for Gender, then some optional text, then Age
-    # Gender candidates: M, W, MIX, MIXED, M/W, M+W
-    # Age candidates: 35, 70+, 35-50
-    gender_pattern = r'(M/W|MIXED|MIX|M|W|X)'
-    age_pattern = r'(\d{2}(?:-\d{2})?(?:\+)?)'
+    # Improved regex: look for Gender + Age
+    # We allow some words like "Final" or "Heats" between them
+    gender_pattern = r'\b(M/W|MIXED|MIX|M|W|X)\b'
+    age_pattern = r'\b(\d{2}(?:-\d{2})?(?:\+)?)\b'
+    gap_pattern = r'(?:\s*(?:Final|Heats|m|SF|QF|Semi|gr\.\d)\s*)*'
     
-    # Try multiple matches in the full text
-    matches = []
+    pattern = f'{gender_pattern}{gap_pattern}{age_pattern}'
+    matches = re.findall(pattern, full_text, re.IGNORECASE)
     
-    # Case 1: Gender AND Age on the same line (potentially separated by words)
-    # e.g., "M35", "M/W 70+", "MIX Final 80", "400 m Heats M35"
-    found = re.findall(f'{gender_pattern}.*?{age_pattern}', full_text, re.IGNORECASE)
-    if found:
-        matches.extend(found)
-    
-    # Case 2: Just an age group (sometimes gender is implied by the column or event header)
-    # e.g., "High Jump W35-40" -> if no local gender, it might be just "35-40" if gender was in header
+    # Special case for concatenated forms like M35, W70+
     if not matches:
-        # If no explicit gender+age pair, try just finding an age group
-        # and we'll infer gender from header if possible
-        ages_only = re.findall(age_pattern, full_text)
-        if ages_only:
-            # Infer gender
-            inferred_gender = 'X' if 'MIX' in full_text.upper() else ('F' if 'W' in full_text.upper() else 'M')
-            for ag in ages_only:
-                matches.append((inferred_gender, ag))
+        concat_pattern = r'\b(M|W)(\d{2}(?:-\d{2})?(?:\+)?)\b'
+        matches = re.findall(concat_pattern, full_text, re.IGNORECASE)
+    
+    if not matches:
+        # Try split pattern if needed, but be careful
+        # e.g., "W 70+" or "M 35"
+        pass
 
     # Event Mapping
     event_code = None
