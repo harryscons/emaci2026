@@ -206,6 +206,7 @@ header {
     color: var(--text-secondary);
     border-bottom: 2px solid var(--border-color);
     white-space: nowrap;
+    background-color: var(--bg-secondary);
 }
 
 .sort-target span {
@@ -264,10 +265,23 @@ header {
 }
 
 .td-when,
-.th-when {
+.th-when,
+.td-age-group,
+.th-age-group,
+.td-event,
+.th-event {
     width: 1%;
     /* Shrink to fit content */
     white-space: nowrap;
+}
+
+.td-team-name,
+.th-team-name {
+    width: 8%;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .td-result,
