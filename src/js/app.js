@@ -142,11 +142,34 @@ function processData(source) {
         }
 
         return athlete.eventsEntered.map(event => {
-            const dayNum = eventToDay[event.eventCode] || "1"; // Default to Day 1 which is busiest
+            let dayNum = eventToDay[event.eventCode] || "1";
+            let exactTime = "";
+            let scheduledDateStr = dateMapping[dayNum] || "-";
+
+            // Try to find exact time from the generated schedule
+            if (typeof emacs2026Schedule !== 'undefined' && emacs2026Schedule.length > 0) {
+                const match = emacs2026Schedule.find(s =>
+                    s.eventCode === event.eventCode &&
+                    s.gender === athlete.gender &&
+                    s.ageGroup === athlete.ageGroup
+                );
+
+                if (match) {
+                    dayNum = String(match.day);
+                    exactTime = match.time;
+                    scheduledDateStr = dateMapping[dayNum] || "-";
+                }
+            }
+
+            let whenStr = scheduledDateStr;
+            if (exactTime) {
+                whenStr += ` at ${exactTime}`;
+            }
+
             return {
                 ...base,
                 Event: event.eventCode,
-                When: dateMapping[dayNum] || "-",
+                When: whenStr,
                 QP: event.qp || "-"
             };
         });
@@ -301,17 +324,35 @@ function sortData(data, column, direction) {
             valA = parseInt(valA) || 0;
             valB = parseInt(valB) || 0;
         } else if (column === 'When') {
-            const dateMapping = {
-                "Fri, 27 Mar": 1,
-                "Sat, 28 Mar": 2,
-                "Sun, 29 Mar": 3,
-                "Mon, 30 Mar": 4,
-                "Tue, 31 Mar": 5,
-                "Wed, 01 Apr": 6,
-                "Thu, 02 Apr": 7
+            const dateScore = {
+                "Fri, 27 Mar": 10000,
+                "Sat, 28 Mar": 20000,
+                "Sun, 29 Mar": 30000,
+                "Mon, 30 Mar": 40000,
+                "Tue, 31 Mar": 50000,
+                "Wed, 01 Apr": 60000,
+                "Thu, 02 Apr": 70000
             };
-            valA = dateMapping[valA] || 99;
-            valB = dateMapping[valB] || 99;
+
+            function parseWhenScore(whenStr) {
+                if (!whenStr || whenStr === '-') return 999999;
+                const parts = whenStr.split(' at ');
+                const datePart = parts[0];
+                const timePart = parts[1];
+
+                let score = dateScore[datePart] || 99000;
+
+                if (timePart) {
+                    const timeParts = timePart.split(':');
+                    if (timeParts.length === 2) {
+                        score += (parseInt(timeParts[0]) * 60) + parseInt(timeParts[1]);
+                    }
+                }
+                return score;
+            }
+
+            valA = parseWhenScore(valA);
+            valB = parseWhenScore(valB);
         } else {
             valA = String(valA).toLowerCase();
             valB = String(valB).toLowerCase();
