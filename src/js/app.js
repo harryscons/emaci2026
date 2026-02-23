@@ -66,7 +66,7 @@ const FILTER_COLUMNS = ["Bib", "Last Name", "First Name", "Age Group", "Gender",
 
 async function loadReportData() {
     const splash = document.getElementById('splash-screen');
-    const loaderBar = document.querySelector('.loader-bar');
+    const loaderBar = document.querySelector('.loading-progress');
     const status = document.getElementById('loading-status');
 
     const updateProgress = (width, text) => {
@@ -129,7 +129,8 @@ function processData(source) {
         "5K": "6", "5KW": "6", "PEN": "6", "XC": "6"
     };
 
-    return source.competitors.flatMap(athlete => {
+    const processed = [];
+    source.competitors.forEach(athlete => {
         const base = {
             Bib: athlete.competitorId,
             "First Name": athlete.firstName,
@@ -140,74 +141,75 @@ function processData(source) {
         };
 
         if (!athlete.eventsEntered || athlete.eventsEntered.length === 0) {
-            return [{ ...base, Event: "-", When: "-", QP: "-" }];
-        }
+            processed.push({ ...base, Event: "-", When: "-", QP: "-" });
+        } else {
+            athlete.eventsEntered.forEach(event => {
+                let dayNum = eventToDay[event.eventCode] || "1";
+                let exactTime = "";
+                let scheduledDateStr = dateMapping[dayNum] || "-";
 
-        return athlete.eventsEntered.map(event => {
-            let dayNum = eventToDay[event.eventCode] || "1";
-            let exactTime = "";
-            let scheduledDateStr = dateMapping[dayNum] || "-";
-
-            // Try to find exact time from the generated schedule
-            if (typeof emacs2026Schedule !== 'undefined' && emacs2026Schedule.length > 0) {
-                let match = emacs2026Schedule.find(s =>
-                    s.eventCode === event.eventCode &&
-                    s.gender === athlete.gender &&
-                    s.ageGroup === athlete.ageGroup
-                );
-
-                // Fallback: If no exact match, look for a "plus" category that covers this athlete
-                // This handles cases where the schedule expansion might have missed an extreme age
-                if (!match) {
-                    const athleteAge = parseInt(athlete.ageGroup.replace(/\D/g, ''));
-                    // Find all potential fallback matches for this event and gender
-                    const potentialFallbacks = emacs2026Schedule.filter(s =>
+                // Try to find exact time from the generated schedule
+                if (typeof emacs2026Schedule !== 'undefined' && emacs2026Schedule.length > 0) {
+                    let match = emacs2026Schedule.find(s =>
                         s.eventCode === event.eventCode &&
                         s.gender === athlete.gender &&
-                        s.desc.includes('+')
+                        s.ageGroup === athlete.ageGroup
                     );
 
-                    if (potentialFallbacks.length > 0) {
-                        // Find the highest "plus" category that is still <= athlete's age
-                        // e.g. If athlete is 85 and we have 70+ and 80+, pick 80+
-                        let bestFallback = null;
-                        let maxBaseAge = -1;
+                    // Fallback: If no exact match, look for a "plus" category that covers this athlete
+                    // This handles cases where the schedule expansion might have missed an extreme age
+                    if (!match) {
+                        const athleteAge = parseInt(String(athlete.ageGroup).replace(/\D/g, ''));
+                        // Find all potential fallback matches for this event and gender
+                        const potentialFallbacks = emacs2026Schedule.filter(s =>
+                            s.eventCode === event.eventCode &&
+                            s.gender === athlete.gender &&
+                            s.desc.includes('+')
+                        );
 
-                        potentialFallbacks.forEach(s => {
-                            const matchPlus = s.desc.match(/(\d{2})\+/);
-                            if (matchPlus) {
-                                const baseAge = parseInt(matchPlus[1]);
-                                if (athleteAge >= baseAge && baseAge > maxBaseAge) {
-                                    maxBaseAge = baseAge;
-                                    bestFallback = s;
+                        if (potentialFallbacks.length > 0) {
+                            // Find the highest "plus" category that is still <= athlete's age
+                            // e.g. If athlete is 85 and we have 70+ and 80+, pick 80+
+                            let bestFallback = null;
+                            let maxBaseAge = -1;
+
+                            potentialFallbacks.forEach(s => {
+                                const matchPlus = s.desc.match(/(\d{2})\+/);
+                                if (matchPlus) {
+                                    const baseAge = parseInt(matchPlus[1]);
+                                    if (athleteAge >= baseAge && baseAge > maxBaseAge) {
+                                        maxBaseAge = baseAge;
+                                        bestFallback = s;
+                                    }
                                 }
-                            }
-                        });
+                            });
 
-                        if (bestFallback) match = bestFallback;
+                            if (bestFallback) match = bestFallback;
+                        }
+                    }
+
+                    if (match) {
+                        dayNum = String(match.day);
+                        exactTime = match.time;
+                        scheduledDateStr = dateMapping[dayNum] || "-";
                     }
                 }
 
-                if (match) {
-                    dayNum = String(match.day);
-                    exactTime = match.time;
-                    scheduledDateStr = dateMapping[dayNum] || "-";
+                let whenStr = scheduledDateStr;
+                if (exactTime) {
+                    whenStr += ` at ${exactTime}`;
                 }
-            }
 
-            let whenStr = scheduledDateStr;
-            if (exactTime) {
-                whenStr += ` at ${exactTime}`;
-            }
-
-            return {
-                ...base,
-                Event: event.eventCode,
-                When: whenStr,
-                QP: event.qp || "-"
-            };
-        });
+                processed.push({
+                    ...base,
+                    Event: event.eventCode,
+                    When: whenStr,
+                    QP: event.qp || "-"
+                });
+            });
+        }
     });
+    return processed;
 }
 
 function initializeFilters(data) {
