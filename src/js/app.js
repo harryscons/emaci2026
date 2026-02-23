@@ -211,28 +211,36 @@ function processData(source) {
 }
 
 function initializeFilters(data) {
-    // Remove old standalone filter container if it exists
     const filterContainer = document.querySelector('.filter-controls');
-    if (filterContainer) filterContainer.innerHTML = '';
+    if (!filterContainer) return;
+
+    filterContainer.innerHTML = '';
 
     if (data.length === 0) return;
 
     const thead = document.querySelector('#report-table thead');
     const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP"];
 
+    // Set up compact table headers
     thead.innerHTML = `<tr>
         ${displayColumns.map(col => `
-            <th class="th-${col.toLowerCase().replace(' ', '-')}">
+            <th class="th-${col.toLowerCase().replace(/\s+/g, '-')}">
                 <div class="sort-target" data-column="${col}">
                     <span>${col} <span class="sort-icon" data-icon-column="${col}">↕</span></span>
                 </div>
-                <select data-filter-column="${col}" class="column-filter">
-                    <option value="">All</option>
-                </select>
             </th>
         `).join('')}
         <th class="th-profile">Profile</th>
     </tr>`;
+
+    // Populate the filter bar
+    filterContainer.innerHTML = FILTER_COLUMNS.map(col => `
+        <div class="filter-group">
+            <select data-filter-column="${col}" class="column-filter">
+                <option value="">All ${col}s</option>
+            </select>
+        </div>
+    `).join('');
 
     // Add sort listeners
     thead.querySelectorAll('.sort-target').forEach(div => {
@@ -242,9 +250,7 @@ function initializeFilters(data) {
     });
 
     // Add filter listeners
-    thead.querySelectorAll('.column-filter').forEach(select => {
-        // Prevent click from propagating to the th (though we target .sort-target now, it's safer)
-        select.addEventListener('click', e => e.stopPropagation());
+    filterContainer.querySelectorAll('.column-filter').forEach(select => {
         select.addEventListener('change', (e) => {
             updateFilter(e.target.dataset.filterColumn, e.target.value);
         });
@@ -270,7 +276,7 @@ function updateFilterOptions() {
         const availableValues = [...new Set(filteredSubset.map(item => item[col]))].sort();
 
         // Rebuild options
-        const optionsHTML = [`<option value="">All (${availableValues.length})</option>`];
+        const optionsHTML = [`<option value="">All ${col}s (${availableValues.length})</option>`];
         availableValues.forEach(val => {
             const selected = String(val) === currentValue ? 'selected' : '';
             optionsHTML.push(`<option value="${val}" ${selected}>${val}</option>`);
@@ -313,14 +319,14 @@ function renderTable(data) {
         return;
     }
 
-    tbody.innerHTML = data.map(item => {
+    tbody.innerHTML = data.slice(0, 1000).map(item => {
         const searchName = encodeURIComponent(`${item["First Name"]} ${item["Last Name"]}`);
         const searchUrl = `https://www.mastersrankings.com/athlete-search/?x8=${searchName}`;
 
         return `
             <tr>
                 ${displayColumns.map(col => {
-            const cellClass = `td-${col.toLowerCase().replace(' ', '-')}`;
+            const cellClass = `td-${col.toLowerCase().replace(/\s+/g, '-')}`;
             return `<td class="${cellClass}">${item[col] || '-'}</td>`;
         }).join('')}
                 <td class="td-profile">
@@ -331,6 +337,10 @@ function renderTable(data) {
             </tr>
         `;
     }).join('');
+
+    if (data.length > 1000) {
+        tbody.innerHTML += `<tr><td colspan="${displayColumns.length + 1}" style="text-align:center; padding: 1rem; color: var(--text-secondary);">Showing first 1000 of ${data.length} results. Use filters to narrow down.</td></tr>`;
+    }
 }
 
 
