@@ -132,30 +132,43 @@ function processData(source) {
 }
 
 function initializeFilters(data) {
+    // Remove old standalone filter container if it exists
     const filterContainer = document.querySelector('.filter-controls');
-    filterContainer.innerHTML = '';
+    if (filterContainer) filterContainer.innerHTML = '';
+
     if (data.length === 0) return;
 
-    FILTER_COLUMNS.forEach(col => {
-        const wrapper = document.createElement('div');
-        wrapper.className = 'filter-group';
-        wrapper.dataset.column = col;
-        wrapper.style.display = 'flex';
-        wrapper.style.alignItems = 'center';
-        wrapper.style.gap = '0.75rem';
-        wrapper.style.width = '260px'; // Equal size for all dropdowns
-        wrapper.innerHTML = `
-            <label style="font-size: 0.875rem; color: var(--text-secondary); white-space: nowrap; width: 80px; text-align: right; font-weight: 600;">${col}</label>
-            <select data-column="${col}" style="flex: 1; padding: 0.5rem; min-height: 2.5rem; border-radius: 0.375rem;">
-                <option value="">All</option>
-            </select>
-        `;
+    const thead = document.querySelector('#report-table thead');
+    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
 
-        wrapper.querySelector('select').addEventListener('change', (e) => {
-            updateFilter(e.target.dataset.column, e.target.value);
+    thead.innerHTML = `<tr>
+        ${displayColumns.map(col => `
+            <th style="padding: 0.5rem 1rem;">
+                <div class="sort-target" data-column="${col}" style="cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>${col} <span class="sort-icon" data-icon-column="${col}" style="opacity: 0.2; margin-left: 0.25rem;">↕</span></span>
+                </div>
+                <select data-filter-column="${col}" class="column-filter" style="width: 100%; padding: 0.25rem 0.5rem; font-size: 0.875rem; min-height: 2rem; height: 2rem; border-radius: 0.25rem; background-color: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-primary); outline: none;">
+                    <option value="">All</option>
+                </select>
+            </th>
+        `).join('')}
+        <th style="vertical-align: top; padding: 0.5rem 1rem;">Profile</th>
+    </tr>`;
+
+    // Add sort listeners
+    thead.querySelectorAll('.sort-target').forEach(div => {
+        div.addEventListener('click', () => {
+            handleSort(div.dataset.column);
         });
+    });
 
-        filterContainer.appendChild(wrapper);
+    // Add filter listeners
+    thead.querySelectorAll('.column-filter').forEach(select => {
+        // Prevent click from propagating to the th (though we target .sort-target now, it's safer)
+        select.addEventListener('click', e => e.stopPropagation());
+        select.addEventListener('change', (e) => {
+            updateFilter(e.target.dataset.filterColumn, e.target.value);
+        });
     });
 
     updateFilterOptions();
@@ -163,7 +176,8 @@ function initializeFilters(data) {
 
 function updateFilterOptions() {
     FILTER_COLUMNS.forEach(col => {
-        const select = document.querySelector(`select[data-column="${col}"]`);
+        const select = document.querySelector(`select[data-filter-column="${col}"]`);
+        if (!select) return;
         const currentValue = activeFilters[col] || "";
 
         // Filters options for column X should be limited by ALL OTHER filters
@@ -201,17 +215,18 @@ function renderTable(data) {
     const thead = document.querySelector('#report-table thead');
     const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
 
-    thead.innerHTML = `<tr>
-        ${displayColumns.map(col => `
-            <th data-column="${col}" style="cursor: pointer; user-select: none;">
-                ${col} ${getSortIcon(col)}
-            </th>
-        `).join('')}
-        <th>Profile</th>
-    </tr>`;
-
-    thead.querySelectorAll('th[data-column]').forEach(th => {
-        th.addEventListener('click', () => handleSort(th.dataset.column));
+    // Update sort icons without rewriting thead, which would destroy select focus
+    displayColumns.forEach(col => {
+        const iconSpan = document.querySelector(`.sort-icon[data-icon-column="${col}"]`);
+        if (iconSpan) {
+            if (currentSort.column !== col) {
+                iconSpan.innerHTML = '↕';
+                iconSpan.style.opacity = '0.2';
+            } else {
+                iconSpan.innerHTML = currentSort.direction === 'asc' ? '↑' : '↓';
+                iconSpan.style.opacity = '1';
+            }
+        }
     });
 
     if (data.length === 0) {
@@ -240,10 +255,7 @@ function renderTable(data) {
     }).join('');
 }
 
-function getSortIcon(column) {
-    if (currentSort.column !== column) return '<span style="opacity: 0.2">↕</span>';
-    return currentSort.direction === 'asc' ? '↑' : '↓';
-}
+
 
 function handleSort(column) {
     if (currentSort.column === column) {
