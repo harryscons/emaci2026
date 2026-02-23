@@ -62,7 +62,7 @@ function showSection(id) {
 let allData = [];
 let activeFilters = {};
 let currentSort = { column: null, direction: 'asc' };
-const FILTER_COLUMNS = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
+const FILTER_COLUMNS = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP"];
 
 async function loadReportData() {
     const splash = document.getElementById('splash-screen');
@@ -109,6 +109,24 @@ async function loadReportData() {
 function processData(source) {
     if (!source.competitors) return [];
 
+    const dateMapping = {
+        "1": "Fri, 27 Mar",
+        "2": "Sat, 28 Mar",
+        "3": "Sun, 29 Mar",
+        "4": "Mon, 30 Mar",
+        "5": "Tue, 31 Mar",
+        "6": "Wed, 01 Apr",
+        "7": "Thu, 02 Apr"
+    };
+
+    const eventToDay = {
+        "60": "1", "200": "1", "400": "1", "800": "1", "1500": "1", "3000": "1", "3000W": "1",
+        "60H": "2",
+        "HJ": "3", "LJ": "3", "PV": "3", "TJ": "3",
+        "DT": "4", "HT": "4", "JT": "4", "OT": "4", "SP": "4", "WT": "4",
+        "5K": "6", "5KW": "6", "PEN": "6", "XC": "6"
+    };
+
     return source.competitors.flatMap(athlete => {
         const base = {
             Bib: athlete.competitorId,
@@ -120,14 +138,18 @@ function processData(source) {
         };
 
         if (!athlete.eventsEntered || athlete.eventsEntered.length === 0) {
-            return [{ ...base, Event: "-", QP: "-" }];
+            return [{ ...base, Event: "-", When: "-", QP: "-" }];
         }
 
-        return athlete.eventsEntered.map(event => ({
-            ...base,
-            Event: event.eventCode,
-            QP: event.qp || "-"
-        }));
+        return athlete.eventsEntered.map(event => {
+            const dayNum = eventToDay[event.eventCode] || "1"; // Default to Day 1 which is busiest
+            return {
+                ...base,
+                Event: event.eventCode,
+                When: dateMapping[dayNum] || "-",
+                QP: event.qp || "-"
+            };
+        });
     });
 }
 
@@ -139,7 +161,7 @@ function initializeFilters(data) {
     if (data.length === 0) return;
 
     const thead = document.querySelector('#report-table thead');
-    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
+    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP"];
 
     thead.innerHTML = `<tr>
         ${displayColumns.map(col => `
@@ -213,7 +235,7 @@ function applyFilters(data) {
 function renderTable(data) {
     const tbody = document.querySelector('#report-table tbody');
     const thead = document.querySelector('#report-table thead');
-    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
+    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP"];
 
     // Update sort icons without rewriting thead, which would destroy select focus
     displayColumns.forEach(col => {
@@ -278,6 +300,18 @@ function sortData(data, column, direction) {
         if (column === 'Bib') {
             valA = parseInt(valA) || 0;
             valB = parseInt(valB) || 0;
+        } else if (column === 'When') {
+            const dateMapping = {
+                "Fri, 27 Mar": 1,
+                "Sat, 28 Mar": 2,
+                "Sun, 29 Mar": 3,
+                "Mon, 30 Mar": 4,
+                "Tue, 31 Mar": 5,
+                "Wed, 01 Apr": 6,
+                "Thu, 02 Apr": 7
+            };
+            valA = dateMapping[valA] || 99;
+            valB = dateMapping[valB] || 99;
         } else {
             valA = String(valA).toLowerCase();
             valB = String(valB).toLowerCase();
