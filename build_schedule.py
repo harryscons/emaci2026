@@ -43,8 +43,16 @@ for ce in clean_events:
     # Examples: M35, W80+, W65+, W35-40
     age_groups = re.findall(r'([MW])(\d{2}(?:-\d{2})?(?:\+)?)(?:\s|$|I|gr\.\d)', desc)
     
+    # Also handle MIX events (e.g., 4x200 MIX Final 80)
+    if 'MIX' in desc.upper():
+        mix_ags = re.findall(r'(?:MIX|MIXED).*?\s(\d{2}(?:-\d{2})?(?:\+)?)', desc, re.IGNORECASE)
+        for ag in mix_ags:
+            age_groups.append(('X', ag))
+    
     # Identify event type
     event_map = {
+        '4x200 m': '4x200',
+        '4x200m': '4x200',
         '60m hurdles': '60H',
         '60 m hurdles': '60H',
         '60 m ': '60',
@@ -89,6 +97,9 @@ for ce in clean_events:
             
     if event_code and age_groups:
         for gender, ag in age_groups:
+            # Map gender to match prog.json (M=M, W=F, X=X)
+            gender_code = 'F' if gender == 'W' else gender
+            
             # Handle ranges like W35-40
             if '-' in ag:
                 parts = ag.split('-')
@@ -97,7 +108,7 @@ for ce in clean_events:
                 for age_val in range(start, end + 5, 5):
                      schedule.append({
                          'eventCode': event_code,
-                         'gender': gender,
+                         'gender': gender_code,
                          'ageGroup': f'V{age_val}',
                          'day': ce['day'],
                          'time': ce['time'],
@@ -109,7 +120,7 @@ for ce in clean_events:
                 for age_val in range(start, 100, 5):
                      schedule.append({
                          'eventCode': event_code,
-                         'gender': gender,
+                         'gender': gender_code,
                          'ageGroup': f'V{age_val}',
                          'day': ce['day'],
                          'time': ce['time'],
@@ -118,7 +129,7 @@ for ce in clean_events:
             else:
                 schedule.append({
                     'eventCode': event_code,
-                    'gender': gender,
+                    'gender': gender_code,
                     'ageGroup': f'V{ag}',
                     'day': ce['day'],
                     'time': ce['time'],
