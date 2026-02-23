@@ -334,14 +334,6 @@ header {
     .filter-controls {
         grid-template-columns: 1fr;
     }
-
-    /* Hide less critical columns on small mobile */
-    .th-team-name,
-    .td-team-name,
-    .th-qp,
-    .td-qp {
-        display: none;
-    }
 }
 
 /* Scrollbar Styling for a premium feel */
