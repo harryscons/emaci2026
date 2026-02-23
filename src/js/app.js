@@ -62,7 +62,7 @@ function showSection(id) {
 let allData = [];
 let activeFilters = {};
 let currentSort = { column: null, direction: 'asc' };
-const FILTER_COLUMNS = ["Bib", "First Name", "Last Name", "Age Group", "Gender", "Code", "Team Name", "QP"];
+const FILTER_COLUMNS = ["Bib", "First Name", "Last Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
 
 async function loadReportData() {
     const splash = document.getElementById('splash-screen');
@@ -120,12 +120,12 @@ function processData(source) {
         };
 
         if (!athlete.eventsEntered || athlete.eventsEntered.length === 0) {
-            return [{ ...base, Code: "-", QP: "-" }];
+            return [{ ...base, Event: "-", QP: "-" }];
         }
 
         return athlete.eventsEntered.map(event => ({
             ...base,
-            Code: event.eventCode,
+            Event: event.eventCode,
             QP: event.qp || "-"
         }));
     });
@@ -195,7 +195,7 @@ function applyFilters(data) {
 function renderTable(data) {
     const tbody = document.querySelector('#report-table tbody');
     const thead = document.querySelector('#report-table thead');
-    const displayColumns = ["Bib", "First Name", "Last Name", "Age Group", "Gender", "Code", "Team Name", "QP"];
+    const displayColumns = ["Bib", "First Name", "Last Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
 
     thead.innerHTML = `<tr>
         ${displayColumns.map(col => `
