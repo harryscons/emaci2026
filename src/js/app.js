@@ -236,7 +236,7 @@ function renderTable(data) {
 
     tbody.innerHTML = data.map(item => {
         const searchName = encodeURIComponent(`${item["First Name"]} ${item["Last Name"]}`);
-        const searchUrl = `https://www.mastersrankings.com/athlete-search/?unm=${searchName}`;
+        const searchUrl = `https://www.mastersrankings.com/athlete-search/?x8=${searchName}`;
 
         return `
             <tr>
