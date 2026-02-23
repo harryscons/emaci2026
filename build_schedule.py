@@ -12,8 +12,9 @@ for e in events:
     
     # Improved regex: look for Gender + Age
     # We allow some words like "Final" or "Heats" between them
+    # Note: we use (?![\w+]) instead of \b at the end to allow the + symbol
     gender_pattern = r'\b(M/W|MIXED|MIX|M|W|X)\b'
-    age_pattern = r'\b(\d{2}(?:-\d{2})?(?:\+)?)\b'
+    age_pattern = r'(\d{2}(?:-\d{2})?(?:\+)?)(?![0-9])'
     gap_pattern = r'(?:\s*(?:Final|Heats|m|SF|QF|Semi|gr\.\d)\s*)*'
     
     pattern = f'{gender_pattern}{gap_pattern}{age_pattern}'
@@ -21,7 +22,7 @@ for e in events:
     
     # Special case for concatenated forms like M35, W70+
     if not matches:
-        concat_pattern = r'\b(M|W)(\d{2}(?:-\d{2})?(?:\+)?)\b'
+        concat_pattern = r'\b(M|W)(\d{2}(?:-\d{2})?(?:\+)?)(?![0-9])'
         matches = re.findall(concat_pattern, full_text, re.IGNORECASE)
     
     if not matches:

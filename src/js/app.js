@@ -148,11 +148,43 @@ function processData(source) {
 
             // Try to find exact time from the generated schedule
             if (typeof emacs2026Schedule !== 'undefined' && emacs2026Schedule.length > 0) {
-                const match = emacs2026Schedule.find(s =>
+                let match = emacs2026Schedule.find(s =>
                     s.eventCode === event.eventCode &&
                     s.gender === athlete.gender &&
                     s.ageGroup === athlete.ageGroup
                 );
+
+                // Fallback: If no exact match, look for a "plus" category that covers this athlete
+                // This handles cases where the schedule expansion might have missed an extreme age
+                if (!match) {
+                    const athleteAge = parseInt(athlete.ageGroup.replace(/\D/g, ''));
+                    // Find all potential fallback matches for this event and gender
+                    const potentialFallbacks = emacs2026Schedule.filter(s =>
+                        s.eventCode === event.eventCode &&
+                        s.gender === athlete.gender &&
+                        s.desc.includes('+')
+                    );
+
+                    if (potentialFallbacks.length > 0) {
+                        // Find the highest "plus" category that is still <= athlete's age
+                        // e.g. If athlete is 85 and we have 70+ and 80+, pick 80+
+                        let bestFallback = null;
+                        let maxBaseAge = -1;
+
+                        potentialFallbacks.forEach(s => {
+                            const matchPlus = s.desc.match(/(\d{2})\+/);
+                            if (matchPlus) {
+                                const baseAge = parseInt(matchPlus[1]);
+                                if (athleteAge >= baseAge && baseAge > maxBaseAge) {
+                                    maxBaseAge = baseAge;
+                                    bestFallback = s;
+                                }
+                            }
+                        });
+
+                        if (bestFallback) match = bestFallback;
+                    }
+                }
 
                 if (match) {
                     dayNum = String(match.day);
