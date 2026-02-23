@@ -220,16 +220,16 @@ function initializeFilters(data) {
 
     thead.innerHTML = `<tr>
         ${displayColumns.map(col => `
-            <th>
-                <div class="sort-target" data-column="${col}" style="cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
-                    <span>${col} <span class="sort-icon" data-icon-column="${col}" style="opacity: 0.2; margin-left: 0.25rem;">↕</span></span>
+            <th class="th-${col.toLowerCase().replace(' ', '-')}">
+                <div class="sort-target" data-column="${col}">
+                    <span>${col} <span class="sort-icon" data-icon-column="${col}">↕</span></span>
                 </div>
                 <select data-filter-column="${col}" class="column-filter">
                     <option value="">All</option>
                 </select>
             </th>
         `).join('')}
-        <th style="vertical-align: top; padding-top: 1rem;">Profile</th>
+        <th class="th-profile">Profile</th>
     </tr>`;
 
     // Add sort listeners
@@ -298,10 +298,10 @@ function renderTable(data) {
         if (iconSpan) {
             if (currentSort.column !== col) {
                 iconSpan.innerHTML = '↕';
-                iconSpan.style.opacity = '0.2';
+                iconSpan.classList.remove('active');
             } else {
                 iconSpan.innerHTML = currentSort.direction === 'asc' ? '↑' : '↓';
-                iconSpan.style.opacity = '1';
+                iconSpan.classList.add('active');
             }
         }
     });
@@ -317,14 +317,13 @@ function renderTable(data) {
 
         return `
             <tr>
-                ${displayColumns.map(col => `<td>${item[col] || '-'}</td>`).join('')}
-                <td style="text-align: center;">
-                    <a href="${searchUrl}" target="_blank" title="Search Athlete on World Masters Rankings" class="profile-link">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2V8a2 2 0 0 1 2-2h6"></path>
-                            <polyline points="15 3 21 3 21 9"></polyline>
-                            <line x1="10" y1="14" x2="21" y2="3"></line>
-                        </svg>
+                ${displayColumns.map(col => {
+            const cellClass = `td-${col.toLowerCase().replace(' ', '-')}`;
+            return `<td class="${cellClass}">${item[col] || '-'}</td>`;
+        }).join('')}
+                <td class="td-profile">
+                    <a href="${searchUrl}" target="_blank" title="Rankings" class="btn-profile">
+                        View
                     </a>
                 </td>
             </tr>
