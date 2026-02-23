@@ -5,7 +5,7 @@
     "ageGroup": "V35",
     "day": 1,
     "time": "08:30",
-    "desc": "400 m Heats M35"
+    "desc": "400 m 400 m Heats M35"
   },
   {
     "eventCode": "400",
@@ -13,7 +13,7 @@
     "ageGroup": "V40",
     "day": 1,
     "time": "08:54",
-    "desc": "400 m Heats M40"
+    "desc": "400 m 400 m Heats M40"
   },
   {
     "eventCode": "LJ",
@@ -61,7 +61,7 @@
     "ageGroup": "V45",
     "day": 1,
     "time": "09:30",
-    "desc": "400 m Heats M45"
+    "desc": "400 m 400 m Heats M45"
   },
   {
     "eventCode": "LJ",
@@ -85,7 +85,7 @@
     "ageGroup": "V50",
     "day": 1,
     "time": "10:00",
-    "desc": "400 m Heats M50"
+    "desc": "400 m 400 m Heats M50"
   },
   {
     "eventCode": "LJ",
@@ -101,7 +101,7 @@
     "ageGroup": "V55",
     "day": 1,
     "time": "10:20",
-    "desc": "400 m Heats M55"
+    "desc": "400 m 400 m Heats M55"
   },
   {
     "eventCode": "LJ",
@@ -117,7 +117,7 @@
     "ageGroup": "V60",
     "day": 1,
     "time": "10:50",
-    "desc": "400 m Heats M60"
+    "desc": "400 m 400 m Heats M60"
   },
   {
     "eventCode": "LJ",
@@ -141,7 +141,7 @@
     "ageGroup": "V65",
     "day": 1,
     "time": "11:26",
-    "desc": "400 m Heats M65"
+    "desc": "400 m 400 m Heats M65"
   },
   {
     "eventCode": "WT",
@@ -157,7 +157,7 @@
     "ageGroup": "V70",
     "day": 1,
     "time": "11:50",
-    "desc": "400 m Heats M70"
+    "desc": "400 m 400 m Heats M70"
   },
   {
     "eventCode": "WT",
@@ -173,7 +173,7 @@
     "ageGroup": "V75",
     "day": 1,
     "time": "12:10",
-    "desc": "400 m Heats M75"
+    "desc": "400 m 400 m Heats M75"
   },
   {
     "eventCode": "WT",
@@ -189,7 +189,7 @@
     "ageGroup": "V35",
     "day": 1,
     "time": "12:34",
-    "desc": "400 m Heats W35"
+    "desc": "400 m 400 m Heats W35"
   },
   {
     "eventCode": "400",
@@ -197,7 +197,7 @@
     "ageGroup": "V40",
     "day": 1,
     "time": "12:58",
-    "desc": "400 m Heats W40"
+    "desc": "400 m 400 m Heats W40"
   },
   {
     "eventCode": "HJ",
@@ -221,7 +221,7 @@
     "ageGroup": "V65",
     "day": 1,
     "time": "13:22",
-    "desc": "3000 m Final W65+"
+    "desc": "3000 m 3000 m Final W65+"
   },
   {
     "eventCode": "3000",
@@ -229,7 +229,7 @@
     "ageGroup": "V70",
     "day": 1,
     "time": "13:22",
-    "desc": "3000 m Final W65+"
+    "desc": "3000 m 3000 m Final W65+"
   },
   {
     "eventCode": "3000",
@@ -237,7 +237,7 @@
     "ageGroup": "V75",
     "day": 1,
     "time": "13:22",
-    "desc": "3000 m Final W65+"
+    "desc": "3000 m 3000 m Final W65+"
   },
   {
     "eventCode": "3000",
@@ -245,7 +245,7 @@
     "ageGroup": "V80",
     "day": 1,
     "time": "13:22",
-    "desc": "3000 m Final W65+"
+    "desc": "3000 m 3000 m Final W65+"
   },
   {
     "eventCode": "3000",
@@ -253,7 +253,7 @@
     "ageGroup": "V85",
     "day": 1,
     "time": "13:22",
-    "desc": "3000 m Final W65+"
+    "desc": "3000 m 3000 m Final W65+"
   },
   {
     "eventCode": "3000",
@@ -261,7 +261,7 @@
     "ageGroup": "V90",
     "day": 1,
     "time": "13:22",
-    "desc": "3000 m Final W65+"
+    "desc": "3000 m 3000 m Final W65+"
   },
   {
     "eventCode": "3000",
@@ -269,7 +269,7 @@
     "ageGroup": "V95",
     "day": 1,
     "time": "13:22",
-    "desc": "3000 m Final W65+"
+    "desc": "3000 m 3000 m Final W65+"
   },
   {
     "eventCode": "HJ",
@@ -293,7 +293,7 @@
     "ageGroup": "V60",
     "day": 1,
     "time": "13:50",
-    "desc": "3000 m Final W60"
+    "desc": "3000 m 3000 m Final W60"
   },
   {
     "eventCode": "HJ",
@@ -317,7 +317,7 @@
     "ageGroup": "V55",
     "day": 1,
     "time": "14:13",
-    "desc": "3000 m Final W55"
+    "desc": "3000 m 3000 m Final W55"
   },
   {
     "eventCode": "HJ",
@@ -341,7 +341,7 @@
     "ageGroup": "V50",
     "day": 1,
     "time": "14:35",
-    "desc": "3000 m Final W50"
+    "desc": "3000 m 3000 m Final W50"
   },
   {
     "eventCode": "HJ",
@@ -365,7 +365,7 @@
     "ageGroup": "V45",
     "day": 1,
     "time": "14:55",
-    "desc": "3000 m Final W45"
+    "desc": "3000 m 3000 m Final W45"
   },
   {
     "eventCode": "DT",
@@ -381,7 +381,7 @@
     "ageGroup": "V40",
     "day": 1,
     "time": "15:10",
-    "desc": "3000 m Final W40"
+    "desc": "3000 m 3000 m Final W40"
   },
   {
     "eventCode": "DT",
@@ -397,7 +397,7 @@
     "ageGroup": "V35",
     "day": 1,
     "time": "15:25",
-    "desc": "3000 m Final W35"
+    "desc": "3000 m 3000 m Final W35"
   },
   {
     "eventCode": "3000",
@@ -405,7 +405,7 @@
     "ageGroup": "V80",
     "day": 1,
     "time": "15:40",
-    "desc": "3000 m Final M80+"
+    "desc": "3000 m 3000 m Final M80+"
   },
   {
     "eventCode": "3000",
@@ -413,7 +413,7 @@
     "ageGroup": "V85",
     "day": 1,
     "time": "15:40",
-    "desc": "3000 m Final M80+"
+    "desc": "3000 m 3000 m Final M80+"
   },
   {
     "eventCode": "3000",
@@ -421,7 +421,7 @@
     "ageGroup": "V90",
     "day": 1,
     "time": "15:40",
-    "desc": "3000 m Final M80+"
+    "desc": "3000 m 3000 m Final M80+"
   },
   {
     "eventCode": "3000",
@@ -429,7 +429,7 @@
     "ageGroup": "V95",
     "day": 1,
     "time": "15:40",
-    "desc": "3000 m Final M80+"
+    "desc": "3000 m 3000 m Final M80+"
   },
   {
     "eventCode": "3000",
@@ -437,7 +437,7 @@
     "ageGroup": "V75",
     "day": 1,
     "time": "16:07",
-    "desc": "3000 m Final M75"
+    "desc": "3000 m 3000 m Final M75"
   },
   {
     "eventCode": "HJ",
@@ -453,7 +453,7 @@
     "ageGroup": "V70",
     "day": 1,
     "time": "16:32",
-    "desc": "3000 m Final M70"
+    "desc": "3000 m 3000 m Final M70"
   },
   {
     "eventCode": "HJ",
@@ -477,7 +477,7 @@
     "ageGroup": "V65",
     "day": 1,
     "time": "16:56",
-    "desc": "3000 m Final M65"
+    "desc": "3000 m 3000 m Final M65"
   },
   {
     "eventCode": "HJ",
@@ -509,7 +509,7 @@
     "ageGroup": "V60",
     "day": 1,
     "time": "17:18",
-    "desc": "3000 m Final M60"
+    "desc": "3000 m 3000 m Final M60"
   },
   {
     "eventCode": "HJ",
@@ -533,7 +533,7 @@
     "ageGroup": "V55",
     "day": 1,
     "time": "17:37",
-    "desc": "3000 m Final M55"
+    "desc": "3000 m 3000 m Final M55"
   },
   {
     "eventCode": "HJ",
@@ -557,7 +557,7 @@
     "ageGroup": "V50",
     "day": 1,
     "time": "17:54",
-    "desc": "3000 m Final A M50"
+    "desc": "3000 m 3000 m Final A M50"
   },
   {
     "eventCode": "HJ",
@@ -581,7 +581,7 @@
     "ageGroup": "V50",
     "day": 1,
     "time": "18:11",
-    "desc": "3000 m Final B M50"
+    "desc": "3000 m 3000 m Final B M50"
   },
   {
     "eventCode": "3000",
@@ -589,7 +589,7 @@
     "ageGroup": "V45",
     "day": 1,
     "time": "18:27",
-    "desc": "3000 m Final A M45"
+    "desc": "3000 m 3000 m Final A M45"
   },
   {
     "eventCode": "3000",
@@ -597,7 +597,7 @@
     "ageGroup": "V45",
     "day": 1,
     "time": "18:43",
-    "desc": "3000 m Final B M45"
+    "desc": "3000 m 3000 m Final B M45"
   },
   {
     "eventCode": "3000",
@@ -605,7 +605,7 @@
     "ageGroup": "V40",
     "day": 1,
     "time": "18:59",
-    "desc": "3000 m Final M40"
+    "desc": "3000 m 3000 m Final M40"
   },
   {
     "eventCode": "HJ",
@@ -621,7 +621,7 @@
     "ageGroup": "V35",
     "day": 1,
     "time": "19:14",
-    "desc": "3000 m Final A M35"
+    "desc": "3000 m 3000 m Final A M35"
   },
   {
     "eventCode": "HJ",
@@ -653,7 +653,7 @@
     "ageGroup": "V35",
     "day": 1,
     "time": "19:30",
-    "desc": "3000 m Final B M35"
+    "desc": "3000 m 3000 m Final B M35"
   },
   {
     "eventCode": "HJ",
@@ -789,7 +789,7 @@
     "ageGroup": "V35",
     "day": 2,
     "time": "09:00",
-    "desc": "RW 60m hurdles Heats W35"
+    "desc": "60m 60m hurdles Heats W35"
   },
   {
     "eventCode": "60H",
@@ -797,7 +797,7 @@
     "ageGroup": "V40",
     "day": 2,
     "time": "09:11",
-    "desc": "RW 60m hurdles Heats W40"
+    "desc": "60m 60m hurdles Heats W40"
   },
   {
     "eventCode": "LJ",
@@ -821,7 +821,7 @@
     "ageGroup": "V45",
     "day": 2,
     "time": "09:21",
-    "desc": "RW 60m hurdles Heats W45"
+    "desc": "60m 60m hurdles Heats W45"
   },
   {
     "eventCode": "LJ",
@@ -869,7 +869,7 @@
     "ageGroup": "V50",
     "day": 2,
     "time": "09:32",
-    "desc": "RW 60m hurdles Heats W50"
+    "desc": "60m 60m hurdles Heats W50"
   },
   {
     "eventCode": "LJ",
@@ -885,7 +885,7 @@
     "ageGroup": "V55",
     "day": 2,
     "time": "09:47",
-    "desc": "RW 60m hurdles Heats W55"
+    "desc": "60m 60m hurdles Heats W55"
   },
   {
     "eventCode": "LJ",
@@ -901,7 +901,7 @@
     "ageGroup": "V60",
     "day": 2,
     "time": "09:58",
-    "desc": "RW 60m hurdles Heats W60"
+    "desc": "60m 60m hurdles Heats W60"
   },
   {
     "eventCode": "LJ",
@@ -925,7 +925,7 @@
     "ageGroup": "V65",
     "day": 2,
     "time": "10:08",
-    "desc": "RW 60m hurdles Heats W65"
+    "desc": "60m 60m hurdles Heats W65"
   },
   {
     "eventCode": "LJ",
@@ -965,7 +965,7 @@
     "ageGroup": "V35",
     "day": 2,
     "time": "10:20",
-    "desc": "RW 400 m SF M35"
+    "desc": "400 m 400 m SF M35"
   },
   {
     "eventCode": "HT",
@@ -981,7 +981,7 @@
     "ageGroup": "V40",
     "day": 2,
     "time": "10:32",
-    "desc": "RW 400 m SF M40"
+    "desc": "400 m 400 m SF M40"
   },
   {
     "eventCode": "400",
@@ -989,7 +989,7 @@
     "ageGroup": "V45",
     "day": 2,
     "time": "10:44",
-    "desc": "RW 400 m SF M45"
+    "desc": "400 m 400 m SF M45"
   },
   {
     "eventCode": "HJ",
@@ -1005,7 +1005,7 @@
     "ageGroup": "V50",
     "day": 2,
     "time": "10:56",
-    "desc": "RW 400 m SF M50"
+    "desc": "400 m 400 m SF M50"
   },
   {
     "eventCode": "HJ",
@@ -1061,7 +1061,7 @@
     "ageGroup": "V55",
     "day": 2,
     "time": "11:08",
-    "desc": "RW 400 m SF M55"
+    "desc": "400 m 400 m SF M55"
   },
   {
     "eventCode": "DT",
@@ -1077,7 +1077,7 @@
     "ageGroup": "V60",
     "day": 2,
     "time": "11:20",
-    "desc": "RW 400 m SF M60"
+    "desc": "400 m 400 m SF M60"
   },
   {
     "eventCode": "DT",
@@ -1093,7 +1093,7 @@
     "ageGroup": "V65",
     "day": 2,
     "time": "11:32",
-    "desc": "RW 400 m SF M65"
+    "desc": "400 m 400 m SF M65"
   },
   {
     "eventCode": "SP",
@@ -1141,7 +1141,7 @@
     "ageGroup": "V70",
     "day": 2,
     "time": "11:44",
-    "desc": "RW 400 m SF M70"
+    "desc": "400 m 400 m SF M70"
   },
   {
     "eventCode": "SP",
@@ -1157,7 +1157,7 @@
     "ageGroup": "V75",
     "day": 2,
     "time": "11:56",
-    "desc": "RW 400 m SF M75"
+    "desc": "400 m 400 m SF M75"
   },
   {
     "eventCode": "SP",
@@ -1173,7 +1173,7 @@
     "ageGroup": "V80",
     "day": 2,
     "time": "12:08",
-    "desc": "RW 400 m SF M80"
+    "desc": "400 m 400 m SF M80"
   },
   {
     "eventCode": "SP",
@@ -1197,7 +1197,7 @@
     "ageGroup": "V35",
     "day": 2,
     "time": "12:20",
-    "desc": "RW 400 m SF W35"
+    "desc": "400 m 400 m SF W35"
   },
   {
     "eventCode": "SP",
@@ -1221,7 +1221,7 @@
     "ageGroup": "V40",
     "day": 2,
     "time": "12:32",
-    "desc": "RW 400 m SF W40"
+    "desc": "400 m 400 m SF W40"
   },
   {
     "eventCode": "SP",
@@ -1237,7 +1237,7 @@
     "ageGroup": "V45",
     "day": 2,
     "time": "12:50",
-    "desc": "RW 400 m SF W45"
+    "desc": "400 m 400 m SF W45"
   },
   {
     "eventCode": "SP",
@@ -1253,7 +1253,7 @@
     "ageGroup": "V50",
     "day": 2,
     "time": "13:08",
-    "desc": "RW 400 m SF W50"
+    "desc": "400 m 400 m SF W50"
   },
   {
     "eventCode": "SP",
@@ -1269,7 +1269,7 @@
     "ageGroup": "V55",
     "day": 2,
     "time": "13:26",
-    "desc": "RW 400 m SF W55"
+    "desc": "400 m 400 m SF W55"
   },
   {
     "eventCode": "400",
@@ -1277,7 +1277,7 @@
     "ageGroup": "V60",
     "day": 2,
     "time": "13:44",
-    "desc": "RW 400 m SF W60"
+    "desc": "400 m 400 m SF W60"
   },
   {
     "eventCode": "400",
@@ -1285,7 +1285,7 @@
     "ageGroup": "V65",
     "day": 2,
     "time": "13:58",
-    "desc": "RW 400 m SF W65"
+    "desc": "400 m 400 m SF W65"
   },
   {
     "eventCode": "400",
@@ -1293,13 +1293,13 @@
     "ageGroup": "V70",
     "day": 2,
     "time": "14:10",
-    "desc": "RW 400 m SF W70"
+    "desc": "400 m 400 m SF W70"
   },
   {
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 2,
     "time": "14:25",
     "desc": "RW 3000m RW Final W35-40"
   },
@@ -1307,7 +1307,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 2,
     "time": "14:25",
     "desc": "RW 3000m RW Final W35-40"
   },
@@ -1315,7 +1315,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 2,
     "time": "14:50",
     "desc": "RW 3000m RW Final W45-50"
   },
@@ -1323,7 +1323,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 2,
     "time": "14:50",
     "desc": "RW 3000m RW Final W45-50"
   },
@@ -1331,7 +1331,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 2,
     "time": "15:15",
     "desc": "RW 3000m RW Final W55-60"
   },
@@ -1339,7 +1339,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 2,
     "time": "15:15",
     "desc": "RW 3000m RW Final W55-60"
   },
@@ -1347,7 +1347,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 2,
     "time": "15:45",
     "desc": "RW 3000m RW Final M35-40"
   },
@@ -1355,7 +1355,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 2,
     "time": "15:45",
     "desc": "RW 3000m RW Final M35-40"
   },
@@ -1363,7 +1363,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 2,
     "time": "16:10",
     "desc": "RW 3000m RW Final M45"
   },
@@ -1371,7 +1371,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 2,
     "time": "16:35",
     "desc": "RW 3000m RW Final M50"
   },
@@ -1379,7 +1379,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 2,
     "time": "17:05",
     "desc": "RW 3000m RW Final M55-60"
   },
@@ -1387,7 +1387,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 2,
     "time": "17:05",
     "desc": "RW 3000m RW Final M55-60"
   },
@@ -1395,7 +1395,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 2,
     "time": "17:35",
     "desc": "RW 3000m RW Final M65"
   },
@@ -1403,7 +1403,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 2,
     "time": "18:05",
     "desc": "RW 3000m RW Final M70"
   },
@@ -1411,105 +1411,105 @@
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 2,
     "time": "18:35",
-    "desc": "RW 60 m hurdles Final W35"
+    "desc": "60 m 60 m hurdles Final W35"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 2,
     "time": "18:40",
-    "desc": "RW 60 m hurdles Final W40"
+    "desc": "60 m 60 m hurdles Final W40"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 2,
     "time": "18:45",
-    "desc": "RW 60 m hurdles Final W45"
+    "desc": "60 m 60 m hurdles Final W45"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 2,
     "time": "18:50",
-    "desc": "RW 60 m hurdles Final W50"
+    "desc": "60 m 60 m hurdles Final W50"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 2,
     "time": "18:55",
-    "desc": "RW 60 m hurdles Final W55"
+    "desc": "60 m 60 m hurdles Final W55"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 2,
     "time": "19:00",
-    "desc": "RW 60 m hurdles Final W60"
+    "desc": "60 m 60 m hurdles Final W60"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 2,
     "time": "19:05",
-    "desc": "RW 60 m hurdles Final W65"
+    "desc": "60 m 60 m hurdles Final W65"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 2,
     "time": "19:10",
-    "desc": "RW 60 m hurdles Final W70"
+    "desc": "60 m 60 m hurdles Final W70"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 2,
     "time": "19:16",
-    "desc": "RW 60 m hurdles Final W75"
+    "desc": "60 m 60 m hurdles Final W75"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 2,
     "time": "19:22",
-    "desc": "RW 60 m hurdles Final W80+"
+    "desc": "60 m 60 m hurdles Final W80+"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 2,
     "time": "19:22",
-    "desc": "RW 60 m hurdles Final W80+"
+    "desc": "60 m 60 m hurdles Final W80+"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 2,
     "time": "19:22",
-    "desc": "RW 60 m hurdles Final W80+"
+    "desc": "60 m 60 m hurdles Final W80+"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 2,
     "time": "19:22",
-    "desc": "RW 60 m hurdles Final W80+"
+    "desc": "60 m 60 m hurdles Final W80+"
   },
   {
     "eventCode": "60",
@@ -1517,7 +1517,7 @@
     "ageGroup": "V35",
     "day": 3,
     "time": "08:30",
-    "desc": "RW 60 m M35 Heats"
+    "desc": "60 m 60 m M35 Heats"
   },
   {
     "eventCode": "60",
@@ -1525,7 +1525,7 @@
     "ageGroup": "V40",
     "day": 3,
     "time": "09:05",
-    "desc": "RW 60 m M40 Heats"
+    "desc": "60 m 60 m M40 Heats"
   },
   {
     "eventCode": "SP",
@@ -1549,7 +1549,7 @@
     "ageGroup": "V45",
     "day": 3,
     "time": "09:50",
-    "desc": "RW 60 m M45 Heats"
+    "desc": "60 m 60 m M45 Heats"
   },
   {
     "eventCode": "SP",
@@ -1573,7 +1573,7 @@
     "ageGroup": "V50",
     "day": 3,
     "time": "10:25",
-    "desc": "RW 60 m M50 Heats"
+    "desc": "60 m 60 m M50 Heats"
   },
   {
     "eventCode": "SP",
@@ -1597,7 +1597,7 @@
     "ageGroup": "V55",
     "day": 3,
     "time": "11:00",
-    "desc": "RW 60 m M55 Heats"
+    "desc": "60 m 60 m M55 Heats"
   },
   {
     "eventCode": "SP",
@@ -1645,7 +1645,7 @@
     "ageGroup": "V60",
     "day": 3,
     "time": "11:30",
-    "desc": "RW 60 m M60 Heats"
+    "desc": "60 m 60 m M60 Heats"
   },
   {
     "eventCode": "SP",
@@ -1669,7 +1669,7 @@
     "ageGroup": "V65",
     "day": 3,
     "time": "12:00",
-    "desc": "RW 60 m M65 Heats"
+    "desc": "60 m 60 m M65 Heats"
   },
   {
     "eventCode": "SP",
@@ -1693,7 +1693,7 @@
     "ageGroup": "V75",
     "day": 3,
     "time": "12:25",
-    "desc": "RW 60 m M75 Heats"
+    "desc": "60 m 60 m M75 Heats"
   },
   {
     "eventCode": "SP",
@@ -1709,7 +1709,7 @@
     "ageGroup": "V35",
     "day": 3,
     "time": "12:45",
-    "desc": "RW 60 m W35 Heats"
+    "desc": "60 m 60 m W35 Heats"
   },
   {
     "eventCode": "SP",
@@ -1725,7 +1725,7 @@
     "ageGroup": "V40",
     "day": 3,
     "time": "13:05",
-    "desc": "RW 60 m W40 Heats"
+    "desc": "60 m 60 m W40 Heats"
   },
   {
     "eventCode": "SP",
@@ -1765,7 +1765,7 @@
     "ageGroup": "V45",
     "day": 3,
     "time": "13:35",
-    "desc": "RW 60 m W45 Heats"
+    "desc": "60 m 60 m W45 Heats"
   },
   {
     "eventCode": "DT",
@@ -1781,7 +1781,7 @@
     "ageGroup": "V50",
     "day": 3,
     "time": "13:55",
-    "desc": "RW 60 m W50 Heats"
+    "desc": "60 m 60 m W50 Heats"
   },
   {
     "eventCode": "60",
@@ -1789,7 +1789,7 @@
     "ageGroup": "V55",
     "day": 3,
     "time": "14:25",
-    "desc": "RW 60 m W55 Heats"
+    "desc": "60 m 60 m W55 Heats"
   },
   {
     "eventCode": "LJ",
@@ -1805,7 +1805,7 @@
     "ageGroup": "V65",
     "day": 3,
     "time": "14:50",
-    "desc": "RW 60 m W65 Heats"
+    "desc": "60 m 60 m W65 Heats"
   },
   {
     "eventCode": "LJ",
@@ -1845,7 +1845,7 @@
     "ageGroup": "V35",
     "day": 3,
     "time": "15:10",
-    "desc": "RW 400 m M35 Final"
+    "desc": "400 m 400 m M35 Final"
   },
   {
     "eventCode": "LJ",
@@ -1869,7 +1869,7 @@
     "ageGroup": "V40",
     "day": 3,
     "time": "15:16",
-    "desc": "RW 400 m M40 Final"
+    "desc": "400 m 400 m M40 Final"
   },
   {
     "eventCode": "LJ",
@@ -1893,7 +1893,7 @@
     "ageGroup": "V45",
     "day": 3,
     "time": "15:22",
-    "desc": "RW 400 m M45 Final"
+    "desc": "400 m 400 m M45 Final"
   },
   {
     "eventCode": "LJ",
@@ -1909,7 +1909,7 @@
     "ageGroup": "V50",
     "day": 3,
     "time": "15:28",
-    "desc": "RW 400 m M50 Final"
+    "desc": "400 m 400 m M50 Final"
   },
   {
     "eventCode": "400",
@@ -1917,7 +1917,7 @@
     "ageGroup": "V55",
     "day": 3,
     "time": "15:34",
-    "desc": "RW 400 m M55 Final"
+    "desc": "400 m 400 m M55 Final"
   },
   {
     "eventCode": "400",
@@ -1925,7 +1925,7 @@
     "ageGroup": "V60",
     "day": 3,
     "time": "15:40",
-    "desc": "RW 400 m M60 Final"
+    "desc": "400 m 400 m M60 Final"
   },
   {
     "eventCode": "TJ",
@@ -1973,7 +1973,7 @@
     "ageGroup": "V65",
     "day": 3,
     "time": "15:46",
-    "desc": "RW 400 m M65 Final"
+    "desc": "400 m 400 m M65 Final"
   },
   {
     "eventCode": "TJ",
@@ -2061,7 +2061,7 @@
     "ageGroup": "V70",
     "day": 3,
     "time": "15:52",
-    "desc": "RW 400 m M70 Final"
+    "desc": "400 m 400 m M70 Final"
   },
   {
     "eventCode": "TJ",
@@ -2117,7 +2117,7 @@
     "ageGroup": "V75",
     "day": 3,
     "time": "15:58",
-    "desc": "RW 400 m M75 Final"
+    "desc": "400 m 400 m M75 Final"
   },
   {
     "eventCode": "400",
@@ -2125,7 +2125,7 @@
     "ageGroup": "V80",
     "day": 3,
     "time": "16:04",
-    "desc": "RW 400 m M80 Final"
+    "desc": "400 m 400 m M80 Final"
   },
   {
     "eventCode": "400",
@@ -2133,7 +2133,7 @@
     "ageGroup": "V85",
     "day": 3,
     "time": "16:10",
-    "desc": "RW 400 m M85 Final"
+    "desc": "400 m 400 m M85 Final"
   },
   {
     "eventCode": "400",
@@ -2141,7 +2141,7 @@
     "ageGroup": "V90",
     "day": 3,
     "time": "16:16",
-    "desc": "RW 400 m M90+ Final"
+    "desc": "400 m 400 m M90+ Final"
   },
   {
     "eventCode": "400",
@@ -2149,7 +2149,7 @@
     "ageGroup": "V95",
     "day": 3,
     "time": "16:16",
-    "desc": "RW 400 m M90+ Final"
+    "desc": "400 m 400 m M90+ Final"
   },
   {
     "eventCode": "LJ",
@@ -2163,39 +2163,39 @@
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 3,
     "time": "16:22",
-    "desc": "RW 400 m W80+ Final"
+    "desc": "400 m 400 m W80+ Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 3,
     "time": "16:22",
-    "desc": "RW 400 m W80+ Final"
+    "desc": "400 m 400 m W80+ Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 3,
     "time": "16:22",
-    "desc": "RW 400 m W80+ Final"
+    "desc": "400 m 400 m W80+ Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 3,
     "time": "16:22",
-    "desc": "RW 400 m W80+ Final"
+    "desc": "400 m 400 m W80+ Final"
   },
   {
     "eventCode": "LJ",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 3,
     "time": "11:30",
     "desc": "Long Jump M80 Final"
   },
@@ -2203,15 +2203,15 @@
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 3,
     "time": "16:28",
-    "desc": "RW 400 m W75 Final"
+    "desc": "400 m 400 m W75 Final"
   },
   {
     "eventCode": "LJ",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 3,
     "time": "12:40",
     "desc": "Long Jump M85+ Final"
   },
@@ -2219,7 +2219,7 @@
     "eventCode": "LJ",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 3,
     "time": "12:40",
     "desc": "Long Jump M85+ Final"
   },
@@ -2227,7 +2227,7 @@
     "eventCode": "LJ",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 3,
     "time": "12:40",
     "desc": "Long Jump M85+ Final"
   },
@@ -2235,228 +2235,228 @@
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 3,
     "time": "16:34",
-    "desc": "RW 400 m W70 Final"
+    "desc": "400 m 400 m W70 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 3,
     "time": "16:40",
-    "desc": "RW 400 m W65 Final"
+    "desc": "400 m 400 m W65 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 3,
     "time": "16:46",
-    "desc": "RW 400 m W60 Final"
+    "desc": "400 m 400 m W60 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 3,
     "time": "16:52",
-    "desc": "RW 400 m W55 Final"
+    "desc": "400 m 400 m W55 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 3,
     "time": "16:58",
-    "desc": "RW 400 m W50 Final"
+    "desc": "400 m 400 m W50 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 3,
     "time": "17:04",
-    "desc": "RW 400 m W45 Final"
+    "desc": "400 m 400 m W45 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 3,
     "time": "17:10",
-    "desc": "RW 400 m W40 Final"
+    "desc": "400 m 400 m W40 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 3,
     "time": "17:16",
-    "desc": "RW 400 m W35 Final"
+    "desc": "400 m 400 m W35 Final"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 3,
     "time": "17:25",
-    "desc": "RW 60 m M35 SF"
+    "desc": "60 m 60 m M35 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 3,
     "time": "17:40",
-    "desc": "RW 60 m M40 SF"
+    "desc": "60 m 60 m M40 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 3,
     "time": "17:55",
-    "desc": "RW 60 m M45 SF"
+    "desc": "60 m 60 m M45 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 3,
     "time": "18:10",
-    "desc": "RW 60 m M50 SF"
+    "desc": "60 m 60 m M50 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 3,
     "time": "18:25",
-    "desc": "RW 60 m M55 SF"
+    "desc": "60 m 60 m M55 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 3,
     "time": "18:35",
-    "desc": "RW 60 m M60 SF"
+    "desc": "60 m 60 m M60 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 3,
     "time": "18:45",
-    "desc": "RW 60 m M65 SF"
+    "desc": "60 m 60 m M65 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 3,
     "time": "18:55",
-    "desc": "RW 60 m M70 SF"
+    "desc": "60 m 60 m M70 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 3,
     "time": "19:10",
-    "desc": "RW 60 m M75 SF"
+    "desc": "60 m 60 m M75 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 3,
     "time": "19:20",
-    "desc": "RW 60 m M80 SF"
+    "desc": "60 m 60 m M80 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 3,
     "time": "19:30",
-    "desc": "RW 60 m W80 SF"
+    "desc": "60 m 60 m W80 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 3,
     "time": "19:40",
-    "desc": "RW 60 m W75 SF"
+    "desc": "60 m 60 m W75 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 3,
     "time": "19:50",
-    "desc": "RW 60 m W70 SF"
+    "desc": "60 m 60 m W70 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 3,
     "time": "20:05",
-    "desc": "RW 60 m W65 SF"
+    "desc": "60 m 60 m W65 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 3,
     "time": "20:15",
-    "desc": "RW 60 m W60 SF"
+    "desc": "60 m 60 m W60 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 3,
     "time": "20:30",
-    "desc": "RW 60 m W55 SF"
+    "desc": "60 m 60 m W55 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 3,
     "time": "20:40",
-    "desc": "RW 60 m W50 SF"
+    "desc": "60 m 60 m W50 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 3,
     "time": "20:50",
-    "desc": "RW 60 m W45 SF"
+    "desc": "60 m 60 m W45 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 3,
     "time": "21:00",
-    "desc": "RW 60 m W40 SF"
+    "desc": "60 m 60 m W40 SF"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 3,
     "time": "21:10",
-    "desc": "RW 60 m W35 SF"
+    "desc": "60 m 60 m W35 SF"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V35",
     "day": 4,
@@ -2464,7 +2464,7 @@
     "desc": "Pentathlon 60m hurdles Pentathlon M35"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V40",
     "day": 4,
@@ -2509,7 +2509,7 @@
     "ageGroup": "V35",
     "day": 4,
     "time": "09:15",
-    "desc": "Pentathlon 800 m Heats M35"
+    "desc": "800 m 800 m Heats M35"
   },
   {
     "eventCode": "PEN",
@@ -2533,7 +2533,7 @@
     "ageGroup": "V40",
     "day": 4,
     "time": "09:47",
-    "desc": "Pentathlon 800 m Heats M40"
+    "desc": "800 m 800 m Heats M40"
   },
   {
     "eventCode": "PEN",
@@ -2557,7 +2557,7 @@
     "ageGroup": "V45",
     "day": 4,
     "time": "10:11",
-    "desc": "Pentathlon 800 m Heats M45"
+    "desc": "800 m 800 m Heats M45"
   },
   {
     "eventCode": "PEN",
@@ -2608,7 +2608,7 @@
     "desc": "Discus M85+ Final"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V45",
     "day": 4,
@@ -2621,7 +2621,7 @@
     "ageGroup": "V50",
     "day": 4,
     "time": "11:00",
-    "desc": "Pentathlon 800 m Heats M50"
+    "desc": "800 m 800 m Heats M50"
   },
   {
     "eventCode": "TJ",
@@ -2661,7 +2661,7 @@
     "ageGroup": "V55",
     "day": 4,
     "time": "11:32",
-    "desc": "Pentathlon 800 m Heats M55"
+    "desc": "800 m 800 m Heats M55"
   },
   {
     "eventCode": "TJ",
@@ -2680,7 +2680,7 @@
     "desc": "Triple Jump M65 Final"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V50",
     "day": 4,
@@ -2733,10 +2733,10 @@
     "ageGroup": "V60",
     "day": 4,
     "time": "12:20",
-    "desc": "Pentathlon 800 m Heats M60"
+    "desc": "800 m 800 m Heats M60"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V55",
     "day": 4,
@@ -2781,7 +2781,7 @@
     "ageGroup": "V65",
     "day": 4,
     "time": "13:25",
-    "desc": "Pentathlon 800 m Heats M65"
+    "desc": "800 m 800 m Heats M65"
   },
   {
     "eventCode": "PEN",
@@ -2805,7 +2805,7 @@
     "ageGroup": "V70",
     "day": 4,
     "time": "13:49",
-    "desc": "Pentathlon 800 m Heats M70"
+    "desc": "800 m 800 m Heats M70"
   },
   {
     "eventCode": "PEN",
@@ -2829,7 +2829,7 @@
     "ageGroup": "V75",
     "day": 4,
     "time": "14:13",
-    "desc": "Pentathlon 800 m Heats M75"
+    "desc": "800 m 800 m Heats M75"
   },
   {
     "eventCode": "WT",
@@ -2845,7 +2845,7 @@
     "ageGroup": "V80",
     "day": 4,
     "time": "14:29",
-    "desc": "Pentathlon 800 m Heats M80"
+    "desc": "800 m 800 m Heats M80"
   },
   {
     "eventCode": "800",
@@ -2853,7 +2853,7 @@
     "ageGroup": "V60",
     "day": 4,
     "time": "14:45",
-    "desc": "Pentathlon 800 m Heats W60"
+    "desc": "800 m 800 m Heats W60"
   },
   {
     "eventCode": "PEN",
@@ -2915,23 +2915,23 @@
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 4,
     "time": "15:30",
-    "desc": "Pentathlon 800 m Heats W55"
+    "desc": "800 m 800 m Heats W55"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 4,
     "time": "15:54",
-    "desc": "Pentathlon 800 m Heats W50"
+    "desc": "800 m 800 m Heats W50"
   },
   {
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 4,
     "time": "09:00",
     "desc": "Pole Vault W35-40 Final"
   },
@@ -2939,7 +2939,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 4,
     "time": "09:00",
     "desc": "Pole Vault W35-40 Final"
   },
@@ -2947,15 +2947,15 @@
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 4,
     "time": "16:10",
-    "desc": "Pentathlon 800 m Heats W45"
+    "desc": "800 m 800 m Heats W45"
   },
   {
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 4,
     "time": "11:30",
     "desc": "Pole Vault W45-50 Final"
   },
@@ -2963,7 +2963,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 4,
     "time": "11:30",
     "desc": "Pole Vault W45-50 Final"
   },
@@ -2971,15 +2971,15 @@
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 4,
     "time": "16:34",
-    "desc": "Pentathlon 800 m Heats W40"
+    "desc": "800 m 800 m Heats W40"
   },
   {
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 4,
     "time": "14:00",
     "desc": "Pole Vault W55-60 Final"
   },
@@ -2987,7 +2987,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 4,
     "time": "14:00",
     "desc": "Pole Vault W55-60 Final"
   },
@@ -2995,15 +2995,15 @@
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 4,
     "time": "16:50",
-    "desc": "Pentathlon 800 m Heats W35"
+    "desc": "800 m 800 m Heats W35"
   },
   {
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 4,
     "time": "17:00",
     "desc": "Pole Vault W65+ Final"
   },
@@ -3011,7 +3011,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 4,
     "time": "17:00",
     "desc": "Pole Vault W65+ Final"
   },
@@ -3019,7 +3019,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 4,
     "time": "17:00",
     "desc": "Pole Vault W65+ Final"
   },
@@ -3027,7 +3027,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 4,
     "time": "17:00",
     "desc": "Pole Vault W65+ Final"
   },
@@ -3035,7 +3035,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 4,
     "time": "17:00",
     "desc": "Pole Vault W65+ Final"
   },
@@ -3043,7 +3043,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 4,
     "time": "17:00",
     "desc": "Pole Vault W65+ Final"
   },
@@ -3051,7 +3051,7 @@
     "eventCode": "PV",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 4,
     "time": "17:00",
     "desc": "Pole Vault W65+ Final"
   },
@@ -3059,23 +3059,23 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 4,
     "time": "17:05",
-    "desc": "Pentathlon 60 m Final W35"
+    "desc": "60 m 60 m Final W35"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 4,
     "time": "17:10",
-    "desc": "Pentathlon 60 m Final W40"
+    "desc": "60 m 60 m Final W40"
   },
   {
     "eventCode": "SP",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 4,
     "time": "09:00",
     "desc": "Shot Put W80+ Final"
   },
@@ -3083,7 +3083,7 @@
     "eventCode": "SP",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 4,
     "time": "09:00",
     "desc": "Shot Put W80+ Final"
   },
@@ -3091,7 +3091,7 @@
     "eventCode": "SP",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 4,
     "time": "09:00",
     "desc": "Shot Put W80+ Final"
   },
@@ -3099,7 +3099,7 @@
     "eventCode": "SP",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 4,
     "time": "09:00",
     "desc": "Shot Put W80+ Final"
   },
@@ -3107,15 +3107,15 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 4,
     "time": "17:15",
-    "desc": "Pentathlon 60 m Final W45"
+    "desc": "60 m 60 m Final W45"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 4,
     "time": "10:15",
     "desc": "Pentathlon M35 Pentathlon"
   },
@@ -3123,15 +3123,15 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 4,
     "time": "17:20",
-    "desc": "Pentathlon 60 m Final W50"
+    "desc": "60 m 60 m Final W50"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 4,
     "time": "11:30",
     "desc": "Pentathlon M40 Pentathlon"
   },
@@ -3139,15 +3139,15 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 4,
     "time": "17:25",
-    "desc": "Pentathlon 60 m Final W55"
+    "desc": "60 m 60 m Final W55"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 4,
     "time": "13:05",
     "desc": "Pentathlon M45 Pentathlon"
   },
@@ -3155,15 +3155,15 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 4,
     "time": "17:30",
-    "desc": "Pentathlon 60 m Final W60"
+    "desc": "60 m 60 m Final W60"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 4,
     "time": "14:05",
     "desc": "Pentathlon M50 Pentathlon"
   },
@@ -3171,15 +3171,15 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 4,
     "time": "17:35",
-    "desc": "Pentathlon 60 m Final W65"
+    "desc": "60 m 60 m Final W65"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 4,
     "time": "15:15",
     "desc": "Pentathlon M55-gr.1 Pentathlon"
   },
@@ -3187,15 +3187,15 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 4,
     "time": "17:40",
-    "desc": "Pentathlon 60 m Final W70"
+    "desc": "60 m 60 m Final W70"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 4,
     "time": "16:30",
     "desc": "Pentathlon M55-gr.2 Pentathlon"
   },
@@ -3203,15 +3203,15 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 4,
     "time": "17:45",
-    "desc": "Pentathlon 60 m Final W75"
+    "desc": "60 m 60 m Final W75"
   },
   {
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 4,
     "time": "17:45",
     "desc": "Pentathlon W75 Final"
   },
@@ -3219,15 +3219,15 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 4,
     "time": "17:50",
-    "desc": "Pentathlon 60 m Final W80"
+    "desc": "60 m 60 m Final W80"
   },
   {
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 4,
     "time": "19:10",
     "desc": "Pentathlon W70 Final"
   },
@@ -3235,31 +3235,31 @@
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 4,
     "time": "17:55",
-    "desc": "Pentathlon 60 m Final W85+"
+    "desc": "60 m 60 m Final W85+"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 4,
     "time": "17:55",
-    "desc": "Pentathlon 60 m Final W85+"
+    "desc": "60 m 60 m Final W85+"
   },
   {
     "eventCode": "60",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 4,
     "time": "17:55",
-    "desc": "Pentathlon 60 m Final W85+"
+    "desc": "60 m 60 m Final W85+"
   },
   {
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 4,
     "time": "20:30",
     "desc": "Pentathlon W65 Final"
   },
@@ -3267,7 +3267,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 4,
     "time": "18:00",
     "desc": "Pentathlon 1000 m Pentathlon M45"
   },
@@ -3275,7 +3275,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 4,
     "time": "18:20",
     "desc": "Pentathlon 1000 m Pentathlon M50"
   },
@@ -3283,111 +3283,111 @@
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 4,
     "time": "18:40",
-    "desc": "Pentathlon 60 m Final M90+"
+    "desc": "60 m 60 m Final M90+"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 4,
     "time": "18:40",
-    "desc": "Pentathlon 60 m Final M90+"
+    "desc": "60 m 60 m Final M90+"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 4,
     "time": "18:45",
-    "desc": "Pentathlon 60 m Final M85"
+    "desc": "60 m 60 m Final M85"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 4,
     "time": "18:50",
-    "desc": "Pentathlon 60 m Final M80"
+    "desc": "60 m 60 m Final M80"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 4,
     "time": "18:55",
-    "desc": "Pentathlon 60 m Final M75"
+    "desc": "60 m 60 m Final M75"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 4,
     "time": "19:00",
-    "desc": "Pentathlon 60 m Final M70"
+    "desc": "60 m 60 m Final M70"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 4,
     "time": "19:05",
-    "desc": "Pentathlon 60 m Final M65"
+    "desc": "60 m 60 m Final M65"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 4,
     "time": "19:10",
-    "desc": "Pentathlon 60 m Final M60"
+    "desc": "60 m 60 m Final M60"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 4,
     "time": "19:15",
-    "desc": "Pentathlon 60 m Final M55"
+    "desc": "60 m 60 m Final M55"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 4,
     "time": "19:20",
-    "desc": "Pentathlon 60 m Final M50"
+    "desc": "60 m 60 m Final M50"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 4,
     "time": "19:25",
-    "desc": "Pentathlon 60 m Final M45"
+    "desc": "60 m 60 m Final M45"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 4,
     "time": "19:30",
-    "desc": "Pentathlon 60 m Final M40"
+    "desc": "60 m 60 m Final M40"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 4,
     "time": "19:35",
-    "desc": "Pentathlon 60 m Final M35"
+    "desc": "60 m 60 m Final M35"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 4,
     "time": "19:45",
     "desc": "Pentathlon 1000 m Pentathlon M55"
   },
@@ -3397,7 +3397,7 @@
     "ageGroup": "V35",
     "day": 5,
     "time": "08:00",
-    "desc": "Pentathlon 200 m Heats W35"
+    "desc": "200 m 200 m Heats W35"
   },
   {
     "eventCode": "PEN",
@@ -3424,7 +3424,7 @@
     "desc": "Javelin W65 Final"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V80",
     "day": 5,
@@ -3432,7 +3432,7 @@
     "desc": "Pentathlon 60m Hurdles Pentathlon M80-85"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V85",
     "day": 5,
@@ -3477,7 +3477,7 @@
     "ageGroup": "V40",
     "day": 5,
     "time": "08:25",
-    "desc": "Pentathlon 200 m Heats W40"
+    "desc": "200 m 200 m Heats W40"
   },
   {
     "eventCode": "PEN",
@@ -3528,7 +3528,7 @@
     "desc": "Pentathlon M65 gr.2 Pentathlon"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V75",
     "day": 5,
@@ -3565,7 +3565,7 @@
     "ageGroup": "V45",
     "day": 5,
     "time": "09:05",
-    "desc": "Pentathlon 200 m Heats W45"
+    "desc": "200 m 200 m Heats W45"
   },
   {
     "eventCode": "DT",
@@ -3581,7 +3581,7 @@
     "ageGroup": "V50",
     "day": 5,
     "time": "09:30",
-    "desc": "Pentathlon 200 m Heats W50"
+    "desc": "200 m 200 m Heats W50"
   },
   {
     "eventCode": "DT",
@@ -3608,7 +3608,7 @@
     "desc": "Triple Jump W35,W45 Final"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V70",
     "day": 5,
@@ -3669,7 +3669,7 @@
     "ageGroup": "V55",
     "day": 5,
     "time": "10:15",
-    "desc": "Pentathlon 200 m Heats W55"
+    "desc": "200 m 200 m Heats W55"
   },
   {
     "eventCode": "200",
@@ -3677,7 +3677,7 @@
     "ageGroup": "V60",
     "day": 5,
     "time": "10:30",
-    "desc": "Pentathlon 200 m Heats W60"
+    "desc": "200 m 200 m Heats W60"
   },
   {
     "eventCode": "200",
@@ -3685,7 +3685,7 @@
     "ageGroup": "V70",
     "day": 5,
     "time": "10:50",
-    "desc": "Pentathlon 200 m Heats M70"
+    "desc": "200 m 200 m Heats M70"
   },
   {
     "eventCode": "WT",
@@ -3709,7 +3709,7 @@
     "ageGroup": "V75",
     "day": 5,
     "time": "11:20",
-    "desc": "Pentathlon 200 m Heats M75"
+    "desc": "200 m 200 m Heats M75"
   },
   {
     "eventCode": "PEN",
@@ -3736,7 +3736,7 @@
     "desc": "Pentathlon M70 Pentathlon"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V65",
     "day": 5,
@@ -3781,7 +3781,7 @@
     "ageGroup": "V65",
     "day": 5,
     "time": "12:05",
-    "desc": "Pentathlon 200 m Heats M65"
+    "desc": "200 m 200 m Heats M65"
   },
   {
     "eventCode": "HT",
@@ -3797,7 +3797,7 @@
     "ageGroup": "V60",
     "day": 5,
     "time": "12:50",
-    "desc": "Pentathlon 200 m Heats M60"
+    "desc": "200 m 200 m Heats M60"
   },
   {
     "eventCode": "HT",
@@ -3816,7 +3816,7 @@
     "desc": "Hammer M80 Final"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V60",
     "day": 5,
@@ -3875,23 +3875,23 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 5,
     "time": "14:30",
-    "desc": "Pentathlon 200 m Heats M55"
+    "desc": "200 m 200 m Heats M55"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 5,
     "time": "15:20",
-    "desc": "Pentathlon 200 m Heats M50"
+    "desc": "200 m 200 m Heats M50"
   },
   {
     "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 5,
     "time": "09:00",
     "desc": "Pole Vault M35 Final"
   },
@@ -3899,15 +3899,15 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 5,
     "time": "16:05",
-    "desc": "Pentathlon 200 m Heats M45"
+    "desc": "200 m 200 m Heats M45"
   },
   {
     "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 5,
     "time": "11:00",
     "desc": "Pole Vault M40 Final"
   },
@@ -3915,7 +3915,7 @@
     "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 5,
     "time": "14:00",
     "desc": "Pole Vault M45 Final"
   },
@@ -3923,7 +3923,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 5,
     "time": "10:00",
     "desc": "RW W35-50 Final"
   },
@@ -3931,7 +3931,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 5,
     "time": "10:00",
     "desc": "RW W35-50 Final"
   },
@@ -3939,7 +3939,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 5,
     "time": "10:00",
     "desc": "RW W35-50 Final"
   },
@@ -3947,7 +3947,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 5,
     "time": "10:00",
     "desc": "RW W35-50 Final"
   },
@@ -3955,7 +3955,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 5,
     "time": "16:50",
     "desc": "Pentathlon 1000 m Pentathlon M70"
   },
@@ -3963,7 +3963,7 @@
     "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 5,
     "time": "16:15",
     "desc": "Pole Vault M50 Final"
   },
@@ -3971,7 +3971,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -3979,7 +3979,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -3987,7 +3987,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -3995,7 +3995,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -4003,7 +4003,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -4011,7 +4011,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -4019,7 +4019,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -4027,7 +4027,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -4035,7 +4035,7 @@
     "eventCode": "3000W",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 5,
     "time": "10:40",
     "desc": "RW W55+ Final"
   },
@@ -4043,15 +4043,15 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 5,
     "time": "17:00",
-    "desc": "Pentathlon 200 m Heats M40"
+    "desc": "200 m 200 m Heats M40"
   },
   {
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 5,
     "time": "11:40",
     "desc": "RW M35-50 Final"
   },
@@ -4059,7 +4059,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 5,
     "time": "11:40",
     "desc": "RW M35-50 Final"
   },
@@ -4067,7 +4067,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 5,
     "time": "11:40",
     "desc": "RW M35-50 Final"
   },
@@ -4075,7 +4075,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 5,
     "time": "11:40",
     "desc": "RW M35-50 Final"
   },
@@ -4083,7 +4083,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 5,
     "time": "09:45",
     "desc": "Pentathlon M80-85 Pentathlon"
   },
@@ -4091,7 +4091,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 5,
     "time": "09:45",
     "desc": "Pentathlon M80-85 Pentathlon"
   },
@@ -4099,7 +4099,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 5,
     "time": "12:15",
     "desc": "RW M55-65 Final"
   },
@@ -4107,7 +4107,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 5,
     "time": "12:15",
     "desc": "RW M55-65 Final"
   },
@@ -4115,7 +4115,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 5,
     "time": "12:15",
     "desc": "RW M55-65 Final"
   },
@@ -4123,7 +4123,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 5,
     "time": "17:45",
     "desc": "Pentathlon 1000 m Pentathlon M65"
   },
@@ -4131,7 +4131,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 5,
     "time": "10:35",
     "desc": "Pentathlon M75 Pentathlon"
   },
@@ -4139,7 +4139,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 5,
     "time": "13:00",
     "desc": "RW M70+ Final"
   },
@@ -4147,7 +4147,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 5,
     "time": "13:00",
     "desc": "RW M70+ Final"
   },
@@ -4155,7 +4155,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 5,
     "time": "13:00",
     "desc": "RW M70+ Final"
   },
@@ -4163,7 +4163,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 5,
     "time": "13:00",
     "desc": "RW M70+ Final"
   },
@@ -4171,7 +4171,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 5,
     "time": "13:00",
     "desc": "RW M70+ Final"
   },
@@ -4179,7 +4179,7 @@
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 5,
     "time": "13:00",
     "desc": "RW M70+ Final"
   },
@@ -4187,7 +4187,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 5,
     "time": "12:00",
     "desc": "Pentathlon M70 Pentathlon"
   },
@@ -4195,15 +4195,15 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 5,
     "time": "18:00",
-    "desc": "Pentathlon 200 m Heats M35"
+    "desc": "200 m 200 m Heats M35"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 5,
     "time": "13:15",
     "desc": "Pentathlon M65 gr.1 Pentathlon"
   },
@@ -4211,7 +4211,7 @@
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 5,
     "time": "14:20",
     "desc": "Pentathlon M65 gr.2 Pentathlon"
   },
@@ -4219,15 +4219,15 @@
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 5,
     "time": "18:45",
-    "desc": "Pentathlon 800 m Final W35"
+    "desc": "800 m 800 m Final W35"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 5,
     "time": "15:20",
     "desc": "Pentathlon M60 gr.1 Pentathlon"
   },
@@ -4235,15 +4235,15 @@
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 5,
     "time": "18:52",
-    "desc": "Pentathlon 800 m Final W40"
+    "desc": "800 m 800 m Final W40"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 5,
     "time": "16:30",
     "desc": "Pentathlon M60 gr.2 Pentathlon"
   },
@@ -4251,47 +4251,47 @@
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 5,
     "time": "18:59",
-    "desc": "Pentathlon 800 m Final W45"
+    "desc": "800 m 800 m Final W45"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 5,
     "time": "19:06",
-    "desc": "Pentathlon 800 m Final W50"
+    "desc": "800 m 800 m Final W50"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 5,
     "time": "19:13",
-    "desc": "Pentathlon 800 m Final W55"
+    "desc": "800 m 800 m Final W55"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 5,
     "time": "19:20",
-    "desc": "Pentathlon 800 m Final W60"
+    "desc": "800 m 800 m Final W60"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 5,
     "time": "19:27",
-    "desc": "Pentathlon 800 m Final W65"
+    "desc": "800 m 800 m Final W65"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 5,
     "time": "19:34",
     "desc": "Pentathlon 1000 m Pentathlon M60"
   },
@@ -4299,228 +4299,228 @@
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 5,
     "time": "19:49",
-    "desc": "Pentathlon 800 m Final W70"
+    "desc": "800 m 800 m Final W70"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 5,
     "time": "19:57",
-    "desc": "Pentathlon 800 m Final W75"
+    "desc": "800 m 800 m Final W75"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 5,
     "time": "20:05",
-    "desc": "Pentathlon 800 m Final W80+"
+    "desc": "800 m 800 m Final W80+"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 5,
     "time": "20:05",
-    "desc": "Pentathlon 800 m Final W80+"
+    "desc": "800 m 800 m Final W80+"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 5,
     "time": "20:05",
-    "desc": "Pentathlon 800 m Final W80+"
+    "desc": "800 m 800 m Final W80+"
   },
   {
     "eventCode": "800",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 5,
     "time": "20:05",
-    "desc": "Pentathlon 800 m Final W80+"
+    "desc": "800 m 800 m Final W80+"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 5,
     "time": "20:13",
-    "desc": "Pentathlon 800 m Final M35"
+    "desc": "800 m 800 m Final M35"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 5,
     "time": "20:20",
-    "desc": "Pentathlon 800 m Final M40"
+    "desc": "800 m 800 m Final M40"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 5,
     "time": "20:27",
-    "desc": "Pentathlon 800 m Final M45"
+    "desc": "800 m 800 m Final M45"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 5,
     "time": "20:34",
-    "desc": "Pentathlon 800 m Final M50"
+    "desc": "800 m 800 m Final M50"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 5,
     "time": "20:41",
-    "desc": "Pentathlon 800 m Final M55"
+    "desc": "800 m 800 m Final M55"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 5,
     "time": "20:48",
-    "desc": "Pentathlon 800 m Final M60"
+    "desc": "800 m 800 m Final M60"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 5,
     "time": "20:55",
-    "desc": "Pentathlon 800 m Final M65"
+    "desc": "800 m 800 m Final M65"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 5,
     "time": "21:02",
-    "desc": "Pentathlon 800 m Final M70"
+    "desc": "800 m 800 m Final M70"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 5,
     "time": "21:10",
-    "desc": "Pentathlon 800 m Final M75"
+    "desc": "800 m 800 m Final M75"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 5,
     "time": "21:18",
-    "desc": "Pentathlon 800 m Final M80"
+    "desc": "800 m 800 m Final M80"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 5,
     "time": "21:26",
-    "desc": "Pentathlon 800 m Final M85+"
+    "desc": "800 m 800 m Final M85+"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 5,
     "time": "21:26",
-    "desc": "Pentathlon 800 m Final M85+"
+    "desc": "800 m 800 m Final M85+"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 5,
     "time": "21:26",
-    "desc": "Pentathlon 800 m Final M85+"
+    "desc": "800 m 800 m Final M85+"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 5,
     "time": "21:34",
-    "desc": "Pentathlon 200m SF W75"
+    "desc": "200m 200m SF W75"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 5,
     "time": "21:44",
-    "desc": "Pentathlon 200m SF W70"
+    "desc": "200m 200m SF W70"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 5,
     "time": "21:59",
-    "desc": "Pentathlon 200m SF W65"
+    "desc": "200m 200m SF W65"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 5,
     "time": "22:14",
-    "desc": "Pentathlon 200m SF W60"
+    "desc": "200m 200m SF W60"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 5,
     "time": "22:24",
-    "desc": "Pentathlon 200m SF W55"
+    "desc": "200m 200m SF W55"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 5,
     "time": "22:34",
-    "desc": "Pentathlon 200m SF W50"
+    "desc": "200m 200m SF W50"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 5,
     "time": "22:44",
-    "desc": "Pentathlon 200m SF W45"
+    "desc": "200m 200m SF W45"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 5,
     "time": "22:54",
-    "desc": "Pentathlon 200m SF W40"
+    "desc": "200m 200m SF W40"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 5,
     "time": "23:09",
-    "desc": "Pentathlon 200m SF W35"
+    "desc": "200m 200m SF W35"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V70",
     "day": 6,
@@ -4528,7 +4528,7 @@
     "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V75",
     "day": 6,
@@ -4536,7 +4536,7 @@
     "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V80",
     "day": 6,
@@ -4544,7 +4544,7 @@
     "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V85",
     "day": 6,
@@ -4552,7 +4552,7 @@
     "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V90",
     "day": 6,
@@ -4560,7 +4560,7 @@
     "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V95",
     "day": 6,
@@ -4568,7 +4568,7 @@
     "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V60",
     "day": 6,
@@ -4576,7 +4576,7 @@
     "desc": "Pentathlon 60 m hurdles Pentathlon W60-65"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V65",
     "day": 6,
@@ -4669,7 +4669,7 @@
     "ageGroup": "V70",
     "day": 6,
     "time": "08:36",
-    "desc": "Pentathlon 60 m hurdles Heats M70"
+    "desc": "60 m 60 m hurdles Heats M70"
   },
   {
     "eventCode": "PEN",
@@ -4693,7 +4693,7 @@
     "ageGroup": "V65",
     "day": 6,
     "time": "08:47",
-    "desc": "Pentathlon 60 m hurdles Heats M65"
+    "desc": "60 m 60 m hurdles Heats M65"
   },
   {
     "eventCode": "PEN",
@@ -4717,7 +4717,7 @@
     "ageGroup": "V60",
     "day": 6,
     "time": "09:02",
-    "desc": "Pentathlon 60 m hurdles Heats M60"
+    "desc": "60 m 60 m hurdles Heats M60"
   },
   {
     "eventCode": "PEN",
@@ -4749,7 +4749,7 @@
     "ageGroup": "V55",
     "day": 6,
     "time": "09:18",
-    "desc": "Pentathlon 60 m hurdles Heats M55"
+    "desc": "60 m 60 m hurdles Heats M55"
   },
   {
     "eventCode": "PEN",
@@ -4797,7 +4797,7 @@
     "ageGroup": "V50",
     "day": 6,
     "time": "09:33",
-    "desc": "Pentathlon 60 m hurdles Heats M50"
+    "desc": "60 m 60 m hurdles Heats M50"
   },
   {
     "eventCode": "60H",
@@ -4805,7 +4805,7 @@
     "ageGroup": "V45",
     "day": 6,
     "time": "09:43",
-    "desc": "Pentathlon 60 m hurdles Heats M45"
+    "desc": "60 m 60 m hurdles Heats M45"
   },
   {
     "eventCode": "60H",
@@ -4813,7 +4813,7 @@
     "ageGroup": "V40",
     "day": 6,
     "time": "09:53",
-    "desc": "Pentathlon 60 m hurdles Heats M40"
+    "desc": "60 m 60 m hurdles Heats M40"
   },
   {
     "eventCode": "JT",
@@ -4829,7 +4829,7 @@
     "ageGroup": "V35",
     "day": 6,
     "time": "10:03",
-    "desc": "Pentathlon 60 m hurdles Heats M35"
+    "desc": "60 m 60 m hurdles Heats M35"
   },
   {
     "eventCode": "TJ",
@@ -4872,7 +4872,7 @@
     "desc": "Javelin W35-40 Final"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V55",
     "day": 6,
@@ -4893,7 +4893,7 @@
     "ageGroup": "V85",
     "day": 6,
     "time": "10:24",
-    "desc": "Pentathlon 200 m SF M85"
+    "desc": "200 m 200 m SF M85"
   },
   {
     "eventCode": "200",
@@ -4901,7 +4901,7 @@
     "ageGroup": "V80",
     "day": 6,
     "time": "10:34",
-    "desc": "Pentathlon 200 m SF M80"
+    "desc": "200 m 200 m SF M80"
   },
   {
     "eventCode": "PEN",
@@ -4952,7 +4952,7 @@
     "desc": "Pentathlon W70+ Pentathlon"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V50",
     "day": 6,
@@ -4989,7 +4989,7 @@
     "ageGroup": "V75",
     "day": 6,
     "time": "10:59",
-    "desc": "Pentathlon 200 m SF M75"
+    "desc": "200 m 200 m SF M75"
   },
   {
     "eventCode": "200",
@@ -4997,7 +4997,7 @@
     "ageGroup": "V70",
     "day": 6,
     "time": "11:14",
-    "desc": "Pentathlon 200 m SF M70"
+    "desc": "200 m 200 m SF M70"
   },
   {
     "eventCode": "200",
@@ -5005,7 +5005,7 @@
     "ageGroup": "V65",
     "day": 6,
     "time": "11:29",
-    "desc": "Pentathlon 200 m SF M65"
+    "desc": "200 m 200 m SF M65"
   },
   {
     "eventCode": "PEN",
@@ -5024,7 +5024,7 @@
     "desc": "Pentathlon W60-65 Pentathlon"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V40",
     "day": 6,
@@ -5032,7 +5032,7 @@
     "desc": "Pentathlon 60 m hurdles Pentathlon W40-45"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V45",
     "day": 6,
@@ -5117,7 +5117,7 @@
     "ageGroup": "V60",
     "day": 6,
     "time": "12:00",
-    "desc": "Pentathlon 200 m SF M60"
+    "desc": "200 m 200 m SF M60"
   },
   {
     "eventCode": "XC",
@@ -5139,15 +5139,15 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "12:15",
-    "desc": "Pentathlon 200 m SF M55"
+    "desc": "200 m 200 m SF M55"
   },
   {
     "eventCode": "XC",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "12:15",
     "desc": "Cross Country M50-55 Final"
   },
@@ -5155,7 +5155,7 @@
     "eventCode": "XC",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "12:15",
     "desc": "Cross Country M50-55 Final"
   },
@@ -5163,15 +5163,15 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "12:30",
-    "desc": "Pentathlon 200 m SF M50"
+    "desc": "200 m 200 m SF M50"
   },
   {
     "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "09:00",
     "desc": "Pole Vault M55 Final"
   },
@@ -5179,7 +5179,7 @@
     "eventCode": "XC",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "13:00",
     "desc": "Cross Country M35-45 Final"
   },
@@ -5187,7 +5187,7 @@
     "eventCode": "XC",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 6,
     "time": "13:00",
     "desc": "Cross Country M35-45 Final"
   },
@@ -5195,7 +5195,7 @@
     "eventCode": "XC",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "13:00",
     "desc": "Cross Country M35-45 Final"
   },
@@ -5203,15 +5203,15 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "12:45",
-    "desc": "Pentathlon 200 m SF M45"
+    "desc": "200 m 200 m SF M45"
   },
   {
     "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 6,
     "time": "12:00",
     "desc": "Pole Vault M60 Final"
   },
@@ -5219,15 +5219,15 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 6,
     "time": "13:00",
-    "desc": "Pentathlon 200 m SF M40"
+    "desc": "200 m 200 m SF M40"
   },
   {
     "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 6,
     "time": "14:00",
     "desc": "Pole Vault M65 Final"
   },
@@ -5235,79 +5235,79 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "13:15",
-    "desc": "Pentathlon 200 m SF M35"
+    "desc": "200 m 200 m SF M35"
   },
   {
     "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 6,
     "time": "16:30",
     "desc": "Pole Vault M70 Final"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 6,
     "time": "13:30",
     "desc": "Pentathlon 800 m Pentathlon W70+"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 6,
     "time": "13:30",
     "desc": "Pentathlon 800 m Pentathlon W70+"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 6,
     "time": "13:30",
     "desc": "Pentathlon 800 m Pentathlon W70+"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 6,
     "time": "13:30",
     "desc": "Pentathlon 800 m Pentathlon W70+"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 6,
     "time": "13:30",
     "desc": "Pentathlon 800 m Pentathlon W70+"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 6,
     "time": "13:30",
     "desc": "Pentathlon 800 m Pentathlon W70+"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 6,
     "time": "13:38",
     "desc": "Pentathlon 800 m Pentathlon W60-65"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 6,
     "time": "13:38",
     "desc": "Pentathlon 800 m Pentathlon W60-65"
   },
@@ -5315,7 +5315,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 6,
     "time": "10:30",
     "desc": "Pentathlon W70+ Pentathlon"
   },
@@ -5323,7 +5323,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 6,
     "time": "10:30",
     "desc": "Pentathlon W70+ Pentathlon"
   },
@@ -5331,7 +5331,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 6,
     "time": "10:30",
     "desc": "Pentathlon W70+ Pentathlon"
   },
@@ -5339,7 +5339,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 6,
     "time": "10:30",
     "desc": "Pentathlon W70+ Pentathlon"
   },
@@ -5347,7 +5347,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 6,
     "time": "10:30",
     "desc": "Pentathlon W70+ Pentathlon"
   },
@@ -5355,7 +5355,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 6,
     "time": "10:30",
     "desc": "Pentathlon W70+ Pentathlon"
   },
@@ -5363,7 +5363,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 6,
     "time": "11:20",
     "desc": "Pentathlon W60-65 Pentathlon"
   },
@@ -5371,7 +5371,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 6,
     "time": "11:20",
     "desc": "Pentathlon W60-65 Pentathlon"
   },
@@ -5379,15 +5379,15 @@
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "13:46",
-    "desc": "Pentathlon 1500m Heats M35"
+    "desc": "1500m 1500m Heats M35"
   },
   {
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "12:20",
     "desc": "Pentathlon W55 Pentathlon"
   },
@@ -5395,15 +5395,15 @@
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 6,
     "time": "14:10",
-    "desc": "Pentathlon 1500m Heats M40"
+    "desc": "1500m 1500m Heats M40"
   },
   {
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "13:40",
     "desc": "Pentathlon W50 Pentathlon"
   },
@@ -5411,7 +5411,7 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 6,
     "time": "15:00",
     "desc": "Pentathlon W40-45 Pentathlon"
   },
@@ -5419,15 +5419,15 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "15:00",
     "desc": "Pentathlon W40-45 Pentathlon"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "14:26",
     "desc": "Pentathlon 60 m hurdles Pentathlon W35"
   },
@@ -5435,15 +5435,15 @@
     "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "16:30",
     "desc": "Pentathlon W35 Pentathlon"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "14:36",
     "desc": "Pentathlon 800 m Pentathlon W55"
   },
@@ -5451,63 +5451,63 @@
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "14:52",
-    "desc": "Pentathlon 1500m Heats M45"
+    "desc": "1500m 1500m Heats M45"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "15:08",
-    "desc": "Pentathlon 1500m Heats M50"
+    "desc": "1500m 1500m Heats M50"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "15:32",
-    "desc": "Pentathlon 1500m Heats M55"
+    "desc": "1500m 1500m Heats M55"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 6,
     "time": "15:59",
-    "desc": "Pentathlon 1500m Heats M60"
+    "desc": "1500m 1500m Heats M60"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 6,
     "time": "16:26",
-    "desc": "Pentathlon 1500m Heats M65"
+    "desc": "1500m 1500m Heats M65"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 6,
     "time": "16:53",
-    "desc": "Pentathlon 1500m Heats M70"
+    "desc": "1500m 1500m Heats M70"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 6,
     "time": "17:11",
-    "desc": "Pentathlon 1500m Heats M75"
+    "desc": "1500m 1500m Heats M75"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "17:29",
     "desc": "Pentathlon 800 m Pentathlon W50"
   },
@@ -5515,39 +5515,39 @@
     "eventCode": "1500",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "17:37",
-    "desc": "Pentathlon 1500m Heats W45"
+    "desc": "1500m 1500m Heats W45"
   },
   {
     "eventCode": "1500",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "17:53",
-    "desc": "Pentathlon 1500m Heats W50"
+    "desc": "1500m 1500m Heats W50"
   },
   {
     "eventCode": "1500",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "18:09",
-    "desc": "Pentathlon 1500m Heats W55"
+    "desc": "1500m 1500m Heats W55"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 6,
     "time": "18:27",
     "desc": "Pentathlon 800 m Pentathlon W40-45"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "18:27",
     "desc": "Pentathlon 800 m Pentathlon W40-45"
   },
@@ -5555,95 +5555,95 @@
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "18:43",
-    "desc": "Pentathlon 200 m Final W35"
+    "desc": "200 m 200 m Final W35"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 6,
     "time": "18:48",
-    "desc": "Pentathlon 200 m Final W40"
+    "desc": "200 m 200 m Final W40"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "18:53",
-    "desc": "Pentathlon 200 m Final W45"
+    "desc": "200 m 200 m Final W45"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "18:58",
-    "desc": "Pentathlon 200 m Final W50"
+    "desc": "200 m 200 m Final W50"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "19:03",
-    "desc": "Pentathlon 200 m Final W55"
+    "desc": "200 m 200 m Final W55"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 6,
     "time": "19:08",
-    "desc": "Pentathlon 200 m Final W60"
+    "desc": "200 m 200 m Final W60"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 6,
     "time": "19:13",
-    "desc": "Pentathlon 200 m Final W65"
+    "desc": "200 m 200 m Final W65"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 6,
     "time": "19:18",
-    "desc": "Pentathlon 200 m Final W70"
+    "desc": "200 m 200 m Final W70"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 6,
     "time": "19:23",
-    "desc": "Pentathlon 200 m Final W75"
+    "desc": "200 m 200 m Final W75"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 6,
     "time": "19:28",
-    "desc": "Pentathlon 200 m Final W80"
+    "desc": "200 m 200 m Final W80"
   },
   {
     "eventCode": "200",
     "gender": "F",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 6,
     "time": "19:33",
-    "desc": "Pentathlon 200 m Final W85"
+    "desc": "200 m 200 m Final W85"
   },
   {
-    "eventCode": "800",
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "19:38",
     "desc": "Pentathlon 800 m Pentathlon W35"
   },
@@ -5651,209 +5651,209 @@
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 6,
     "time": "19:46",
-    "desc": "Pentathlon 200 m Final M95"
+    "desc": "200 m 200 m Final M95"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 6,
     "time": "19:51",
-    "desc": "Pentathlon 200 m Final M90"
+    "desc": "200 m 200 m Final M90"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 6,
     "time": "19:56",
-    "desc": "Pentathlon 200 m Final M85"
+    "desc": "200 m 200 m Final M85"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 6,
     "time": "20:01",
-    "desc": "Pentathlon 200 m Final M80"
+    "desc": "200 m 200 m Final M80"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 6,
     "time": "20:06",
-    "desc": "Pentathlon 200 m Final M75"
+    "desc": "200 m 200 m Final M75"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 6,
     "time": "20:11",
-    "desc": "Pentathlon 200 m Final M70"
+    "desc": "200 m 200 m Final M70"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 6,
     "time": "20:16",
-    "desc": "Pentathlon 200 m Final M65"
+    "desc": "200 m 200 m Final M65"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 6,
     "time": "20:21",
-    "desc": "Pentathlon 200 m Final M60"
+    "desc": "200 m 200 m Final M60"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "20:26",
-    "desc": "Pentathlon 200 m Final M55"
+    "desc": "200 m 200 m Final M55"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "20:31",
-    "desc": "Pentathlon 200 m Final M50"
+    "desc": "200 m 200 m Final M50"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "20:36",
-    "desc": "Pentathlon 200 m Final M45"
+    "desc": "200 m 200 m Final M45"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 6,
     "time": "20:41",
-    "desc": "Pentathlon 200 m Final M40"
+    "desc": "200 m 200 m Final M40"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "20:46",
-    "desc": "Pentathlon 200 m Final M35"
+    "desc": "200 m 200 m Final M35"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 6,
     "time": "20:51",
-    "desc": "Pentathlon 60 m hurdles Final M85+"
+    "desc": "60 m 60 m hurdles Final M85+"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 6,
     "time": "20:51",
-    "desc": "Pentathlon 60 m hurdles Final M85+"
+    "desc": "60 m 60 m hurdles Final M85+"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 6,
     "time": "20:51",
-    "desc": "Pentathlon 60 m hurdles Final M85+"
+    "desc": "60 m 60 m hurdles Final M85+"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 6,
     "time": "20:56",
-    "desc": "Pentathlon 60 m hurdles Final M80"
+    "desc": "60 m 60 m hurdles Final M80"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 6,
     "time": "21:01",
-    "desc": "Pentathlon 60 m hurdles Final M75"
+    "desc": "60 m 60 m hurdles Final M75"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 6,
     "time": "21:06",
-    "desc": "Pentathlon 60 m hurdles Final M70"
+    "desc": "60 m 60 m hurdles Final M70"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 6,
     "time": "21:11",
-    "desc": "Pentathlon 60 m hurdles Final M65"
+    "desc": "60 m 60 m hurdles Final M65"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 6,
     "time": "21:16",
-    "desc": "Pentathlon 60 m hurdles Final M60"
+    "desc": "60 m 60 m hurdles Final M60"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 6,
     "time": "21:21",
-    "desc": "Pentathlon 60 m hurdles Final M55"
+    "desc": "60 m 60 m hurdles Final M55"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 6,
     "time": "21:26",
-    "desc": "Pentathlon 60 m hurdles Final M50"
+    "desc": "60 m 60 m hurdles Final M50"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 6,
     "time": "21:31",
-    "desc": "Pentathlon 60 m hurdles Final M45"
+    "desc": "60 m 60 m hurdles Final M45"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 6,
     "time": "21:36",
-    "desc": "Pentathlon 60 m hurdles Final M40"
+    "desc": "60 m 60 m hurdles Final M40"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 6,
     "time": "21:41",
-    "desc": "Pentathlon 60 m hurdles Final M35"
+    "desc": "60 m 60 m hurdles Final M35"
   },
   {
     "eventCode": "4x200",
@@ -6077,7 +6077,7 @@
     "ageGroup": "V70",
     "day": 7,
     "time": "12:20",
-    "desc": "4x200 1500 m Final W70+"
+    "desc": "1500 m 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
@@ -6085,7 +6085,7 @@
     "ageGroup": "V75",
     "day": 7,
     "time": "12:20",
-    "desc": "4x200 1500 m Final W70+"
+    "desc": "1500 m 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
@@ -6093,7 +6093,7 @@
     "ageGroup": "V80",
     "day": 7,
     "time": "12:20",
-    "desc": "4x200 1500 m Final W70+"
+    "desc": "1500 m 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
@@ -6101,7 +6101,7 @@
     "ageGroup": "V85",
     "day": 7,
     "time": "12:20",
-    "desc": "4x200 1500 m Final W70+"
+    "desc": "1500 m 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
@@ -6109,7 +6109,7 @@
     "ageGroup": "V90",
     "day": 7,
     "time": "12:20",
-    "desc": "4x200 1500 m Final W70+"
+    "desc": "1500 m 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
@@ -6117,7 +6117,7 @@
     "ageGroup": "V95",
     "day": 7,
     "time": "12:20",
-    "desc": "4x200 1500 m Final W70+"
+    "desc": "1500 m 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
@@ -6125,7 +6125,7 @@
     "ageGroup": "V65",
     "day": 7,
     "time": "12:30",
-    "desc": "4x200 1500 m Final W65"
+    "desc": "1500 m 1500 m Final W65"
   },
   {
     "eventCode": "1500",
@@ -6133,7 +6133,7 @@
     "ageGroup": "V60",
     "day": 7,
     "time": "12:40",
-    "desc": "4x200 1500 m Final W60"
+    "desc": "1500 m 1500 m Final W60"
   },
   {
     "eventCode": "1500",
@@ -6141,7 +6141,7 @@
     "ageGroup": "V55",
     "day": 7,
     "time": "12:50",
-    "desc": "4x200 1500 m Final W55"
+    "desc": "1500 m 1500 m Final W55"
   },
   {
     "eventCode": "1500",
@@ -6149,141 +6149,141 @@
     "ageGroup": "V50",
     "day": 7,
     "time": "13:00",
-    "desc": "4x200 1500 m Final W50"
+    "desc": "1500 m 1500 m Final W50"
   },
   {
     "eventCode": "1500",
     "gender": "F",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 7,
     "time": "13:10",
-    "desc": "4x200 1500 m Final W45"
+    "desc": "1500 m 1500 m Final W45"
   },
   {
     "eventCode": "1500",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 7,
     "time": "13:19",
-    "desc": "4x200 1500 m Final W40"
+    "desc": "1500 m 1500 m Final W40"
   },
   {
     "eventCode": "1500",
     "gender": "F",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 7,
     "time": "13:28",
-    "desc": "4x200 1500 m Final W35"
+    "desc": "1500 m 1500 m Final W35"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 7,
     "time": "13:37",
-    "desc": "4x200 1500 m Final M80+"
+    "desc": "1500 m 1500 m Final M80+"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 1,
+    "day": 7,
     "time": "13:37",
-    "desc": "4x200 1500 m Final M80+"
+    "desc": "1500 m 1500 m Final M80+"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 1,
+    "day": 7,
     "time": "13:37",
-    "desc": "4x200 1500 m Final M80+"
+    "desc": "1500 m 1500 m Final M80+"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 1,
+    "day": 7,
     "time": "13:37",
-    "desc": "4x200 1500 m Final M80+"
+    "desc": "1500 m 1500 m Final M80+"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 7,
     "time": "13:47",
-    "desc": "4x200 1500 m Final M75"
+    "desc": "1500 m 1500 m Final M75"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 7,
     "time": "13:57",
-    "desc": "4x200 1500 m Final M70"
+    "desc": "1500 m 1500 m Final M70"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 7,
     "time": "14:07",
-    "desc": "4x200 1500 m Final M65"
+    "desc": "1500 m 1500 m Final M65"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 7,
     "time": "14:16",
-    "desc": "4x200 1500 m Final M60"
+    "desc": "1500 m 1500 m Final M60"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 7,
     "time": "14:25",
-    "desc": "4x200 1500 m Final M55"
+    "desc": "1500 m 1500 m Final M55"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 7,
     "time": "14:34",
-    "desc": "4x200 1500 m Final M50"
+    "desc": "1500 m 1500 m Final M50"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 7,
     "time": "14:42",
-    "desc": "4x200 1500 m Final M45"
+    "desc": "1500 m 1500 m Final M45"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 7,
     "time": "14:50",
-    "desc": "4x200 1500 m Final M40"
+    "desc": "1500 m 1500 m Final M40"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 7,
     "time": "14:58",
-    "desc": "4x200 1500 m Final M35"
+    "desc": "1500 m 1500 m Final M35"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V80",
-    "day": 1,
+    "day": 7,
     "time": "15:30",
     "desc": "4x200 4x200 MIX Final 80"
   },
@@ -6291,7 +6291,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V75",
-    "day": 1,
+    "day": 7,
     "time": "15:40",
     "desc": "4x200 4x200 MIX Final 75"
   },
@@ -6299,7 +6299,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V70",
-    "day": 1,
+    "day": 7,
     "time": "15:50",
     "desc": "4x200 4x200 MIX Final 70"
   },
@@ -6307,7 +6307,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V65",
-    "day": 1,
+    "day": 7,
     "time": "16:00",
     "desc": "4x200 4x200 MIX Final 65"
   },
@@ -6315,7 +6315,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V60",
-    "day": 1,
+    "day": 7,
     "time": "16:10",
     "desc": "4x200 4x200 MIX Final 60"
   },
@@ -6323,7 +6323,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V55",
-    "day": 1,
+    "day": 7,
     "time": "16:20",
     "desc": "4x200 4x200 MIX Final 55"
   },
@@ -6331,7 +6331,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V50",
-    "day": 1,
+    "day": 7,
     "time": "16:30",
     "desc": "4x200 4x200 MIX Final 50"
   },
@@ -6339,7 +6339,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V45",
-    "day": 1,
+    "day": 7,
     "time": "16:40",
     "desc": "4x200 4x200 MIX Final 45"
   },
@@ -6347,7 +6347,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V40",
-    "day": 1,
+    "day": 7,
     "time": "16:49",
     "desc": "4x200 4x200 MIX Final 40"
   },
@@ -6355,7 +6355,7 @@
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V35",
-    "day": 1,
+    "day": 7,
     "time": "16:58",
     "desc": "4x200 4x200 MIX Final 35"
   }

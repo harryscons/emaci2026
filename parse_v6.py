@@ -9,6 +9,7 @@ def parse_pdf_to_columns(pdf_path):
         # Default boundaries
         boundaries = [300, 500] 
         active_events = {'col1': None, 'col2': None, 'col3': None}
+        day_text = ""
 
         for page_num, page in enumerate(pdf.pages):
             words = page.extract_words()
@@ -43,7 +44,6 @@ def parse_pdf_to_columns(pdf_path):
                     current_top = w['top']
             if current_line: lines.append(current_line)
             
-            day_text = ""
             
             for line in lines:
                 line_text = " ".join([w['text'] for w in line])
@@ -77,7 +77,7 @@ def parse_pdf_to_columns(pdf_path):
                         seg_text = " ".join([w['text'] for w in seg])
                         time_match = re.search(r'(\d{2}:\d{2})', seg_text)
                         
-                        event_names = ["High Jump", "Long Jump", "Triple Jump", "TripleJump", "Pole Vault", "Shot Put", "Discus", "Hammer", "Javelin", "Weight Throw", "Cross Country", "XC", "Pentathlon", "Road Race", "RW", "4x200"]
+                        event_names = ["High Jump", "Long Jump", "Triple Jump", "TripleJump", "Pole Vault", "Shot Put", "Discus", "Hammer", "Javelin", "Weight Throw", "Cross Country", "XC", "Pentathlon", "Road Race", "RW", "3000W", "4x200", "60H", "60 m", "200 m", "400 m", "800 m", "1500 m", "3000 m", "60m", "200m", "400m", "800m", "1500m", "3000m"]
                         
                         local_header = None
                         for en in event_names:

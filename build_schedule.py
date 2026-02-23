@@ -36,7 +36,9 @@ for e in events:
         'High Jump': 'HJ', 'Long Jump': 'LJ', 'Triple Jump': 'TJ', 'TripleJump': 'TJ',
         'Pole Vault': 'PV', 'Shot Put': 'SP', 'Discus': 'DT', 'Hammer': 'HT',
         'Javelin': 'JT', 'Weight Throw': 'WT', 'Pentathlon': 'PEN',
-        'Cross Country': 'XC', 'XC': 'XC', 'Road Race': '5K', 'RW': '3000W', '4x200': '4x200'
+        'Cross Country': 'XC', 'XC': 'XC', 'Road Race': '5K', 'RW': '3000W', '4x200': '4x200',
+        '60 m': '60', '200 m': '200', '400 m': '400', '800 m': '800', '1500 m': '1500', '3000 m': '3000',
+        '60m': '60', '200m': '200', '400m': '400', '800m': '800', '1500m': '1500', '3000m': '3000', '60H': '60H'
     }
     
     if event_header:
@@ -58,6 +60,12 @@ for e in events:
         if k.lower() in desc.lower():
             if v == '3000' and 'RW' in desc.upper(): continue
             if v == '60' and 'hurdles' in desc.lower(): continue
+            
+            # Don't let a description match override a specific header match
+            # e.g. "Pentathlon 1500m" -> should be PEN, not 1500
+            if event_code in ['PEN', '4x200', 'XC', '5K', '5KW', '3000W']:
+                break
+                
             event_code = v
             break
 
