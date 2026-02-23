@@ -61,7 +61,7 @@ function showSection(id) {
 
 let allData = [];
 let activeFilters = {};
-let currentSort = { column: null, direction: 'asc' };
+let currentSort = { column: 'When', direction: 'asc' };
 const FILTER_COLUMNS = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP"];
 
 async function loadReportData() {
@@ -91,7 +91,9 @@ async function loadReportData() {
         await new Promise(resolve => setTimeout(resolve, 300));
 
         initializeFilters(allData);
-        renderTable(allData);
+        // Apply initial sort
+        const initialSorted = sortData(allData, currentSort.column, currentSort.direction);
+        renderTable(initialSorted);
 
         updateProgress(100, 'Ready');
 
@@ -347,41 +349,53 @@ function handleSort(column) {
 }
 
 function sortData(data, column, direction) {
-    return [...data].sort((a, b) => {
-        let valA = a[column];
-        let valB = b[column];
+    const dateScore = {
+        "Fri, 27 Mar": 10000,
+        "Sat, 28 Mar": 20000,
+        "Sun, 29 Mar": 30000,
+        "Mon, 30 Mar": 40000,
+        "Tue, 31 Mar": 50000,
+        "Wed, 01 Apr": 60000,
+        "Thu, 02 Apr": 70000
+    };
 
-        if (column === 'Bib') {
+    function parseWhenScore(whenStr) {
+        if (!whenStr || whenStr === '-') return 999999;
+        const parts = whenStr.split(' at ');
+        const datePart = parts[0];
+        const timePart = parts[1];
+
+        let score = dateScore[datePart] || 99000;
+
+        if (timePart) {
+            const timeParts = timePart.split(':');
+            if (timeParts.length === 2) {
+                score += (parseInt(timeParts[0]) * 60) + parseInt(timeParts[1]);
+            }
+        }
+        return score;
+    }
+
+    return [...data].sort((a, b) => {
+        // Primary sort
+        let res = compare(a, b, column, direction);
+
+        // Secondary sort: if primary is equal, sort by Last Name (always asc for secondary conventionally)
+        if (res === 0 && column !== 'Last Name') {
+            res = compare(a, b, 'Last Name', 'asc');
+        }
+
+        return res;
+    });
+
+    function compare(a, b, col, dir) {
+        let valA = a[col];
+        let valB = b[col];
+
+        if (col === 'Bib') {
             valA = parseInt(valA) || 0;
             valB = parseInt(valB) || 0;
-        } else if (column === 'When') {
-            const dateScore = {
-                "Fri, 27 Mar": 10000,
-                "Sat, 28 Mar": 20000,
-                "Sun, 29 Mar": 30000,
-                "Mon, 30 Mar": 40000,
-                "Tue, 31 Mar": 50000,
-                "Wed, 01 Apr": 60000,
-                "Thu, 02 Apr": 70000
-            };
-
-            function parseWhenScore(whenStr) {
-                if (!whenStr || whenStr === '-') return 999999;
-                const parts = whenStr.split(' at ');
-                const datePart = parts[0];
-                const timePart = parts[1];
-
-                let score = dateScore[datePart] || 99000;
-
-                if (timePart) {
-                    const timeParts = timePart.split(':');
-                    if (timeParts.length === 2) {
-                        score += (parseInt(timeParts[0]) * 60) + parseInt(timeParts[1]);
-                    }
-                }
-                return score;
-            }
-
+        } else if (col === 'When') {
             valA = parseWhenScore(valA);
             valB = parseWhenScore(valB);
         } else {
@@ -389,10 +403,10 @@ function sortData(data, column, direction) {
             valB = String(valB).toLowerCase();
         }
 
-        if (valA < valB) return direction === 'asc' ? -1 : 1;
-        if (valA > valB) return direction === 'asc' ? 1 : -1;
+        if (valA < valB) return dir === 'asc' ? -1 : 1;
+        if (valA > valB) return dir === 'asc' ? 1 : -1;
         return 0;
-    });
+    }
 }
 
 function updateFilter(column, value) {
