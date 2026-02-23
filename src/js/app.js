@@ -62,7 +62,7 @@ function showSection(id) {
 let allData = [];
 let activeFilters = {};
 let currentSort = { column: null, direction: 'asc' };
-const FILTER_COLUMNS = ["Bib", "First Name", "Last Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
+const FILTER_COLUMNS = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
 
 async function loadReportData() {
     const splash = document.getElementById('splash-screen');
@@ -140,9 +140,13 @@ function initializeFilters(data) {
         const wrapper = document.createElement('div');
         wrapper.className = 'filter-group';
         wrapper.dataset.column = col;
+        wrapper.style.display = 'flex';
+        wrapper.style.alignItems = 'center';
+        wrapper.style.gap = '0.75rem';
+        wrapper.style.width = '260px'; // Equal size for all dropdowns
         wrapper.innerHTML = `
-            <label style="display: block; margin-bottom: 0.5rem; font-size: 0.75rem; color: var(--text-secondary);">${col}</label>
-            <select data-column="${col}">
+            <label style="font-size: 0.875rem; color: var(--text-secondary); white-space: nowrap; width: 80px; text-align: right; font-weight: 600;">${col}</label>
+            <select data-column="${col}" style="flex: 1; padding: 0.5rem; min-height: 2.5rem; border-radius: 0.375rem;">
                 <option value="">All</option>
             </select>
         `;
@@ -195,7 +199,7 @@ function applyFilters(data) {
 function renderTable(data) {
     const tbody = document.querySelector('#report-table tbody');
     const thead = document.querySelector('#report-table thead');
-    const displayColumns = ["Bib", "First Name", "Last Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
+    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "Team Name", "QP"];
 
     thead.innerHTML = `<tr>
         ${displayColumns.map(col => `
