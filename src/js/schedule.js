@@ -5,7 +5,7 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 1,
     "time": "08:30",
-    "desc": "400 m Heats M35 Long Jump Hammer Throw"
+    "desc": "400 m Heats M35"
   },
   {
     "eventCode": "400",
@@ -16,12 +16,68 @@ const emacs2026Schedule = [
     "desc": "400 m Heats M40"
   },
   {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Long Jump W80+ Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Long Jump W80+ Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Long Jump W80+ Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Long Jump W80+ Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Hammer M35 Final"
+  },
+  {
     "eventCode": "400",
     "gender": "M",
     "ageGroup": "V45",
     "day": 1,
     "time": "09:30",
     "desc": "400 m Heats M45"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "10:20",
+    "desc": "Long Jump W75 Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "10:00",
+    "desc": "Hammer M40 Final"
   },
   {
     "eventCode": "400",
@@ -32,6 +88,14 @@ const emacs2026Schedule = [
     "desc": "400 m Heats M50"
   },
   {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "11:30",
+    "desc": "Long Jump W70 Final"
+  },
+  {
     "eventCode": "400",
     "gender": "M",
     "ageGroup": "V55",
@@ -40,12 +104,12 @@ const emacs2026Schedule = [
     "desc": "400 m Heats M55"
   },
   {
-    "eventCode": "WT",
-    "gender": "F",
+    "eventCode": "LJ",
+    "gender": "M",
     "ageGroup": "V65",
     "day": 1,
     "time": "13:00",
-    "desc": "W65 Final Weight Throw"
+    "desc": "Long Jump W65 Final"
   },
   {
     "eventCode": "400",
@@ -56,12 +120,36 @@ const emacs2026Schedule = [
     "desc": "400 m Heats M60"
   },
   {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "14:40",
+    "desc": "Long Jump W60 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "11:30",
+    "desc": "Weight Throw M45 Final"
+  },
+  {
     "eventCode": "400",
     "gender": "M",
     "ageGroup": "V65",
     "day": 1,
     "time": "11:26",
     "desc": "400 m Heats M65"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "12:50",
+    "desc": "Weight Throw M50 Final"
   },
   {
     "eventCode": "400",
@@ -72,40 +160,64 @@ const emacs2026Schedule = [
     "desc": "400 m Heats M70"
   },
   {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "14:20",
+    "desc": "Weight Throw M55 Final"
+  },
+  {
     "eventCode": "400",
     "gender": "M",
     "ageGroup": "V75",
     "day": 1,
     "time": "12:10",
-    "desc": "400 m Heats M75 High Jump"
+    "desc": "400 m Heats M75"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "16:00",
+    "desc": "Weight Throw M60 Final"
   },
   {
     "eventCode": "400",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V35",
     "day": 1,
     "time": "12:34",
-    "desc": "400 m Heats W35 I"
+    "desc": "400 m Heats W35"
   },
   {
     "eventCode": "400",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V40",
     "day": 1,
     "time": "12:58",
     "desc": "400 m Heats W40"
   },
   {
-    "eventCode": "DT",
-    "gender": "F",
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "09:00",
+    "desc": "High Jump W65 Final"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
     "ageGroup": "V60",
     "day": 1,
     "time": "10:45",
-    "desc": "W60 Final Discus"
+    "desc": "High Jump W60 Final"
   },
   {
     "eventCode": "3000",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V65",
     "day": 1,
     "time": "13:22",
@@ -113,7 +225,7 @@ const emacs2026Schedule = [
   },
   {
     "eventCode": "3000",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V70",
     "day": 1,
     "time": "13:22",
@@ -121,7 +233,7 @@ const emacs2026Schedule = [
   },
   {
     "eventCode": "3000",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V75",
     "day": 1,
     "time": "13:22",
@@ -129,7 +241,7 @@ const emacs2026Schedule = [
   },
   {
     "eventCode": "3000",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V80",
     "day": 1,
     "time": "13:22",
@@ -137,7 +249,7 @@ const emacs2026Schedule = [
   },
   {
     "eventCode": "3000",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V85",
     "day": 1,
     "time": "13:22",
@@ -145,7 +257,7 @@ const emacs2026Schedule = [
   },
   {
     "eventCode": "3000",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V90",
     "day": 1,
     "time": "13:22",
@@ -153,59 +265,139 @@ const emacs2026Schedule = [
   },
   {
     "eventCode": "3000",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V95",
     "day": 1,
     "time": "13:22",
     "desc": "3000 m Final W65+"
   },
   {
-    "eventCode": "3000",
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "12:30",
+    "desc": "High Jump W55 Final"
+  },
+  {
+    "eventCode": "DT",
     "gender": "F",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Discus W35 Final"
+  },
+  {
+    "eventCode": "3000",
+    "gender": "M",
     "ageGroup": "V60",
     "day": 1,
     "time": "13:50",
     "desc": "3000 m Final W60"
   },
   {
-    "eventCode": "3000",
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "14:00",
+    "desc": "High Jump W50 Final"
+  },
+  {
+    "eventCode": "DT",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "10:10",
+    "desc": "Discus W40 Final"
+  },
+  {
+    "eventCode": "3000",
+    "gender": "M",
     "ageGroup": "V55",
     "day": 1,
     "time": "14:13",
     "desc": "3000 m Final W55"
   },
   {
-    "eventCode": "3000",
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "15:30",
+    "desc": "High Jump W45 Final"
+  },
+  {
+    "eventCode": "DT",
     "gender": "F",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "11:45",
+    "desc": "Discus W45 Final"
+  },
+  {
+    "eventCode": "3000",
+    "gender": "M",
     "ageGroup": "V50",
     "day": 1,
     "time": "14:35",
     "desc": "3000 m Final W50"
   },
   {
-    "eventCode": "3000",
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "17:00",
+    "desc": "High Jump W40 Final"
+  },
+  {
+    "eventCode": "DT",
     "gender": "F",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "13:05",
+    "desc": "Discus W50 Final"
+  },
+  {
+    "eventCode": "3000",
+    "gender": "M",
     "ageGroup": "V45",
     "day": 1,
     "time": "14:55",
     "desc": "3000 m Final W45"
   },
   {
-    "eventCode": "3000",
+    "eventCode": "DT",
     "gender": "F",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "14:20",
+    "desc": "Discus W55 Final"
+  },
+  {
+    "eventCode": "3000",
+    "gender": "M",
     "ageGroup": "V40",
     "day": 1,
     "time": "15:10",
     "desc": "3000 m Final W40"
   },
   {
-    "eventCode": "3000",
+    "eventCode": "DT",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "15:50",
+    "desc": "Discus W60 Final"
+  },
+  {
+    "eventCode": "3000",
+    "gender": "M",
     "ageGroup": "V35",
     "day": 1,
     "time": "15:25",
-    "desc": "3000 m Final W35 High Jump"
+    "desc": "3000 m Final W35"
   },
   {
     "eventCode": "3000",
@@ -213,7 +405,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 1,
     "time": "15:40",
-    "desc": "3000 m Final M80+ II"
+    "desc": "3000 m Final M80+"
   },
   {
     "eventCode": "3000",
@@ -221,7 +413,7 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 1,
     "time": "15:40",
-    "desc": "3000 m Final M80+ II"
+    "desc": "3000 m Final M80+"
   },
   {
     "eventCode": "3000",
@@ -229,7 +421,7 @@ const emacs2026Schedule = [
     "ageGroup": "V90",
     "day": 1,
     "time": "15:40",
-    "desc": "3000 m Final M80+ II"
+    "desc": "3000 m Final M80+"
   },
   {
     "eventCode": "3000",
@@ -237,7 +429,7 @@ const emacs2026Schedule = [
     "ageGroup": "V95",
     "day": 1,
     "time": "15:40",
-    "desc": "3000 m Final M80+ II"
+    "desc": "3000 m Final M80+"
   },
   {
     "eventCode": "3000",
@@ -248,12 +440,12 @@ const emacs2026Schedule = [
     "desc": "3000 m Final M75"
   },
   {
-    "eventCode": "JT",
+    "eventCode": "HJ",
     "gender": "M",
     "ageGroup": "V60",
     "day": 1,
     "time": "09:00",
-    "desc": "M60 Final Javelin"
+    "desc": "High Jump M60 Final"
   },
   {
     "eventCode": "3000",
@@ -264,12 +456,52 @@ const emacs2026Schedule = [
     "desc": "3000 m Final M70"
   },
   {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "11:30",
+    "desc": "High Jump M55 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "11:00",
+    "desc": "Javelin M90 Final"
+  },
+  {
     "eventCode": "3000",
     "gender": "M",
     "ageGroup": "V65",
     "day": 1,
     "time": "16:56",
     "desc": "3000 m Final M65"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "13:30",
+    "desc": "High Jump M50 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "11:50",
+    "desc": "Javelin M80-85 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "11:50",
+    "desc": "Javelin M80-85 Final"
   },
   {
     "eventCode": "3000",
@@ -280,6 +512,22 @@ const emacs2026Schedule = [
     "desc": "3000 m Final M60"
   },
   {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "15:15",
+    "desc": "High Jump M45 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "13:30",
+    "desc": "Javelin M75 Final"
+  },
+  {
     "eventCode": "3000",
     "gender": "M",
     "ageGroup": "V55",
@@ -288,12 +536,44 @@ const emacs2026Schedule = [
     "desc": "3000 m Final M55"
   },
   {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "16:45",
+    "desc": "High Jump M40 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "14:45",
+    "desc": "Javelin M70 Final"
+  },
+  {
     "eventCode": "3000",
     "gender": "M",
     "ageGroup": "V50",
     "day": 1,
     "time": "17:54",
     "desc": "3000 m Final A M50"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "18:30",
+    "desc": "High Jump M35 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "16:20",
+    "desc": "Javelin M65 Final"
   },
   {
     "eventCode": "3000",
@@ -309,7 +589,7 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 1,
     "time": "18:27",
-    "desc": "3000 m Final A M45 High Jump"
+    "desc": "3000 m Final A M45"
   },
   {
     "eventCode": "3000",
@@ -317,7 +597,7 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 1,
     "time": "18:43",
-    "desc": "3000 m Final B M45 III"
+    "desc": "3000 m Final B M45"
   },
   {
     "eventCode": "3000",
@@ -328,12 +608,44 @@ const emacs2026Schedule = [
     "desc": "3000 m Final M40"
   },
   {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "09:00",
+    "desc": "High Jump W35 Final"
+  },
+  {
     "eventCode": "3000",
     "gender": "M",
     "ageGroup": "V35",
     "day": 1,
     "time": "19:14",
     "desc": "3000 m Final A M35"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "10:05",
+    "desc": "High Jump M85+ Final"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "10:05",
+    "desc": "High Jump M85+ Final"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "10:05",
+    "desc": "High Jump M85+ Final"
   },
   {
     "eventCode": "3000",
@@ -344,60 +656,116 @@ const emacs2026Schedule = [
     "desc": "3000 m Final B M35"
   },
   {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "11:25",
+    "desc": "High Jump M80 Final"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "12:40",
+    "desc": "High Jump M75 Final"
+  },
+  {
     "eventCode": "3000W",
     "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "19:45",
+    "desc": "RW 3000m RW Final W70+"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
     "ageGroup": "V70",
     "day": 1,
     "time": "19:45",
-    "desc": "3000m RW Final W70+"
+    "desc": "RW 3000m RW Final W70+"
   },
   {
     "eventCode": "3000W",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V75",
     "day": 1,
     "time": "19:45",
-    "desc": "3000m RW Final W70+"
+    "desc": "RW 3000m RW Final W70+"
   },
   {
     "eventCode": "3000W",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V80",
     "day": 1,
     "time": "19:45",
-    "desc": "3000m RW Final W70+"
+    "desc": "RW 3000m RW Final W70+"
   },
   {
     "eventCode": "3000W",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V85",
     "day": 1,
     "time": "19:45",
-    "desc": "3000m RW Final W70+"
+    "desc": "RW 3000m RW Final W70+"
   },
   {
     "eventCode": "3000W",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V90",
     "day": 1,
     "time": "19:45",
-    "desc": "3000m RW Final W70+"
+    "desc": "RW 3000m RW Final W70+"
   },
   {
     "eventCode": "3000W",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V95",
     "day": 1,
     "time": "19:45",
-    "desc": "3000m RW Final W70+"
+    "desc": "RW 3000m RW Final W70+"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "14:25",
+    "desc": "High Jump M70 Final"
   },
   {
     "eventCode": "3000W",
     "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "20:25",
+    "desc": "RW 3000m RW Final W65"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
     "ageGroup": "V65",
     "day": 1,
     "time": "20:25",
-    "desc": "3000m RW Final W65"
+    "desc": "RW 3000m RW Final W65"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "16:30",
+    "desc": "High Jump M65 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "20:55",
+    "desc": "RW 3000m RW Final M75"
   },
   {
     "eventCode": "3000W",
@@ -405,7 +773,15 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 1,
     "time": "20:55",
-    "desc": "3000m RW Final M75"
+    "desc": "RW 3000m RW Final M75"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "21:28",
+    "desc": "RW 3000m RW Final M80+"
   },
   {
     "eventCode": "3000W",
@@ -413,7 +789,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 1,
     "time": "21:28",
-    "desc": "3000m RW Final M80+"
+    "desc": "RW 3000m RW Final M80+"
   },
   {
     "eventCode": "3000W",
@@ -421,7 +797,7 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 1,
     "time": "21:28",
-    "desc": "3000m RW Final M80+"
+    "desc": "RW 3000m RW Final M80+"
   },
   {
     "eventCode": "3000W",
@@ -429,7 +805,7 @@ const emacs2026Schedule = [
     "ageGroup": "V90",
     "day": 1,
     "time": "21:28",
-    "desc": "3000m RW Final M80+"
+    "desc": "RW 3000m RW Final M80+"
   },
   {
     "eventCode": "3000W",
@@ -437,55 +813,159 @@ const emacs2026Schedule = [
     "ageGroup": "V95",
     "day": 1,
     "time": "21:28",
-    "desc": "3000m RW Final M80+"
+    "desc": "RW 3000m RW Final M80+"
   },
   {
     "eventCode": "60H",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "09:00",
+    "desc": "RW 60m hurdles Heats W35"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
     "ageGroup": "V35",
     "day": 2,
     "time": "09:00",
-    "desc": "60m hurdles Heats W35 Long Jump Weight Throw"
+    "desc": "RW 60m hurdles Heats W35"
   },
   {
     "eventCode": "60H",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "09:11",
+    "desc": "RW 60m hurdles Heats W40"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
     "ageGroup": "V40",
     "day": 2,
     "time": "09:11",
-    "desc": "60m hurdles Heats W40"
+    "desc": "RW 60m hurdles Heats W40"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "09:00",
+    "desc": "Long Jump M40 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 2,
+    "time": "09:00",
+    "desc": "Weight Throw M75 Final"
   },
   {
     "eventCode": "60H",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "09:21",
+    "desc": "RW 60m hurdles Heats W45"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
     "ageGroup": "V45",
     "day": 2,
     "time": "09:21",
-    "desc": "60m hurdles Heats W45"
+    "desc": "RW 60m hurdles Heats W45"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 2,
+    "time": "11:00",
+    "desc": "Long Jump W35 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 2,
+    "time": "10:25",
+    "desc": "Weight Throw M80+ Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 2,
+    "time": "10:25",
+    "desc": "Weight Throw M80+ Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 2,
+    "time": "10:25",
+    "desc": "Weight Throw M80+ Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 2,
+    "time": "10:25",
+    "desc": "Weight Throw M80+ Final"
   },
   {
     "eventCode": "60H",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "09:32",
+    "desc": "RW 60m hurdles Heats W50"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
     "ageGroup": "V50",
     "day": 2,
     "time": "09:32",
-    "desc": "60m hurdles Heats W50"
+    "desc": "RW 60m hurdles Heats W50"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "12:25",
+    "desc": "Long Jump W40 Final"
   },
   {
     "eventCode": "60H",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "09:47",
+    "desc": "RW 60m hurdles Heats W55"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
     "ageGroup": "V55",
     "day": 2,
     "time": "09:47",
-    "desc": "60m hurdles Heats W55"
+    "desc": "RW 60m hurdles Heats W55"
   },
   {
-    "eventCode": "HT",
-    "gender": "F",
+    "eventCode": "LJ",
+    "gender": "M",
     "ageGroup": "V45",
     "day": 2,
     "time": "14:05",
-    "desc": "W45 Final Hammer"
+    "desc": "Long Jump W45 Final"
   },
   {
     "eventCode": "60H",
@@ -493,15 +973,87 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 2,
     "time": "09:58",
-    "desc": "60m hurdles Heats W60"
+    "desc": "RW 60m hurdles Heats W60"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "09:58",
+    "desc": "RW 60m hurdles Heats W60"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 2,
+    "time": "15:20",
+    "desc": "Long Jump W50 Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 2,
+    "time": "12:10",
+    "desc": "Hammer W35 Final"
   },
   {
     "eventCode": "60H",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "10:08",
+    "desc": "RW 60m hurdles Heats W65"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
     "ageGroup": "V65",
     "day": 2,
     "time": "10:08",
-    "desc": "60m hurdles Heats W65"
+    "desc": "RW 60m hurdles Heats W65"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 2,
+    "time": "17:05",
+    "desc": "Long Jump W55 Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "13:25",
+    "desc": "Hammer W40 Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 2,
+    "time": "18:40",
+    "desc": "Long Jump M35 Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 2,
+    "time": "14:45",
+    "desc": "Hammer W45 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "10:20",
+    "desc": "RW 400 m SF M35"
   },
   {
     "eventCode": "400",
@@ -509,7 +1061,23 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 2,
     "time": "10:20",
-    "desc": "400 m SF M35"
+    "desc": "RW 400 m SF M35"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 2,
+    "time": "16:00",
+    "desc": "Hammer W50 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "10:32",
+    "desc": "RW 400 m SF M40"
   },
   {
     "eventCode": "400",
@@ -517,7 +1085,15 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 2,
     "time": "10:32",
-    "desc": "400 m SF M40 High Jump"
+    "desc": "RW 400 m SF M40"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "10:44",
+    "desc": "RW 400 m SF M45"
   },
   {
     "eventCode": "400",
@@ -525,15 +1101,23 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 2,
     "time": "10:44",
-    "desc": "400 m SF M45"
+    "desc": "RW 400 m SF M45"
   },
   {
-    "eventCode": "DT",
-    "gender": "F",
+    "eventCode": "HJ",
+    "gender": "M",
     "ageGroup": "V70",
     "day": 2,
     "time": "12:00",
-    "desc": "W70 Final Discus"
+    "desc": "High Jump W70 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "10:56",
+    "desc": "RW 400 m SF M50"
   },
   {
     "eventCode": "400",
@@ -541,7 +1125,63 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 2,
     "time": "10:56",
-    "desc": "400 m SF M50"
+    "desc": "RW 400 m SF M50"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 2,
+    "time": "13:45",
+    "desc": "High Jump W75+ Final"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 2,
+    "time": "13:45",
+    "desc": "High Jump W75+ Final"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 2,
+    "time": "13:45",
+    "desc": "High Jump W75+ Final"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 2,
+    "time": "13:45",
+    "desc": "High Jump W75+ Final"
+  },
+  {
+    "eventCode": "HJ",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 2,
+    "time": "13:45",
+    "desc": "High Jump W75+ Final"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 2,
+    "time": "09:00",
+    "desc": "Discus W65 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "11:08",
+    "desc": "RW 400 m SF M55"
   },
   {
     "eventCode": "400",
@@ -549,7 +1189,23 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 2,
     "time": "11:08",
-    "desc": "400 m SF M55"
+    "desc": "RW 400 m SF M55"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 2,
+    "time": "10:35",
+    "desc": "Discus W70 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "11:20",
+    "desc": "RW 400 m SF M60"
   },
   {
     "eventCode": "400",
@@ -557,7 +1213,23 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 2,
     "time": "11:20",
-    "desc": "400 m SF M60 Shot Put"
+    "desc": "RW 400 m SF M60"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 2,
+    "time": "12:00",
+    "desc": "Discus W75 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "11:32",
+    "desc": "RW 400 m SF M65"
   },
   {
     "eventCode": "400",
@@ -565,7 +1237,55 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 2,
     "time": "11:32",
-    "desc": "400 m SF M65"
+    "desc": "RW 400 m SF M65"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 2,
+    "time": "09:00",
+    "desc": "Shot Put M35 Final"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 2,
+    "time": "13:30",
+    "desc": "Discus W80+ Final"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 2,
+    "time": "13:30",
+    "desc": "Discus W80+ Final"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 2,
+    "time": "13:30",
+    "desc": "Discus W80+ Final"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 2,
+    "time": "13:30",
+    "desc": "Discus W80+ Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "11:44",
+    "desc": "RW 400 m SF M70"
   },
   {
     "eventCode": "400",
@@ -573,7 +1293,23 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 2,
     "time": "11:44",
-    "desc": "400 m SF M70"
+    "desc": "RW 400 m SF M70"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "10:15",
+    "desc": "Shot Put M40 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "11:56",
+    "desc": "RW 400 m SF M75"
   },
   {
     "eventCode": "400",
@@ -581,15 +1317,23 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 2,
     "time": "11:56",
-    "desc": "400 m SF M75"
+    "desc": "RW 400 m SF M75"
   },
   {
-    "eventCode": "JT",
+    "eventCode": "SP",
     "gender": "M",
     "ageGroup": "V45",
     "day": 2,
     "time": "11:45",
-    "desc": "M45 Final Javelin"
+    "desc": "Shot Put M45 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "12:08",
+    "desc": "RW 400 m SF M80"
   },
   {
     "eventCode": "400",
@@ -597,15 +1341,55 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 2,
     "time": "12:08",
-    "desc": "400 m SF M80"
+    "desc": "RW 400 m SF M80"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 2,
+    "time": "13:25",
+    "desc": "Shot Put M50 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "14:45",
+    "desc": "Javelin W60 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "12:20",
+    "desc": "RW 400 m SF W35"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
     "ageGroup": "V35",
     "day": 2,
     "time": "12:20",
-    "desc": "400 m SF W35"
+    "desc": "RW 400 m SF W35"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 2,
+    "time": "15:00",
+    "desc": "Shot Put M55 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V55",
+    "day": 2,
+    "time": "16:10",
+    "desc": "Javelin W55 Final"
   },
   {
     "eventCode": "400",
@@ -613,271 +1397,511 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 2,
     "time": "12:32",
-    "desc": "400 m SF W40"
+    "desc": "RW 400 m SF W40"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "12:32",
+    "desc": "RW 400 m SF W40"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 2,
+    "time": "16:35",
+    "desc": "Shot Put M60 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "12:50",
+    "desc": "RW 400 m SF W45"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
     "ageGroup": "V45",
     "day": 2,
     "time": "12:50",
-    "desc": "400 m SF W45"
+    "desc": "RW 400 m SF W45"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 2,
+    "time": "18:30",
+    "desc": "Shot Put M65 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "13:08",
+    "desc": "RW 400 m SF W50"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
     "ageGroup": "V50",
     "day": 2,
     "time": "13:08",
-    "desc": "400 m SF W50"
+    "desc": "RW 400 m SF W50"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 2,
+    "time": "20:00",
+    "desc": "Shot Put M70 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "13:26",
+    "desc": "RW 400 m SF W55"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
     "ageGroup": "V55",
     "day": 2,
     "time": "13:26",
-    "desc": "400 m SF W55"
+    "desc": "RW 400 m SF W55"
   },
   {
     "eventCode": "400",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "13:44",
+    "desc": "RW 400 m SF W60"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
     "ageGroup": "V60",
     "day": 2,
     "time": "13:44",
-    "desc": "400 m SF W60"
+    "desc": "RW 400 m SF W60"
   },
   {
     "eventCode": "400",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "13:58",
+    "desc": "RW 400 m SF W65"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
     "ageGroup": "V65",
     "day": 2,
     "time": "13:58",
-    "desc": "400 m SF W65"
+    "desc": "RW 400 m SF W65"
   },
   {
     "eventCode": "400",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 2,
+    "time": "14:10",
+    "desc": "RW 400 m SF W70"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
     "ageGroup": "V70",
     "day": 2,
     "time": "14:10",
-    "desc": "400 m SF W70"
+    "desc": "RW 400 m SF W70"
   },
   {
     "eventCode": "3000W",
     "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "14:25",
+    "desc": "RW 3000m RW Final W35-40"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
     "ageGroup": "V35",
-    "day": 2,
+    "day": 1,
     "time": "14:25",
-    "desc": "3000m RW Final W35-40"
+    "desc": "RW 3000m RW Final W35-40"
   },
   {
     "eventCode": "3000W",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V40",
-    "day": 2,
+    "day": 1,
     "time": "14:25",
-    "desc": "3000m RW Final W35-40"
+    "desc": "RW 3000m RW Final W35-40"
   },
   {
     "eventCode": "3000W",
     "gender": "F",
-    "ageGroup": "V45",
-    "day": 2,
+    "ageGroup": "V30",
+    "day": 1,
     "time": "14:50",
-    "desc": "3000m RW Final W45-50"
+    "desc": "RW 3000m RW Final W45-50"
   },
   {
     "eventCode": "3000W",
-    "gender": "F",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "14:50",
+    "desc": "RW 3000m RW Final W45-50"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
     "ageGroup": "V50",
-    "day": 2,
+    "day": 1,
     "time": "14:50",
-    "desc": "3000m RW Final W45-50"
+    "desc": "RW 3000m RW Final W45-50"
   },
   {
     "eventCode": "3000W",
     "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "15:15",
+    "desc": "RW 3000m RW Final W55-60"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
     "ageGroup": "V55",
-    "day": 2,
+    "day": 1,
     "time": "15:15",
-    "desc": "3000m RW Final W55-60"
+    "desc": "RW 3000m RW Final W55-60"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "15:15",
+    "desc": "RW 3000m RW Final W55-60"
   },
   {
     "eventCode": "3000W",
     "gender": "F",
-    "ageGroup": "V60",
-    "day": 2,
-    "time": "15:15",
-    "desc": "3000m RW Final W55-60"
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "15:45",
+    "desc": "RW 3000m RW Final M35-40"
   },
   {
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 2,
+    "day": 1,
     "time": "15:45",
-    "desc": "3000m RW Final M35-40"
+    "desc": "RW 3000m RW Final M35-40"
   },
   {
     "eventCode": "3000W",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 2,
+    "day": 1,
     "time": "15:45",
-    "desc": "3000m RW Final M35-40"
+    "desc": "RW 3000m RW Final M35-40"
   },
   {
     "eventCode": "3000W",
-    "gender": "M",
-    "ageGroup": "V45",
-    "day": 2,
+    "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
     "time": "16:10",
-    "desc": "3000m RW Final M45"
+    "desc": "RW 3000m RW Final M45"
   },
   {
     "eventCode": "3000W",
     "gender": "M",
-    "ageGroup": "V50",
-    "day": 2,
-    "time": "16:35",
-    "desc": "3000m RW Final M50"
-  },
-  {
-    "eventCode": "3000W",
-    "gender": "M",
-    "ageGroup": "V55",
-    "day": 2,
-    "time": "17:05",
-    "desc": "3000m RW Final M55-60"
-  },
-  {
-    "eventCode": "3000W",
-    "gender": "M",
-    "ageGroup": "V60",
-    "day": 2,
-    "time": "17:05",
-    "desc": "3000m RW Final M55-60"
-  },
-  {
-    "eventCode": "3000W",
-    "gender": "M",
-    "ageGroup": "V65",
-    "day": 2,
-    "time": "17:35",
-    "desc": "3000m RW Final M65"
-  },
-  {
-    "eventCode": "3000W",
-    "gender": "M",
-    "ageGroup": "V70",
-    "day": 2,
-    "time": "18:05",
-    "desc": "3000m RW Final M70"
-  },
-  {
-    "eventCode": "60H",
-    "gender": "F",
-    "ageGroup": "V35",
-    "day": 2,
-    "time": "18:35",
-    "desc": "60 m hurdles Final W35"
-  },
-  {
-    "eventCode": "60H",
-    "gender": "F",
-    "ageGroup": "V40",
-    "day": 2,
-    "time": "18:40",
-    "desc": "60 m hurdles Final W40"
-  },
-  {
-    "eventCode": "60H",
-    "gender": "F",
     "ageGroup": "V45",
-    "day": 2,
-    "time": "18:45",
-    "desc": "60 m hurdles Final W45"
+    "day": 1,
+    "time": "16:10",
+    "desc": "RW 3000m RW Final M45"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "3000W",
     "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "16:35",
+    "desc": "RW 3000m RW Final M50"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
     "ageGroup": "V50",
-    "day": 2,
-    "time": "18:50",
-    "desc": "60 m hurdles Final W50"
+    "day": 1,
+    "time": "16:35",
+    "desc": "RW 3000m RW Final M50"
   },
   {
-    "eventCode": "60H",
+    "eventCode": "3000W",
     "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "17:05",
+    "desc": "RW 3000m RW Final M55-60"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
     "ageGroup": "V55",
-    "day": 2,
-    "time": "18:55",
-    "desc": "60 m hurdles Final W55"
+    "day": 1,
+    "time": "17:05",
+    "desc": "RW 3000m RW Final M55-60"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "17:05",
+    "desc": "RW 3000m RW Final M55-60"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "17:35",
+    "desc": "RW 3000m RW Final M65"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "17:35",
+    "desc": "RW 3000m RW Final M65"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V30",
+    "day": 1,
+    "time": "18:05",
+    "desc": "RW 3000m RW Final M70"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "18:05",
+    "desc": "RW 3000m RW Final M70"
   },
   {
     "eventCode": "60H",
     "gender": "F",
     "ageGroup": "V60",
-    "day": 2,
+    "day": 1,
+    "time": "18:35",
+    "desc": "RW 60 m hurdles Final W35"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "18:35",
+    "desc": "RW 60 m hurdles Final W35"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:40",
+    "desc": "RW 60 m hurdles Final W40"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "18:40",
+    "desc": "RW 60 m hurdles Final W40"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:45",
+    "desc": "RW 60 m hurdles Final W45"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "18:45",
+    "desc": "RW 60 m hurdles Final W45"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:50",
+    "desc": "RW 60 m hurdles Final W50"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "18:50",
+    "desc": "RW 60 m hurdles Final W50"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:55",
+    "desc": "RW 60 m hurdles Final W55"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "18:55",
+    "desc": "RW 60 m hurdles Final W55"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
     "time": "19:00",
-    "desc": "60 m hurdles Final W60"
+    "desc": "RW 60 m hurdles Final W60"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "19:00",
+    "desc": "RW 60 m hurdles Final W60"
   },
   {
     "eventCode": "60H",
     "gender": "F",
-    "ageGroup": "V65",
-    "day": 2,
+    "ageGroup": "V60",
+    "day": 1,
     "time": "19:05",
-    "desc": "60 m hurdles Final W65"
+    "desc": "RW 60 m hurdles Final W65"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "19:05",
+    "desc": "RW 60 m hurdles Final W65"
   },
   {
     "eventCode": "60H",
     "gender": "F",
-    "ageGroup": "V70",
-    "day": 2,
+    "ageGroup": "V60",
+    "day": 1,
     "time": "19:10",
-    "desc": "60 m hurdles Final W70"
+    "desc": "RW 60 m hurdles Final W70"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "19:10",
+    "desc": "RW 60 m hurdles Final W70"
   },
   {
     "eventCode": "60H",
     "gender": "F",
-    "ageGroup": "V75",
-    "day": 2,
+    "ageGroup": "V60",
+    "day": 1,
     "time": "19:16",
-    "desc": "60 m hurdles Final W75"
+    "desc": "RW 60 m hurdles Final W75"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "19:16",
+    "desc": "RW 60 m hurdles Final W75"
   },
   {
     "eventCode": "60H",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "19:22",
+    "desc": "RW 60 m hurdles Final W80+"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
     "ageGroup": "V80",
-    "day": 2,
+    "day": 1,
     "time": "19:22",
-    "desc": "60 m hurdles Final W80+"
+    "desc": "RW 60 m hurdles Final W80+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V85",
-    "day": 2,
+    "day": 1,
     "time": "19:22",
-    "desc": "60 m hurdles Final W80+"
+    "desc": "RW 60 m hurdles Final W80+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V90",
-    "day": 2,
+    "day": 1,
     "time": "19:22",
-    "desc": "60 m hurdles Final W80+"
+    "desc": "RW 60 m hurdles Final W80+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V95",
-    "day": 2,
+    "day": 1,
     "time": "19:22",
-    "desc": "60 m hurdles Final W80+"
+    "desc": "RW 60 m hurdles Final W80+"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "08:30",
+    "desc": "RW 60 m M35 Heats"
   },
   {
     "eventCode": "60",
@@ -885,7 +1909,15 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 3,
     "time": "08:30",
-    "desc": "60 m M35 Heats Shot Put Weight Throw"
+    "desc": "RW 60 m M35 Heats"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "09:05",
+    "desc": "RW 60 m M40 Heats"
   },
   {
     "eventCode": "60",
@@ -893,7 +1925,31 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 3,
     "time": "09:05",
-    "desc": "60 m M40 Heats"
+    "desc": "RW 60 m M40 Heats"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 3,
+    "time": "08:00",
+    "desc": "Shot Put W35 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 3,
+    "time": "09:00",
+    "desc": "Weight Throw W65 Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "09:50",
+    "desc": "RW 60 m M45 Heats"
   },
   {
     "eventCode": "60",
@@ -901,7 +1957,31 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 3,
     "time": "09:50",
-    "desc": "60 m M45 Heats"
+    "desc": "RW 60 m M45 Heats"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "09:10",
+    "desc": "Shot Put W40 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 3,
+    "time": "10:45",
+    "desc": "Weight Throw W70 Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "10:25",
+    "desc": "RW 60 m M50 Heats"
   },
   {
     "eventCode": "60",
@@ -909,7 +1989,31 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 3,
     "time": "10:25",
-    "desc": "60 m M50 Heats"
+    "desc": "RW 60 m M50 Heats"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 3,
+    "time": "10:40",
+    "desc": "Shot Put W45 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 3,
+    "time": "12:05",
+    "desc": "Weight Throw W75 Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "11:00",
+    "desc": "RW 60 m M55 Heats"
   },
   {
     "eventCode": "60",
@@ -917,7 +2021,55 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 3,
     "time": "11:00",
-    "desc": "60 m M55 Heats"
+    "desc": "RW 60 m M55 Heats"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 3,
+    "time": "12:20",
+    "desc": "Shot Put W50 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 3,
+    "time": "13:30",
+    "desc": "Weight Throw W80+ Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 3,
+    "time": "13:30",
+    "desc": "Weight Throw W80+ Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 3,
+    "time": "13:30",
+    "desc": "Weight Throw W80+ Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 3,
+    "time": "13:30",
+    "desc": "Weight Throw W80+ Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "11:30",
+    "desc": "RW 60 m M60 Heats"
   },
   {
     "eventCode": "60",
@@ -925,7 +2077,31 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 3,
     "time": "11:30",
-    "desc": "60 m M60 Heats"
+    "desc": "RW 60 m M60 Heats"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V55",
+    "day": 3,
+    "time": "13:40",
+    "desc": "Shot Put W55 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 3,
+    "time": "14:40",
+    "desc": "Weight Throw M65 Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "12:00",
+    "desc": "RW 60 m M65 Heats"
   },
   {
     "eventCode": "60",
@@ -933,7 +2109,31 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 3,
     "time": "12:00",
-    "desc": "60 m M65 Heats"
+    "desc": "RW 60 m M65 Heats"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "15:30",
+    "desc": "Shot Put W60 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 3,
+    "time": "16:25",
+    "desc": "Weight Throw M70 Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "12:25",
+    "desc": "RW 60 m M75 Heats"
   },
   {
     "eventCode": "60",
@@ -941,71 +2141,207 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 3,
     "time": "12:25",
-    "desc": "60 m M75 Heats"
+    "desc": "RW 60 m M75 Heats"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 3,
+    "time": "17:10",
+    "desc": "Shot Put M75 Final"
   },
   {
     "eventCode": "60",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "12:45",
+    "desc": "RW 60 m W35 Heats"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
     "ageGroup": "V35",
     "day": 3,
     "time": "12:45",
-    "desc": "60 m W35 Heats"
+    "desc": "RW 60 m W35 Heats"
   },
   {
-    "eventCode": "DT",
+    "eventCode": "SP",
     "gender": "M",
     "ageGroup": "V80",
     "day": 3,
     "time": "18:50",
-    "desc": "M80 Final Discus"
+    "desc": "Shot Put M80 Final"
   },
   {
     "eventCode": "60",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "13:05",
+    "desc": "RW 60 m W40 Heats"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
     "ageGroup": "V40",
     "day": 3,
     "time": "13:05",
-    "desc": "60 m W40 Heats"
+    "desc": "RW 60 m W40 Heats"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 3,
+    "time": "20:15",
+    "desc": "Shot Put M85+ Final"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 3,
+    "time": "20:15",
+    "desc": "Shot Put M85+ Final"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 3,
+    "time": "20:15",
+    "desc": "Shot Put M85+ Final"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 3,
+    "time": "09:00",
+    "desc": "Discus M35 Final"
   },
   {
     "eventCode": "60",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "13:35",
+    "desc": "RW 60 m W45 Heats"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
     "ageGroup": "V45",
     "day": 3,
     "time": "13:35",
-    "desc": "60 m W45 Heats"
+    "desc": "RW 60 m W45 Heats"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "10:30",
+    "desc": "Discus M40 Final"
   },
   {
     "eventCode": "60",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "13:55",
+    "desc": "RW 60 m W50 Heats"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
     "ageGroup": "V50",
     "day": 3,
     "time": "13:55",
-    "desc": "60 m W50 Heats Long Jump"
+    "desc": "RW 60 m W50 Heats"
   },
   {
     "eventCode": "60",
     "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "14:25",
+    "desc": "RW 60 m W55 Heats"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
     "ageGroup": "V55",
     "day": 3,
     "time": "14:25",
-    "desc": "60 m W55 Heats"
+    "desc": "RW 60 m W55 Heats"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 3,
+    "time": "08:00",
+    "desc": "Long Jump M45 Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "14:50",
+    "desc": "RW 60 m W65 Heats"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 3,
+    "time": "14:50",
+    "desc": "RW 60 m W65 Heats"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 3,
+    "time": "09:45",
+    "desc": "Long Jump M50 Final"
   },
   {
     "eventCode": "JT",
     "gender": "M",
     "ageGroup": "V45",
     "day": 3,
-    "time": "08:00",
-    "desc": "M45 Final Javelin"
+    "time": "12:00",
+    "desc": "Javelin M45 Final"
   },
   {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V65",
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V55",
     "day": 3,
-    "time": "14:50",
-    "desc": "60 m W65 Heats"
+    "time": "11:25",
+    "desc": "Long Jump M55 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 3,
+    "time": "13:20",
+    "desc": "Javelin M50 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:10",
+    "desc": "RW 400 m M35 Final"
   },
   {
     "eventCode": "400",
@@ -1013,7 +2349,31 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 3,
     "time": "15:10",
-    "desc": "400 m M35 Final"
+    "desc": "RW 400 m M35 Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "13:25",
+    "desc": "Long Jump M60 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 3,
+    "time": "14:45",
+    "desc": "Javelin M55 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:16",
+    "desc": "RW 400 m M40 Final"
   },
   {
     "eventCode": "400",
@@ -1021,7 +2381,31 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 3,
     "time": "15:16",
-    "desc": "400 m M40 Final"
+    "desc": "RW 400 m M40 Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 3,
+    "time": "15:00",
+    "desc": "Long Jump M65 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "16:15",
+    "desc": "Javelin M60 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:22",
+    "desc": "RW 400 m M45 Final"
   },
   {
     "eventCode": "400",
@@ -1029,7 +2413,23 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 3,
     "time": "15:22",
-    "desc": "400 m M45 Final"
+    "desc": "RW 400 m M45 Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 3,
+    "time": "16:50",
+    "desc": "Long Jump M70 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:28",
+    "desc": "RW 400 m M50 Final"
   },
   {
     "eventCode": "400",
@@ -1037,7 +2437,15 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 3,
     "time": "15:28",
-    "desc": "400 m M50 Final"
+    "desc": "RW 400 m M50 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:34",
+    "desc": "RW 400 m M55 Final"
   },
   {
     "eventCode": "400",
@@ -1045,7 +2453,15 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 3,
     "time": "15:34",
-    "desc": "400 m M55 Final Triple jump 5 km Road Race"
+    "desc": "RW 400 m M55 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:40",
+    "desc": "RW 400 m M60 Final"
   },
   {
     "eventCode": "400",
@@ -1053,7 +2469,55 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 3,
     "time": "15:40",
-    "desc": "400 m M60 Final"
+    "desc": "RW 400 m M60 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "18:20",
+    "desc": "Triple Jump W60 Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 3,
+    "time": "11:00",
+    "desc": "Road Race M35-50 Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "11:00",
+    "desc": "Road Race M35-50 Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 3,
+    "time": "11:00",
+    "desc": "Road Race M35-50 Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 3,
+    "time": "11:00",
+    "desc": "Road Race M35-50 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:46",
+    "desc": "RW 400 m M65 Final"
   },
   {
     "eventCode": "400",
@@ -1061,7 +2525,95 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 3,
     "time": "15:46",
-    "desc": "400 m M65 Final"
+    "desc": "RW 400 m M65 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 3,
+    "time": "19:40",
+    "desc": "Triple Jump W65 Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "5K",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 3,
+    "time": "11:05",
+    "desc": "Road Race M55+ Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:52",
+    "desc": "RW 400 m M70 Final"
   },
   {
     "eventCode": "400",
@@ -1069,7 +2621,63 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 3,
     "time": "15:52",
-    "desc": "400 m M70 Final"
+    "desc": "RW 400 m M70 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 3,
+    "time": "21:00",
+    "desc": "Triple Jump W70+ Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 3,
+    "time": "21:00",
+    "desc": "Triple Jump W70+ Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 3,
+    "time": "21:00",
+    "desc": "Triple Jump W70+ Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 3,
+    "time": "21:00",
+    "desc": "Triple Jump W70+ Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 3,
+    "time": "21:00",
+    "desc": "Triple Jump W70+ Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 3,
+    "time": "21:00",
+    "desc": "Triple Jump W70+ Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "15:58",
+    "desc": "RW 400 m M75 Final"
   },
   {
     "eventCode": "400",
@@ -1077,7 +2685,15 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 3,
     "time": "15:58",
-    "desc": "400 m M75 Final"
+    "desc": "RW 400 m M75 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "16:04",
+    "desc": "RW 400 m M80 Final"
   },
   {
     "eventCode": "400",
@@ -1085,7 +2701,15 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 3,
     "time": "16:04",
-    "desc": "400 m M80 Final Outside the main Arena"
+    "desc": "RW 400 m M80 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "16:10",
+    "desc": "RW 400 m M85 Final"
   },
   {
     "eventCode": "400",
@@ -1093,7 +2717,15 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 3,
     "time": "16:10",
-    "desc": "400 m M85 Final Long Jump"
+    "desc": "RW 400 m M85 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 3,
+    "time": "16:16",
+    "desc": "RW 400 m M90+ Final"
   },
   {
     "eventCode": "400",
@@ -1101,7 +2733,7 @@ const emacs2026Schedule = [
     "ageGroup": "V90",
     "day": 3,
     "time": "16:16",
-    "desc": "400 m M90+ Final"
+    "desc": "RW 400 m M90+ Final"
   },
   {
     "eventCode": "400",
@@ -1109,271 +2741,551 @@ const emacs2026Schedule = [
     "ageGroup": "V95",
     "day": 3,
     "time": "16:16",
-    "desc": "400 m M90+ Final"
+    "desc": "RW 400 m M90+ Final"
   },
   {
-    "eventCode": "400",
-    "gender": "F",
-    "ageGroup": "V80",
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V75",
     "day": 3,
-    "time": "16:22",
-    "desc": "400 m W80+ Final"
+    "time": "10:00",
+    "desc": "Long Jump M75 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "16:22",
+    "desc": "RW 400 m W80+ Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "16:22",
+    "desc": "RW 400 m W80+ Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
     "ageGroup": "V85",
-    "day": 3,
+    "day": 1,
     "time": "16:22",
-    "desc": "400 m W80+ Final"
+    "desc": "RW 400 m W80+ Final"
   },
   {
     "eventCode": "400",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V90",
-    "day": 3,
+    "day": 1,
     "time": "16:22",
-    "desc": "400 m W80+ Final"
+    "desc": "RW 400 m W80+ Final"
   },
   {
     "eventCode": "400",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V95",
-    "day": 3,
+    "day": 1,
     "time": "16:22",
-    "desc": "400 m W80+ Final"
+    "desc": "RW 400 m W80+ Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "11:30",
+    "desc": "Long Jump M80 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
-    "ageGroup": "V75",
-    "day": 3,
+    "ageGroup": "V40",
+    "day": 1,
     "time": "16:28",
-    "desc": "400 m W75 Final"
+    "desc": "RW 400 m W75 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "16:28",
+    "desc": "RW 400 m W75 Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "12:40",
+    "desc": "Long Jump M85+ Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "12:40",
+    "desc": "Long Jump M85+ Final"
+  },
+  {
+    "eventCode": "LJ",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "12:40",
+    "desc": "Long Jump M85+ Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
-    "ageGroup": "V70",
-    "day": 3,
+    "ageGroup": "V40",
+    "day": 1,
     "time": "16:34",
-    "desc": "400 m W70 Final"
+    "desc": "RW 400 m W70 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "16:34",
+    "desc": "RW 400 m W70 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
-    "ageGroup": "V65",
-    "day": 3,
+    "ageGroup": "V40",
+    "day": 1,
     "time": "16:40",
-    "desc": "400 m W65 Final"
+    "desc": "RW 400 m W65 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "16:40",
+    "desc": "RW 400 m W65 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
-    "ageGroup": "V60",
-    "day": 3,
+    "ageGroup": "V40",
+    "day": 1,
     "time": "16:46",
-    "desc": "400 m W60 Final"
+    "desc": "RW 400 m W60 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "16:46",
+    "desc": "RW 400 m W60 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
-    "ageGroup": "V55",
-    "day": 3,
+    "ageGroup": "V40",
+    "day": 1,
     "time": "16:52",
-    "desc": "400 m W55 Final"
+    "desc": "RW 400 m W55 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "16:52",
+    "desc": "RW 400 m W55 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
-    "ageGroup": "V50",
-    "day": 3,
+    "ageGroup": "V40",
+    "day": 1,
     "time": "16:58",
-    "desc": "400 m W50 Final"
+    "desc": "RW 400 m W50 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "16:58",
+    "desc": "RW 400 m W50 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
-    "ageGroup": "V45",
-    "day": 3,
+    "ageGroup": "V40",
+    "day": 1,
     "time": "17:04",
-    "desc": "400 m W45 Final"
+    "desc": "RW 400 m W45 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "17:04",
+    "desc": "RW 400 m W45 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
     "ageGroup": "V40",
-    "day": 3,
+    "day": 1,
     "time": "17:10",
-    "desc": "400 m W40 Final"
+    "desc": "RW 400 m W40 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "17:10",
+    "desc": "RW 400 m W40 Final"
   },
   {
     "eventCode": "400",
     "gender": "F",
-    "ageGroup": "V35",
-    "day": 3,
+    "ageGroup": "V40",
+    "day": 1,
     "time": "17:16",
-    "desc": "400 m W35 Final"
+    "desc": "RW 400 m W35 Final"
+  },
+  {
+    "eventCode": "400",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "17:16",
+    "desc": "RW 400 m W35 Final"
   },
   {
     "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V35",
-    "day": 3,
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
     "time": "17:25",
-    "desc": "60 m M35 SF"
+    "desc": "RW 60 m M35 SF"
   },
   {
     "eventCode": "60",
     "gender": "M",
-    "ageGroup": "V40",
-    "day": 3,
-    "time": "17:40",
-    "desc": "60 m M40 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V45",
-    "day": 3,
-    "time": "17:55",
-    "desc": "60 m M45 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V50",
-    "day": 3,
-    "time": "18:10",
-    "desc": "60 m M50 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V55",
-    "day": 3,
-    "time": "18:25",
-    "desc": "60 m M55 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V60",
-    "day": 3,
-    "time": "18:35",
-    "desc": "60 m M60 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V65",
-    "day": 3,
-    "time": "18:45",
-    "desc": "60 m M65 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V70",
-    "day": 3,
-    "time": "18:55",
-    "desc": "60 m M70 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V75",
-    "day": 3,
-    "time": "19:10",
-    "desc": "60 m M75 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V80",
-    "day": 3,
-    "time": "19:20",
-    "desc": "60 m M80 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V80",
-    "day": 3,
-    "time": "19:30",
-    "desc": "60 m W80 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V75",
-    "day": 3,
-    "time": "19:40",
-    "desc": "60 m W75 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V70",
-    "day": 3,
-    "time": "19:50",
-    "desc": "60 m W70 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V65",
-    "day": 3,
-    "time": "20:05",
-    "desc": "60 m W65 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V60",
-    "day": 3,
-    "time": "20:15",
-    "desc": "60 m W60 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V55",
-    "day": 3,
-    "time": "20:30",
-    "desc": "60 m W55 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V50",
-    "day": 3,
-    "time": "20:40",
-    "desc": "60 m W50 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V45",
-    "day": 3,
-    "time": "20:50",
-    "desc": "60 m W45 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V40",
-    "day": 3,
-    "time": "21:00",
-    "desc": "60 m W40 SF"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
     "ageGroup": "V35",
-    "day": 3,
+    "day": 1,
+    "time": "17:25",
+    "desc": "RW 60 m M35 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "17:40",
+    "desc": "RW 60 m M40 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "17:40",
+    "desc": "RW 60 m M40 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "17:55",
+    "desc": "RW 60 m M45 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "17:55",
+    "desc": "RW 60 m M45 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:10",
+    "desc": "RW 60 m M50 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "18:10",
+    "desc": "RW 60 m M50 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:25",
+    "desc": "RW 60 m M55 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "18:25",
+    "desc": "RW 60 m M55 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:35",
+    "desc": "RW 60 m M60 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:35",
+    "desc": "RW 60 m M60 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:45",
+    "desc": "RW 60 m M65 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "18:45",
+    "desc": "RW 60 m M65 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "18:55",
+    "desc": "RW 60 m M70 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "18:55",
+    "desc": "RW 60 m M70 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "19:10",
+    "desc": "RW 60 m M75 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "19:10",
+    "desc": "RW 60 m M75 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "19:20",
+    "desc": "RW 60 m M80 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "19:20",
+    "desc": "RW 60 m M80 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "19:30",
+    "desc": "RW 60 m W80 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "19:30",
+    "desc": "RW 60 m W80 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "19:40",
+    "desc": "RW 60 m W75 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "19:40",
+    "desc": "RW 60 m W75 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "19:50",
+    "desc": "RW 60 m W70 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "19:50",
+    "desc": "RW 60 m W70 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "20:05",
+    "desc": "RW 60 m W65 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "20:05",
+    "desc": "RW 60 m W65 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "20:15",
+    "desc": "RW 60 m W60 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "20:15",
+    "desc": "RW 60 m W60 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "20:30",
+    "desc": "RW 60 m W55 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "20:30",
+    "desc": "RW 60 m W55 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "20:40",
+    "desc": "RW 60 m W50 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "20:40",
+    "desc": "RW 60 m W50 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "20:50",
+    "desc": "RW 60 m W45 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "20:50",
+    "desc": "RW 60 m W45 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "21:00",
+    "desc": "RW 60 m W40 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "21:00",
+    "desc": "RW 60 m W40 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
     "time": "21:10",
-    "desc": "60 m W35 SF"
+    "desc": "RW 60 m W35 SF"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "21:10",
+    "desc": "RW 60 m W35 SF"
   },
   {
     "eventCode": "60H",
@@ -1381,7 +3293,7 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 4,
     "time": "08:30",
-    "desc": "60m hurdles Pentathlon M35 Long Jump Discus"
+    "desc": "Pentathlon 60m hurdles Pentathlon M35"
   },
   {
     "eventCode": "60H",
@@ -1389,7 +3301,7 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 4,
     "time": "09:00",
-    "desc": "60m hurdles Pentathlon M40"
+    "desc": "Pentathlon 60m hurdles Pentathlon M40"
   },
   {
     "eventCode": "PEN",
@@ -1397,7 +3309,15 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 4,
     "time": "09:10",
-    "desc": "M35 Pentathlon"
+    "desc": "Pentathlon M35 Pentathlon"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 4,
+    "time": "08:30",
+    "desc": "Discus M60 Final"
   },
   {
     "eventCode": "PEN",
@@ -1405,7 +3325,15 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 4,
     "time": "10:25",
-    "desc": "M40 Pentathlon"
+    "desc": "Pentathlon M40 Pentathlon"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 4,
+    "time": "10:10",
+    "desc": "Discus M65 Final"
   },
   {
     "eventCode": "800",
@@ -1413,7 +3341,7 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 4,
     "time": "09:15",
-    "desc": "800 m Heats M35"
+    "desc": "Pentathlon 800 m Heats M35"
   },
   {
     "eventCode": "PEN",
@@ -1421,7 +3349,15 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 4,
     "time": "11:30",
-    "desc": "M45 Pentathlon"
+    "desc": "Pentathlon M45 Pentathlon"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 4,
+    "time": "12:00",
+    "desc": "Discus M70 Final"
   },
   {
     "eventCode": "800",
@@ -1429,7 +3365,7 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 4,
     "time": "09:47",
-    "desc": "800 m Heats M40"
+    "desc": "Pentathlon 800 m Heats M40"
   },
   {
     "eventCode": "PEN",
@@ -1437,7 +3373,15 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 4,
     "time": "12:30",
-    "desc": "M50 Pentathlon"
+    "desc": "Pentathlon M50 Pentathlon"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 4,
+    "time": "13:35",
+    "desc": "Discus M75 Final"
   },
   {
     "eventCode": "800",
@@ -1445,7 +3389,55 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 4,
     "time": "10:11",
-    "desc": "800 m Heats M45"
+    "desc": "Pentathlon 800 m Heats M45"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 4,
+    "time": "14:00",
+    "desc": "Pentathlon M55-gr.1 Pentathlon"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 4,
+    "time": "15:00",
+    "desc": "Discus M80 Final"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 4,
+    "time": "15:15",
+    "desc": "Pentathlon M55-gr.2 Pentathlon"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 4,
+    "time": "16:10",
+    "desc": "Discus M85+ Final"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 4,
+    "time": "16:10",
+    "desc": "Discus M85+ Final"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 4,
+    "time": "16:10",
+    "desc": "Discus M85+ Final"
   },
   {
     "eventCode": "60H",
@@ -1453,7 +3445,7 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 4,
     "time": "10:43",
-    "desc": "60m hurdles Pentathlon M45"
+    "desc": "Pentathlon 60m hurdles Pentathlon M45"
   },
   {
     "eventCode": "800",
@@ -1461,7 +3453,39 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 4,
     "time": "11:00",
-    "desc": "800 m Heats M50"
+    "desc": "Pentathlon 800 m Heats M50"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 4,
+    "time": "08:00",
+    "desc": "Triple Jump M85+ Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 4,
+    "time": "08:00",
+    "desc": "Triple Jump M85+ Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 4,
+    "time": "08:00",
+    "desc": "Triple Jump M85+ Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 4,
+    "time": "17:40",
+    "desc": "Hammer M55 Final"
   },
   {
     "eventCode": "800",
@@ -1469,15 +3493,23 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 4,
     "time": "11:32",
-    "desc": "800 m Heats M55"
+    "desc": "Pentathlon 800 m Heats M55"
   },
   {
-    "eventCode": "JT",
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 4,
+    "time": "16:20",
+    "desc": "Triple Jump M60 Final"
+  },
+  {
+    "eventCode": "TJ",
     "gender": "M",
     "ageGroup": "V65",
     "day": 4,
     "time": "18:00",
-    "desc": "M65 Final Javelin"
+    "desc": "Triple Jump M65 Final"
   },
   {
     "eventCode": "60H",
@@ -1485,7 +3517,47 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 4,
     "time": "12:02",
-    "desc": "60m hurdles Pentathlon M50"
+    "desc": "Pentathlon 60m hurdles Pentathlon M50"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 4,
+    "time": "19:55",
+    "desc": "Triple Jump M70 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 4,
+    "time": "16:00",
+    "desc": "Javelin M35 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 4,
+    "time": "21:05",
+    "desc": "Triple Jump M75-80 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 4,
+    "time": "21:05",
+    "desc": "Triple Jump M75-80 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 4,
+    "time": "17:05",
+    "desc": "Javelin M40 Final"
   },
   {
     "eventCode": "800",
@@ -1493,7 +3565,7 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 4,
     "time": "12:20",
-    "desc": "800 m Heats M60"
+    "desc": "Pentathlon 800 m Heats M60"
   },
   {
     "eventCode": "60H",
@@ -1501,7 +3573,39 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 4,
     "time": "13:00",
-    "desc": "60m hurdles Pentathlon M55"
+    "desc": "Pentathlon 60m hurdles Pentathlon M55"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 4,
+    "time": "08:30",
+    "desc": "Weight Throw W35-40 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 4,
+    "time": "08:30",
+    "desc": "Weight Throw W35-40 Final"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 4,
+    "time": "11:30",
+    "desc": "Pentathlon M35"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 4,
+    "time": "10:20",
+    "desc": "Weight Throw W45 Final"
   },
   {
     "eventCode": "800",
@@ -1509,7 +3613,23 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 4,
     "time": "13:25",
-    "desc": "800 m Heats M65 Pentathlon"
+    "desc": "Pentathlon 800 m Heats M65"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 4,
+    "time": "14:30",
+    "desc": "Pentathlon M45"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 4,
+    "time": "11:30",
+    "desc": "Weight Throw W50 Final"
   },
   {
     "eventCode": "800",
@@ -1517,7 +3637,23 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 4,
     "time": "13:49",
-    "desc": "800 m Heats M70 Pentathlon"
+    "desc": "Pentathlon 800 m Heats M70"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 4,
+    "time": "18:30",
+    "desc": "Pentathlon M55-gr.1"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V55",
+    "day": 4,
+    "time": "12:55",
+    "desc": "Weight Throw W55 Final"
   },
   {
     "eventCode": "800",
@@ -1525,7 +3661,15 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 4,
     "time": "14:13",
-    "desc": "800 m Heats M75"
+    "desc": "Pentathlon 800 m Heats M75"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 4,
+    "time": "14:40",
+    "desc": "Weight Throw W60 Final"
   },
   {
     "eventCode": "800",
@@ -1533,15 +3677,15 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 4,
     "time": "14:29",
-    "desc": "800 m Heats M80 High Jump"
+    "desc": "Pentathlon 800 m Heats M80"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V60",
     "day": 4,
     "time": "14:45",
-    "desc": "800 m Heats W60 Hammer II"
+    "desc": "Pentathlon 800 m Heats W60"
   },
   {
     "eventCode": "PEN",
@@ -1549,7 +3693,15 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 4,
     "time": "12:45",
-    "desc": "M40 Pentathlon"
+    "desc": "Pentathlon M40 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 4,
+    "time": "16:20",
+    "desc": "Hammer M50 Final"
   },
   {
     "eventCode": "PEN",
@@ -1557,7 +3709,7 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 4,
     "time": "15:00",
-    "desc": "1000 m Pentathlon M35"
+    "desc": "Pentathlon 1000 m Pentathlon M35"
   },
   {
     "eventCode": "PEN",
@@ -1565,7 +3717,15 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 4,
     "time": "15:40",
-    "desc": "M50 Pentathlon"
+    "desc": "Pentathlon M50 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 4,
+    "time": "17:50",
+    "desc": "Hammer M45 Final"
   },
   {
     "eventCode": "PEN",
@@ -1573,319 +3733,503 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 4,
     "time": "15:15",
-    "desc": "1000 m Pentathlon M40"
+    "desc": "Pentathlon 1000 m Pentathlon M40"
   },
   {
-    "eventCode": "800",
-    "gender": "F",
+    "eventCode": "PEN",
+    "gender": "M",
     "ageGroup": "V55",
-    "day": 4,
-    "time": "15:30",
-    "desc": "800 m Heats W55 Pole Vault"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V50",
-    "day": 4,
-    "time": "15:54",
-    "desc": "800 m Heats W50"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V45",
-    "day": 4,
-    "time": "16:10",
-    "desc": "800 m Heats W45"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V40",
-    "day": 4,
-    "time": "16:34",
-    "desc": "800 m Heats W40"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V35",
-    "day": 4,
-    "time": "16:50",
-    "desc": "800 m Heats W35"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V35",
-    "day": 4,
-    "time": "17:05",
-    "desc": "60 m Final W35 Shot Put"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V40",
-    "day": 4,
-    "time": "17:10",
-    "desc": "60 m Final W40"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V45",
-    "day": 4,
-    "time": "17:15",
-    "desc": "60 m Final W45"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "M",
-    "ageGroup": "V35",
-    "day": 4,
-    "time": "10:15",
-    "desc": "M35 Pentathlon"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V50",
-    "day": 4,
-    "time": "17:20",
-    "desc": "60 m Final W50"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "M",
-    "ageGroup": "V40",
-    "day": 4,
-    "time": "11:30",
-    "desc": "M40 Pentathlon"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V55",
-    "day": 4,
-    "time": "17:25",
-    "desc": "60 m Final W55"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "M",
-    "ageGroup": "V45",
-    "day": 4,
-    "time": "13:05",
-    "desc": "M45 Pentathlon"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V60",
-    "day": 4,
-    "time": "17:30",
-    "desc": "60 m Final W60"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "M",
-    "ageGroup": "V50",
-    "day": 4,
-    "time": "14:05",
-    "desc": "M50 Pentathlon"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V65",
-    "day": 4,
-    "time": "17:35",
-    "desc": "60 m Final W65"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V70",
-    "day": 4,
-    "time": "17:40",
-    "desc": "60 m Final W70"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V75",
     "day": 4,
     "time": "17:45",
-    "desc": "60 m Final W75"
+    "desc": "Pentathlon M55-gr.2 Pentathlon"
   },
   {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V80",
-    "day": 4,
-    "time": "17:50",
-    "desc": "60 m Final W80"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V85",
-    "day": 4,
-    "time": "17:55",
-    "desc": "60 m Final W85+"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V90",
-    "day": 4,
-    "time": "17:55",
-    "desc": "60 m Final W85+"
-  },
-  {
-    "eventCode": "60",
-    "gender": "F",
-    "ageGroup": "V95",
-    "day": 4,
-    "time": "17:55",
-    "desc": "60 m Final W85+"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "M",
-    "ageGroup": "V45",
-    "day": 4,
-    "time": "18:00",
-    "desc": "1000 m Pentathlon M45"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "M",
-    "ageGroup": "V50",
-    "day": 4,
-    "time": "18:20",
-    "desc": "1000 m Pentathlon M50"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V90",
-    "day": 4,
-    "time": "18:40",
-    "desc": "60 m Final M90+"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V95",
-    "day": 4,
-    "time": "18:40",
-    "desc": "60 m Final M90+"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V85",
-    "day": 4,
-    "time": "18:45",
-    "desc": "60 m Final M85"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V80",
-    "day": 4,
-    "time": "18:50",
-    "desc": "60 m Final M80"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V75",
-    "day": 4,
-    "time": "18:55",
-    "desc": "60 m Final M75"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V70",
-    "day": 4,
-    "time": "19:00",
-    "desc": "60 m Final M70"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V65",
-    "day": 4,
-    "time": "19:05",
-    "desc": "60 m Final M65"
-  },
-  {
-    "eventCode": "60",
-    "gender": "M",
-    "ageGroup": "V60",
-    "day": 4,
-    "time": "19:10",
-    "desc": "60 m Final M60"
-  },
-  {
-    "eventCode": "60",
+    "eventCode": "800",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 4,
-    "time": "19:15",
-    "desc": "60 m Final M55"
+    "day": 1,
+    "time": "15:30",
+    "desc": "Pentathlon 800 m Heats W55"
   },
   {
-    "eventCode": "60",
+    "eventCode": "800",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 4,
-    "time": "19:20",
-    "desc": "60 m Final M50"
+    "day": 1,
+    "time": "15:54",
+    "desc": "Pentathlon 800 m Heats W50"
   },
   {
-    "eventCode": "60",
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Pole Vault W35-40 Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Pole Vault W35-40 Final"
+  },
+  {
+    "eventCode": "800",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 4,
-    "time": "19:25",
-    "desc": "60 m Final M45"
+    "day": 1,
+    "time": "16:10",
+    "desc": "Pentathlon 800 m Heats W45"
   },
   {
-    "eventCode": "60",
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "11:30",
+    "desc": "Pole Vault W45-50 Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "11:30",
+    "desc": "Pole Vault W45-50 Final"
+  },
+  {
+    "eventCode": "800",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 4,
-    "time": "19:30",
-    "desc": "60 m Final M40"
+    "day": 1,
+    "time": "16:34",
+    "desc": "Pentathlon 800 m Heats W40"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "14:00",
+    "desc": "Pole Vault W55-60 Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "14:00",
+    "desc": "Pole Vault W55-60 Final"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "16:50",
+    "desc": "Pentathlon 800 m Heats W35"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "17:00",
+    "desc": "Pole Vault W65+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "17:00",
+    "desc": "Pole Vault W65+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "17:00",
+    "desc": "Pole Vault W65+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "17:00",
+    "desc": "Pole Vault W65+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "17:00",
+    "desc": "Pole Vault W65+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "17:00",
+    "desc": "Pole Vault W65+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "17:00",
+    "desc": "Pole Vault W65+ Final"
   },
   {
     "eventCode": "60",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 4,
-    "time": "19:35",
-    "desc": "60 m Final M35"
+    "day": 1,
+    "time": "17:05",
+    "desc": "Pentathlon 60 m Final W35"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "17:10",
+    "desc": "Pentathlon 60 m Final W40"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Shot Put W80+ Final"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Shot Put W80+ Final"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Shot Put W80+ Final"
+  },
+  {
+    "eventCode": "SP",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Shot Put W80+ Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "17:15",
+    "desc": "Pentathlon 60 m Final W45"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "10:15",
+    "desc": "Pentathlon M35 Pentathlon"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "17:20",
+    "desc": "Pentathlon 60 m Final W50"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "11:30",
+    "desc": "Pentathlon M40 Pentathlon"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "17:25",
+    "desc": "Pentathlon 60 m Final W55"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "13:05",
+    "desc": "Pentathlon M45 Pentathlon"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "17:30",
+    "desc": "Pentathlon 60 m Final W60"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "14:05",
+    "desc": "Pentathlon M50 Pentathlon"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "17:35",
+    "desc": "Pentathlon 60 m Final W65"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 4,
+    "day": 1,
+    "time": "15:15",
+    "desc": "Pentathlon M55-gr.1 Pentathlon"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "17:40",
+    "desc": "Pentathlon 60 m Final W70"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "16:30",
+    "desc": "Pentathlon M55-gr.2 Pentathlon"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "17:45",
+    "desc": "Pentathlon 60 m Final W75"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "17:45",
+    "desc": "Pentathlon W75 Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "17:50",
+    "desc": "Pentathlon 60 m Final W80"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "19:10",
+    "desc": "Pentathlon W70 Final"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "17:55",
+    "desc": "Pentathlon 60 m Final W85+"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "17:55",
+    "desc": "Pentathlon 60 m Final W85+"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "17:55",
+    "desc": "Pentathlon 60 m Final W85+"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "20:30",
+    "desc": "Pentathlon W65 Final"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "18:00",
+    "desc": "Pentathlon 1000 m Pentathlon M45"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "18:20",
+    "desc": "Pentathlon 1000 m Pentathlon M50"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "18:40",
+    "desc": "Pentathlon 60 m Final M90+"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "18:40",
+    "desc": "Pentathlon 60 m Final M90+"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "18:45",
+    "desc": "Pentathlon 60 m Final M85"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "18:50",
+    "desc": "Pentathlon 60 m Final M80"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "18:55",
+    "desc": "Pentathlon 60 m Final M75"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "19:00",
+    "desc": "Pentathlon 60 m Final M70"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "19:05",
+    "desc": "Pentathlon 60 m Final M65"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "19:10",
+    "desc": "Pentathlon 60 m Final M60"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "19:15",
+    "desc": "Pentathlon 60 m Final M55"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "19:20",
+    "desc": "Pentathlon 60 m Final M50"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "19:25",
+    "desc": "Pentathlon 60 m Final M45"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "19:30",
+    "desc": "Pentathlon 60 m Final M40"
+  },
+  {
+    "eventCode": "60",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "19:35",
+    "desc": "Pentathlon 60 m Final M35"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
     "time": "19:45",
-    "desc": "1000 m Pentathlon M55"
+    "desc": "Pentathlon 1000 m Pentathlon M55"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V35",
     "day": 5,
     "time": "08:00",
-    "desc": "200 m Heats W35 Long Jump Javelin"
+    "desc": "Pentathlon 200 m Heats W35"
   },
   {
     "eventCode": "PEN",
@@ -1893,7 +4237,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 5,
     "time": "08:50",
-    "desc": "M80-85 Pentathlon"
+    "desc": "Pentathlon M80-85 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -1901,7 +4245,15 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 5,
     "time": "08:50",
-    "desc": "M80-85 Pentathlon"
+    "desc": "Pentathlon M80-85 Pentathlon"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 5,
+    "time": "09:00",
+    "desc": "Javelin W65 Final"
   },
   {
     "eventCode": "60H",
@@ -1909,7 +4261,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 5,
     "time": "08:20",
-    "desc": "60m Hurdles Pentathlon M80-85"
+    "desc": "Pentathlon 60m Hurdles Pentathlon M80-85"
   },
   {
     "eventCode": "60H",
@@ -1917,7 +4269,7 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 5,
     "time": "08:20",
-    "desc": "60m Hurdles Pentathlon M80-85"
+    "desc": "Pentathlon 60m Hurdles Pentathlon M80-85"
   },
   {
     "eventCode": "PEN",
@@ -1925,7 +4277,15 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 5,
     "time": "09:40",
-    "desc": "M75 Pentathlon"
+    "desc": "Pentathlon M75 Pentathlon"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 5,
+    "time": "10:30",
+    "desc": "Javelin W70 Final"
   },
   {
     "eventCode": "PEN",
@@ -1933,15 +4293,23 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 5,
     "time": "10:40",
-    "desc": "M70 Pentathlon"
+    "desc": "Pentathlon M70 Pentathlon"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 5,
+    "time": "11:45",
+    "desc": "Javelin W75 Final"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V40",
     "day": 5,
     "time": "08:25",
-    "desc": "200 m Heats W40"
+    "desc": "Pentathlon 200 m Heats W40"
   },
   {
     "eventCode": "PEN",
@@ -1949,7 +4317,39 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 5,
     "time": "12:10",
-    "desc": "M65 gr.1 Pentathlon"
+    "desc": "Pentathlon M65 gr.1 Pentathlon"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 5,
+    "time": "12:45",
+    "desc": "Javelin W80+ Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 5,
+    "time": "12:45",
+    "desc": "Javelin W80+ Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 5,
+    "time": "12:45",
+    "desc": "Javelin W80+ Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 5,
+    "time": "12:45",
+    "desc": "Javelin W80+ Final"
   },
   {
     "eventCode": "PEN",
@@ -1957,7 +4357,7 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 5,
     "time": "13:15",
-    "desc": "M65 gr.2 Pentathlon"
+    "desc": "Pentathlon M65 gr.2 Pentathlon"
   },
   {
     "eventCode": "60H",
@@ -1965,15 +4365,15 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 5,
     "time": "09:00",
-    "desc": "60m Hurdles Pentathlon M75"
+    "desc": "Pentathlon 60m Hurdles Pentathlon M75"
   },
   {
-    "eventCode": "DT",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V60",
     "day": 5,
     "time": "14:00",
-    "desc": "M60 gr.1 Pentathlon Discus"
+    "desc": "Pentathlon M60 gr.1 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -1981,23 +4381,63 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 5,
     "time": "15:15",
-    "desc": "M60 gr.2 Pentathlon"
+    "desc": "Pentathlon M60 gr.2 Pentathlon"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 5,
+    "time": "12:00",
+    "desc": "Discus M45 Final"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V45",
     "day": 5,
     "time": "09:05",
-    "desc": "200 m Heats W45"
+    "desc": "Pentathlon 200 m Heats W45"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 5,
+    "time": "13:25",
+    "desc": "Discus M50 Final"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V50",
     "day": 5,
     "time": "09:30",
-    "desc": "200 m Heats W50 Triple Jump"
+    "desc": "Pentathlon 200 m Heats W50"
+  },
+  {
+    "eventCode": "DT",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 5,
+    "time": "15:00",
+    "desc": "Discus M55 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 5,
+    "time": "16:30",
+    "desc": "Triple Jump W35,W45 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 5,
+    "time": "16:30",
+    "desc": "Triple Jump W35,W45 Final"
   },
   {
     "eventCode": "60H",
@@ -2005,31 +4445,71 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 5,
     "time": "10:00",
-    "desc": "60m Hurdles Pentathlon M70"
+    "desc": "Pentathlon 60m Hurdles Pentathlon M70"
   },
   {
-    "eventCode": "HT",
-    "gender": "F",
+    "eventCode": "TJ",
+    "gender": "M",
     "ageGroup": "V40",
     "day": 5,
     "time": "18:00",
-    "desc": "W40 Final Hammer - stadium"
+    "desc": "Triple Jump W40 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 5,
+    "time": "19:30",
+    "desc": "Triple Jump W50-55 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 5,
+    "time": "19:30",
+    "desc": "Triple Jump W50-55 Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 5,
+    "time": "16:45",
+    "desc": "Hammer M85+ Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 5,
+    "time": "16:45",
+    "desc": "Hammer M85+ Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 5,
+    "time": "16:45",
+    "desc": "Hammer M85+ Final"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V55",
     "day": 5,
     "time": "10:15",
-    "desc": "200 m Heats W55"
+    "desc": "Pentathlon 200 m Heats W55"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V60",
     "day": 5,
     "time": "10:30",
-    "desc": "200 m Heats W60 High Jump Weight Throw"
+    "desc": "Pentathlon 200 m Heats W60"
   },
   {
     "eventCode": "200",
@@ -2037,7 +4517,23 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 5,
     "time": "10:50",
-    "desc": "200 m Heats M70 I"
+    "desc": "Pentathlon 200 m Heats M70"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 5,
+    "time": "09:00",
+    "desc": "Weight Throw M35-40 Final"
+  },
+  {
+    "eventCode": "WT",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 5,
+    "time": "09:00",
+    "desc": "Weight Throw M35-40 Final"
   },
   {
     "eventCode": "200",
@@ -2045,7 +4541,7 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 5,
     "time": "11:20",
-    "desc": "200 m Heats M75"
+    "desc": "Pentathlon 200 m Heats M75"
   },
   {
     "eventCode": "PEN",
@@ -2053,7 +4549,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 5,
     "time": "10:40",
-    "desc": "M80-85 Pentathlon"
+    "desc": "Pentathlon M80-85 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2061,15 +4557,15 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 5,
     "time": "10:40",
-    "desc": "M80-85 Pentathlon"
+    "desc": "Pentathlon M80-85 Pentathlon"
   },
   {
-    "eventCode": "HT",
+    "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V70",
     "day": 5,
     "time": "13:25",
-    "desc": "M70 Pentathlon Hammer"
+    "desc": "Pentathlon M70 Pentathlon"
   },
   {
     "eventCode": "60H",
@@ -2077,7 +4573,7 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 5,
     "time": "11:40",
-    "desc": "60m Hurdles Pentathlon M65"
+    "desc": "Pentathlon 60m Hurdles Pentathlon M65"
   },
   {
     "eventCode": "PEN",
@@ -2085,7 +4581,15 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 5,
     "time": "15:25",
-    "desc": "M65 gr.2 Pentathlon"
+    "desc": "Pentathlon M65 gr.2 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 5,
+    "time": "10:45",
+    "desc": "Hammer M60 Final"
   },
   {
     "eventCode": "PEN",
@@ -2093,7 +4597,15 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 5,
     "time": "17:45",
-    "desc": "M60 gr.2 Pentathlon"
+    "desc": "Pentathlon M60 gr.2 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 5,
+    "time": "12:10",
+    "desc": "Hammer M65 Final"
   },
   {
     "eventCode": "200",
@@ -2101,7 +4613,15 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 5,
     "time": "12:05",
-    "desc": "200 m Heats M65"
+    "desc": "Pentathlon 200 m Heats M65"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 5,
+    "time": "14:00",
+    "desc": "Hammer M70 Final"
   },
   {
     "eventCode": "200",
@@ -2109,7 +4629,23 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 5,
     "time": "12:50",
-    "desc": "200 m Heats M60 High Jump"
+    "desc": "Pentathlon 200 m Heats M60"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 5,
+    "time": "15:30",
+    "desc": "Hammer M75 Final"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 5,
+    "time": "17:00",
+    "desc": "Hammer M80 Final"
   },
   {
     "eventCode": "60H",
@@ -2117,7 +4653,7 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 5,
     "time": "13:45",
-    "desc": "60m Hurdles Pentathlon M60"
+    "desc": "Pentathlon 60m Hurdles Pentathlon M60"
   },
   {
     "eventCode": "PEN",
@@ -2125,7 +4661,7 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 5,
     "time": "11:30",
-    "desc": "M75 Pentathlon"
+    "desc": "Pentathlon M75 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2133,7 +4669,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 5,
     "time": "14:10",
-    "desc": "1000m Pentathlon M80-85"
+    "desc": "Pentathlon 1000m Pentathlon M80-85"
   },
   {
     "eventCode": "PEN",
@@ -2141,7 +4677,7 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 5,
     "time": "14:10",
-    "desc": "1000m Pentathlon M80-85"
+    "desc": "Pentathlon 1000m Pentathlon M80-85"
   },
   {
     "eventCode": "PEN",
@@ -2149,7 +4685,7 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 5,
     "time": "14:20",
-    "desc": "M65 gr.1 Pentathlon"
+    "desc": "Pentathlon M65 gr.1 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2157,7 +4693,7 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 5,
     "time": "14:20",
-    "desc": "1000 m Pentathlon M75"
+    "desc": "Pentathlon 1000 m Pentathlon M75"
   },
   {
     "eventCode": "PEN",
@@ -2165,487 +4701,719 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 5,
     "time": "16:40",
-    "desc": "M60 gr.1 Pentathlon"
+    "desc": "Pentathlon M60 gr.1 Pentathlon"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 5,
+    "day": 1,
     "time": "14:30",
-    "desc": "200 m Heats M55 Pole Vault"
+    "desc": "Pentathlon 200 m Heats M55"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 5,
+    "day": 1,
     "time": "15:20",
-    "desc": "200 m Heats M50"
+    "desc": "Pentathlon 200 m Heats M50"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Pole Vault M35 Final"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 5,
+    "day": 1,
     "time": "16:05",
-    "desc": "200 m Heats M45"
+    "desc": "Pentathlon 200 m Heats M45"
   },
   {
-    "eventCode": "5KW",
+    "eventCode": "PV",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 5,
+    "day": 1,
     "time": "11:00",
-    "desc": "M40 Final 5 km RW"
+    "desc": "Pole Vault M40 Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "14:00",
+    "desc": "Pole Vault M45 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "10:00",
+    "desc": "RW W35-50 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "10:00",
+    "desc": "RW W35-50 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "10:00",
+    "desc": "RW W35-50 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "10:00",
+    "desc": "RW W35-50 Final"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 5,
+    "day": 1,
     "time": "16:50",
-    "desc": "1000 m Pentathlon M70"
+    "desc": "Pentathlon 1000 m Pentathlon M70"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "16:15",
+    "desc": "Pole Vault M50 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "10:40",
+    "desc": "RW W55+ Final"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 5,
+    "day": 1,
     "time": "17:00",
-    "desc": "200 m Heats M40 Shot Put"
+    "desc": "Pentathlon 200 m Heats M40"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "11:40",
+    "desc": "RW M35-50 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "11:40",
+    "desc": "RW M35-50 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "11:40",
+    "desc": "RW M35-50 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "11:40",
+    "desc": "RW M35-50 Final"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 5,
+    "day": 1,
     "time": "09:45",
-    "desc": "M80-85 Pentathlon"
+    "desc": "Pentathlon M80-85 Pentathlon"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 5,
+    "day": 1,
     "time": "09:45",
-    "desc": "M80-85 Pentathlon"
+    "desc": "Pentathlon M80-85 Pentathlon"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "12:15",
+    "desc": "RW M55-65 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "12:15",
+    "desc": "RW M55-65 Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "12:15",
+    "desc": "RW M55-65 Final"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 5,
+    "day": 1,
     "time": "17:45",
-    "desc": "1000 m Pentathlon M65"
+    "desc": "Pentathlon 1000 m Pentathlon M65"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 5,
+    "day": 1,
     "time": "10:35",
-    "desc": "M75 Pentathlon"
+    "desc": "Pentathlon M75 Pentathlon"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "13:00",
+    "desc": "RW M70+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "13:00",
+    "desc": "RW M70+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "13:00",
+    "desc": "RW M70+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "13:00",
+    "desc": "RW M70+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "13:00",
+    "desc": "RW M70+ Final"
+  },
+  {
+    "eventCode": "3000W",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "13:00",
+    "desc": "RW M70+ Final"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 5,
+    "day": 1,
     "time": "12:00",
-    "desc": "M70 Pentathlon"
+    "desc": "Pentathlon M70 Pentathlon"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 5,
+    "day": 1,
     "time": "18:00",
-    "desc": "200 m Heats M35"
+    "desc": "Pentathlon 200 m Heats M35"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 5,
+    "day": 1,
     "time": "13:15",
-    "desc": "M65 gr.1 Pentathlon"
+    "desc": "Pentathlon M65 gr.1 Pentathlon"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 5,
+    "day": 1,
     "time": "14:20",
-    "desc": "M65 gr.2 Pentathlon"
+    "desc": "Pentathlon M65 gr.2 Pentathlon"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V35",
-    "day": 5,
+    "day": 1,
     "time": "18:45",
-    "desc": "800 m Final W35"
+    "desc": "Pentathlon 800 m Final W35"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 5,
+    "day": 1,
     "time": "15:20",
-    "desc": "M60 gr.1 Pentathlon"
+    "desc": "Pentathlon M60 gr.1 Pentathlon"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V40",
-    "day": 5,
+    "day": 1,
     "time": "18:52",
-    "desc": "800 m Final W40"
+    "desc": "Pentathlon 800 m Final W40"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 5,
+    "day": 1,
     "time": "16:30",
-    "desc": "M60 gr.2 Pentathlon"
+    "desc": "Pentathlon M60 gr.2 Pentathlon"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V45",
-    "day": 5,
+    "day": 1,
     "time": "18:59",
-    "desc": "800 m Final W45"
+    "desc": "Pentathlon 800 m Final W45"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V50",
-    "day": 5,
+    "day": 1,
     "time": "19:06",
-    "desc": "800 m Final W50"
+    "desc": "Pentathlon 800 m Final W50"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V55",
-    "day": 5,
+    "day": 1,
     "time": "19:13",
-    "desc": "800 m Final W55"
+    "desc": "Pentathlon 800 m Final W55"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V60",
-    "day": 5,
+    "day": 1,
     "time": "19:20",
-    "desc": "800 m Final W60"
+    "desc": "Pentathlon 800 m Final W60"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V65",
-    "day": 5,
+    "day": 1,
     "time": "19:27",
-    "desc": "800 m Final W65"
+    "desc": "Pentathlon 800 m Final W65"
   },
   {
     "eventCode": "PEN",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 5,
+    "day": 1,
     "time": "19:34",
-    "desc": "1000 m Pentathlon M60"
+    "desc": "Pentathlon 1000 m Pentathlon M60"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V70",
-    "day": 5,
+    "day": 1,
     "time": "19:49",
-    "desc": "800 m Final W70"
+    "desc": "Pentathlon 800 m Final W70"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V75",
-    "day": 5,
+    "day": 1,
     "time": "19:57",
-    "desc": "800 m Final W75"
+    "desc": "Pentathlon 800 m Final W75"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V80",
-    "day": 5,
+    "day": 1,
     "time": "20:05",
-    "desc": "800 m Final W80+"
+    "desc": "Pentathlon 800 m Final W80+"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V85",
-    "day": 5,
+    "day": 1,
     "time": "20:05",
-    "desc": "800 m Final W80+"
+    "desc": "Pentathlon 800 m Final W80+"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V90",
-    "day": 5,
+    "day": 1,
     "time": "20:05",
-    "desc": "800 m Final W80+"
+    "desc": "Pentathlon 800 m Final W80+"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V95",
-    "day": 5,
+    "day": 1,
     "time": "20:05",
-    "desc": "800 m Final W80+"
+    "desc": "Pentathlon 800 m Final W80+"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 5,
+    "day": 1,
     "time": "20:13",
-    "desc": "800 m Final M35"
+    "desc": "Pentathlon 800 m Final M35"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 5,
+    "day": 1,
     "time": "20:20",
-    "desc": "800 m Final M40"
+    "desc": "Pentathlon 800 m Final M40"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 5,
+    "day": 1,
     "time": "20:27",
-    "desc": "800 m Final M45"
+    "desc": "Pentathlon 800 m Final M45"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 5,
+    "day": 1,
     "time": "20:34",
-    "desc": "800 m Final M50"
+    "desc": "Pentathlon 800 m Final M50"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 5,
+    "day": 1,
     "time": "20:41",
-    "desc": "800 m Final M55"
+    "desc": "Pentathlon 800 m Final M55"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 5,
+    "day": 1,
     "time": "20:48",
-    "desc": "800 m Final M60"
+    "desc": "Pentathlon 800 m Final M60"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 5,
+    "day": 1,
     "time": "20:55",
-    "desc": "800 m Final M65"
+    "desc": "Pentathlon 800 m Final M65"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 5,
+    "day": 1,
     "time": "21:02",
-    "desc": "800 m Final M70"
+    "desc": "Pentathlon 800 m Final M70"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 5,
+    "day": 1,
     "time": "21:10",
-    "desc": "800 m Final M75"
+    "desc": "Pentathlon 800 m Final M75"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 5,
+    "day": 1,
     "time": "21:18",
-    "desc": "800 m Final M80"
+    "desc": "Pentathlon 800 m Final M80"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 5,
+    "day": 1,
     "time": "21:26",
-    "desc": "800 m Final M85+"
+    "desc": "Pentathlon 800 m Final M85+"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 5,
+    "day": 1,
     "time": "21:26",
-    "desc": "800 m Final M85+"
+    "desc": "Pentathlon 800 m Final M85+"
   },
   {
     "eventCode": "800",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 5,
+    "day": 1,
     "time": "21:26",
-    "desc": "800 m Final M85+"
+    "desc": "Pentathlon 800 m Final M85+"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V75",
-    "day": 5,
+    "day": 1,
     "time": "21:34",
-    "desc": "200m SF W75"
+    "desc": "Pentathlon 200m SF W75"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V70",
-    "day": 5,
+    "day": 1,
     "time": "21:44",
-    "desc": "200m SF W70"
+    "desc": "Pentathlon 200m SF W70"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V65",
-    "day": 5,
+    "day": 1,
     "time": "21:59",
-    "desc": "200m SF W65"
+    "desc": "Pentathlon 200m SF W65"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V60",
-    "day": 5,
+    "day": 1,
     "time": "22:14",
-    "desc": "200m SF W60"
+    "desc": "Pentathlon 200m SF W60"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V55",
-    "day": 5,
+    "day": 1,
     "time": "22:24",
-    "desc": "200m SF W55"
+    "desc": "Pentathlon 200m SF W55"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V50",
-    "day": 5,
+    "day": 1,
     "time": "22:34",
-    "desc": "200m SF W50"
+    "desc": "Pentathlon 200m SF W50"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V45",
-    "day": 5,
+    "day": 1,
     "time": "22:44",
-    "desc": "200m SF W45"
+    "desc": "Pentathlon 200m SF W45"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V40",
-    "day": 5,
+    "day": 1,
     "time": "22:54",
-    "desc": "200m SF W40"
+    "desc": "Pentathlon 200m SF W40"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V35",
-    "day": 5,
+    "day": 1,
     "time": "23:09",
-    "desc": "200m SF W35"
+    "desc": "Pentathlon 200m SF W35"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V70",
     "day": 6,
     "time": "08:15",
-    "desc": "60 m hurdles Pentathlon W70+ Long Jump Hammer"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V75",
     "day": 6,
     "time": "08:15",
-    "desc": "60 m hurdles Pentathlon W70+ Long Jump Hammer"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V80",
     "day": 6,
     "time": "08:15",
-    "desc": "60 m hurdles Pentathlon W70+ Long Jump Hammer"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V85",
     "day": 6,
     "time": "08:15",
-    "desc": "60 m hurdles Pentathlon W70+ Long Jump Hammer"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V90",
     "day": 6,
     "time": "08:15",
-    "desc": "60 m hurdles Pentathlon W70+ Long Jump Hammer"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V95",
     "day": 6,
     "time": "08:15",
-    "desc": "60 m hurdles Pentathlon W70+ Long Jump Hammer"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W70+"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V60",
     "day": 6,
     "time": "08:25",
-    "desc": "60 m hurdles Pentathlon W60-65"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W60-65"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V65",
     "day": 6,
     "time": "08:25",
-    "desc": "60 m hurdles Pentathlon W60-65"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W60-65"
   },
   {
     "eventCode": "PEN",
@@ -2653,7 +5421,7 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 6,
     "time": "11:40",
-    "desc": "W70+ Pentathlon Final"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2661,7 +5429,7 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 6,
     "time": "11:40",
-    "desc": "W70+ Pentathlon Final"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2669,7 +5437,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 6,
     "time": "11:40",
-    "desc": "W70+ Pentathlon Final"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2677,7 +5445,7 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 6,
     "time": "11:40",
-    "desc": "W70+ Pentathlon Final"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2685,7 +5453,7 @@ const emacs2026Schedule = [
     "ageGroup": "V90",
     "day": 6,
     "time": "11:40",
-    "desc": "W70+ Pentathlon Final"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2693,7 +5461,15 @@ const emacs2026Schedule = [
     "ageGroup": "V95",
     "day": 6,
     "time": "11:40",
-    "desc": "W70+ Pentathlon Final"
+    "desc": "Pentathlon W70+ Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Hammer W55"
   },
   {
     "eventCode": "PEN",
@@ -2701,7 +5477,7 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 6,
     "time": "12:35",
-    "desc": "W60-65 Pentathlon Final"
+    "desc": "Pentathlon W60-65 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2709,7 +5485,15 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 6,
     "time": "12:35",
-    "desc": "W60-65 Pentathlon Final"
+    "desc": "Pentathlon W60-65 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 6,
+    "time": "10:45",
+    "desc": "Hammer W60"
   },
   {
     "eventCode": "60H",
@@ -2717,7 +5501,7 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 6,
     "time": "08:36",
-    "desc": "60 m hurdles Heats M70"
+    "desc": "Pentathlon 60 m hurdles Heats M70"
   },
   {
     "eventCode": "PEN",
@@ -2725,7 +5509,15 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 6,
     "time": "13:30",
-    "desc": "W55 Pentathlon Final"
+    "desc": "Pentathlon W55 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 6,
+    "time": "12:30",
+    "desc": "Hammer W65"
   },
   {
     "eventCode": "60H",
@@ -2733,7 +5525,7 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 6,
     "time": "08:47",
-    "desc": "60 m hurdles Heats M65"
+    "desc": "Pentathlon 60 m hurdles Heats M65"
   },
   {
     "eventCode": "PEN",
@@ -2741,7 +5533,15 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 6,
     "time": "15:05",
-    "desc": "W50 Pentathlon Final"
+    "desc": "Pentathlon W50 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 6,
+    "time": "14:15",
+    "desc": "Hammer W70"
   },
   {
     "eventCode": "60H",
@@ -2749,7 +5549,7 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 6,
     "time": "09:02",
-    "desc": "60 m hurdles Heats M60"
+    "desc": "Pentathlon 60 m hurdles Heats M60"
   },
   {
     "eventCode": "PEN",
@@ -2757,7 +5557,7 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 6,
     "time": "16:25",
-    "desc": "W40-45 Pentathlon Final"
+    "desc": "Pentathlon W40-45 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2765,7 +5565,15 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 6,
     "time": "16:25",
-    "desc": "W40-45 Pentathlon Final"
+    "desc": "Pentathlon W40-45 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 6,
+    "time": "15:45",
+    "desc": "Hammer W75"
   },
   {
     "eventCode": "60H",
@@ -2773,7 +5581,7 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 6,
     "time": "09:18",
-    "desc": "60 m hurdles Heats M55"
+    "desc": "Pentathlon 60 m hurdles Heats M55"
   },
   {
     "eventCode": "PEN",
@@ -2781,7 +5589,39 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 6,
     "time": "18:15",
-    "desc": "W35 Pentathlon Final"
+    "desc": "Pentathlon W35 Pentathlon"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 6,
+    "time": "17:10",
+    "desc": "Hammer W80+"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 6,
+    "time": "17:10",
+    "desc": "Hammer W80+"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 6,
+    "time": "17:10",
+    "desc": "Hammer W80+"
+  },
+  {
+    "eventCode": "HT",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 6,
+    "time": "17:10",
+    "desc": "Hammer W80+"
   },
   {
     "eventCode": "60H",
@@ -2789,7 +5629,7 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 6,
     "time": "09:33",
-    "desc": "60 m hurdles Heats M50"
+    "desc": "Pentathlon 60 m hurdles Heats M50"
   },
   {
     "eventCode": "60H",
@@ -2797,7 +5637,7 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 6,
     "time": "09:43",
-    "desc": "60 m hurdles Heats M45"
+    "desc": "Pentathlon 60 m hurdles Heats M45"
   },
   {
     "eventCode": "60H",
@@ -2805,7 +5645,15 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 6,
     "time": "09:53",
-    "desc": "60 m hurdles Heats M40 TripleJump"
+    "desc": "Pentathlon 60 m hurdles Heats M40"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Javelin W50 Final"
   },
   {
     "eventCode": "60H",
@@ -2813,15 +5661,63 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 6,
     "time": "10:03",
-    "desc": "60 m hurdles Heats M35"
+    "desc": "Pentathlon 60 m hurdles Heats M35"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 6,
+    "time": "09:00",
+    "desc": "TripleJump M45 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 6,
+    "time": "10:20",
+    "desc": "Javelin W45 Final"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 6,
+    "time": "10:15",
+    "desc": "TripleJump M40 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 6,
+    "time": "11:40",
+    "desc": "Javelin W35-40 Final"
+  },
+  {
+    "eventCode": "JT",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 6,
+    "time": "11:40",
+    "desc": "Javelin W35-40 Final"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V55",
     "day": 6,
     "time": "10:14",
-    "desc": "60 m hurdles Pentathlon W55"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W55"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 6,
+    "time": "19:15",
+    "desc": "TripleJump M35 Final"
   },
   {
     "eventCode": "200",
@@ -2829,7 +5725,7 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 6,
     "time": "10:24",
-    "desc": "200 m SF M85 High Jump"
+    "desc": "Pentathlon 200 m SF M85"
   },
   {
     "eventCode": "200",
@@ -2837,7 +5733,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 6,
     "time": "10:34",
-    "desc": "200 m SF M80 I"
+    "desc": "Pentathlon 200 m SF M80"
   },
   {
     "eventCode": "PEN",
@@ -2845,7 +5741,7 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 6,
     "time": "08:50",
-    "desc": "W70+ Pentathlon"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2853,7 +5749,7 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 6,
     "time": "08:50",
-    "desc": "W70+ Pentathlon"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2861,7 +5757,7 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 6,
     "time": "08:50",
-    "desc": "W70+ Pentathlon"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2869,7 +5765,7 @@ const emacs2026Schedule = [
     "ageGroup": "V85",
     "day": 6,
     "time": "08:50",
-    "desc": "W70+ Pentathlon"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2877,7 +5773,7 @@ const emacs2026Schedule = [
     "ageGroup": "V90",
     "day": 6,
     "time": "08:50",
-    "desc": "W70+ Pentathlon"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2885,15 +5781,15 @@ const emacs2026Schedule = [
     "ageGroup": "V95",
     "day": 6,
     "time": "08:50",
-    "desc": "W70+ Pentathlon"
+    "desc": "Pentathlon W70+ Pentathlon"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V50",
     "day": 6,
     "time": "10:44",
-    "desc": "60 m hurdles Pentathlon W50"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W50"
   },
   {
     "eventCode": "PEN",
@@ -2901,7 +5797,7 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 6,
     "time": "10:45",
-    "desc": "W55 Pentathlon"
+    "desc": "Pentathlon W55 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2909,7 +5805,7 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 6,
     "time": "12:30",
-    "desc": "W40-45 Pentathlon"
+    "desc": "Pentathlon W40-45 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2917,7 +5813,7 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 6,
     "time": "12:30",
-    "desc": "W40-45 Pentathlon"
+    "desc": "Pentathlon W40-45 Pentathlon"
   },
   {
     "eventCode": "200",
@@ -2925,7 +5821,7 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 6,
     "time": "10:59",
-    "desc": "200 m SF M75"
+    "desc": "Pentathlon 200 m SF M75"
   },
   {
     "eventCode": "200",
@@ -2933,7 +5829,7 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 6,
     "time": "11:14",
-    "desc": "200 m SF M70 High Jump Cross Country"
+    "desc": "Pentathlon 200 m SF M70"
   },
   {
     "eventCode": "200",
@@ -2941,7 +5837,7 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 6,
     "time": "11:29",
-    "desc": "200 m SF M65 II"
+    "desc": "Pentathlon 200 m SF M65"
   },
   {
     "eventCode": "PEN",
@@ -2949,7 +5845,7 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 6,
     "time": "09:00",
-    "desc": "W60-65 Pentathlon"
+    "desc": "Pentathlon W60-65 Pentathlon"
   },
   {
     "eventCode": "PEN",
@@ -2957,23 +5853,119 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 6,
     "time": "09:00",
-    "desc": "W60-65 Pentathlon"
+    "desc": "Pentathlon W60-65 Pentathlon"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 6,
+    "time": "09:00",
+    "desc": "Cross Country M/W 70+ Final"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V40",
     "day": 6,
     "time": "11:44",
-    "desc": "60 m hurdles Pentathlon W40-45"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W40-45"
   },
   {
     "eventCode": "60H",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V45",
     "day": 6,
     "time": "11:44",
-    "desc": "60 m hurdles Pentathlon W40-45"
+    "desc": "Pentathlon 60 m hurdles Pentathlon W40-45"
   },
   {
     "eventCode": "PEN",
@@ -2981,7 +5973,31 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 6,
     "time": "11:20",
-    "desc": "W50 Pentathlon"
+    "desc": "Pentathlon W50 Pentathlon"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V55",
+    "day": 6,
+    "time": "10:00",
+    "desc": "Cross Country W55-65 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 6,
+    "time": "10:00",
+    "desc": "Cross Country W55-65 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 6,
+    "time": "10:00",
+    "desc": "Cross Country W55-65 Final"
   },
   {
     "eventCode": "PEN",
@@ -2989,7 +6005,39 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 6,
     "time": "15:00",
-    "desc": "W35 Pentathlon"
+    "desc": "Pentathlon W35 Pentathlon"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 6,
+    "time": "10:45",
+    "desc": "Cross Country W35-50 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 6,
+    "time": "10:45",
+    "desc": "Cross Country W35-50 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 6,
+    "time": "10:45",
+    "desc": "Cross Country W35-50 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 6,
+    "time": "10:45",
+    "desc": "Cross Country W35-50 Final"
   },
   {
     "eventCode": "200",
@@ -2997,655 +6045,759 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 6,
     "time": "12:00",
-    "desc": "200 m SF M60"
+    "desc": "Pentathlon 200 m SF M60"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 6,
+    "time": "11:30",
+    "desc": "Cross Country M60-65 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 6,
+    "time": "11:30",
+    "desc": "Cross Country M60-65 Final"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 6,
+    "day": 1,
     "time": "12:15",
-    "desc": "200 m SF M55 Pole Vault"
+    "desc": "Pentathlon 200 m SF M55"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "12:15",
+    "desc": "Cross Country M50-55 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "12:15",
+    "desc": "Cross Country M50-55 Final"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 6,
+    "day": 1,
     "time": "12:30",
-    "desc": "200 m SF M50"
+    "desc": "Pentathlon 200 m SF M50"
   },
   {
-    "eventCode": "200",
+    "eventCode": "PV",
     "gender": "M",
-    "ageGroup": "V45",
-    "day": 6,
-    "time": "12:45",
-    "desc": "200 m SF M45"
+    "ageGroup": "V55",
+    "day": 1,
+    "time": "09:00",
+    "desc": "Pole Vault M55 Final"
   },
   {
-    "eventCode": "200",
+    "eventCode": "XC",
     "gender": "M",
-    "ageGroup": "V40",
-    "day": 6,
+    "ageGroup": "V35",
+    "day": 1,
     "time": "13:00",
-    "desc": "200 m SF M40"
+    "desc": "Cross Country M35-45 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "13:00",
+    "desc": "Cross Country M35-45 Final"
+  },
+  {
+    "eventCode": "XC",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "13:00",
+    "desc": "Cross Country M35-45 Final"
+  },
+  {
+    "eventCode": "200",
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "12:45",
+    "desc": "Pentathlon 200 m SF M45"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "12:00",
+    "desc": "Pole Vault M60 Final"
+  },
+  {
+    "eventCode": "200",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "13:00",
+    "desc": "Pentathlon 200 m SF M40"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "14:00",
+    "desc": "Pole Vault M65 Final"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 6,
+    "day": 1,
     "time": "13:15",
-    "desc": "200 m SF M35"
+    "desc": "Pentathlon 200 m SF M35"
   },
   {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V70",
-    "day": 6,
-    "time": "13:30",
-    "desc": "800 m Pentathlon W70+ Shot Put"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V75",
-    "day": 6,
-    "time": "13:30",
-    "desc": "800 m Pentathlon W70+ Shot Put"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V80",
-    "day": 6,
-    "time": "13:30",
-    "desc": "800 m Pentathlon W70+ Shot Put"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V85",
-    "day": 6,
-    "time": "13:30",
-    "desc": "800 m Pentathlon W70+ Shot Put"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V90",
-    "day": 6,
-    "time": "13:30",
-    "desc": "800 m Pentathlon W70+ Shot Put"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V95",
-    "day": 6,
-    "time": "13:30",
-    "desc": "800 m Pentathlon W70+ Shot Put"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V60",
-    "day": 6,
-    "time": "13:38",
-    "desc": "800 m Pentathlon W60-65"
-  },
-  {
-    "eventCode": "800",
-    "gender": "F",
-    "ageGroup": "V65",
-    "day": 6,
-    "time": "13:38",
-    "desc": "800 m Pentathlon W60-65"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V70",
-    "day": 6,
-    "time": "10:30",
-    "desc": "W70+ Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V75",
-    "day": 6,
-    "time": "10:30",
-    "desc": "W70+ Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V80",
-    "day": 6,
-    "time": "10:30",
-    "desc": "W70+ Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V85",
-    "day": 6,
-    "time": "10:30",
-    "desc": "W70+ Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V90",
-    "day": 6,
-    "time": "10:30",
-    "desc": "W70+ Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V95",
-    "day": 6,
-    "time": "10:30",
-    "desc": "W70+ Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V60",
-    "day": 6,
-    "time": "11:20",
-    "desc": "W60-65 Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V65",
-    "day": 6,
-    "time": "11:20",
-    "desc": "W60-65 Pentathlon"
-  },
-  {
-    "eventCode": "1500",
+    "eventCode": "PV",
     "gender": "M",
-    "ageGroup": "V35",
-    "day": 6,
-    "time": "13:46",
-    "desc": "1500m Heats M35"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V55",
-    "day": 6,
-    "time": "12:20",
-    "desc": "W55 Pentathlon"
-  },
-  {
-    "eventCode": "1500",
-    "gender": "M",
-    "ageGroup": "V40",
-    "day": 6,
-    "time": "14:10",
-    "desc": "1500m Heats M40"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V50",
-    "day": 6,
-    "time": "13:40",
-    "desc": "W50 Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V40",
-    "day": 6,
-    "time": "15:00",
-    "desc": "W40-45 Pentathlon"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V45",
-    "day": 6,
-    "time": "15:00",
-    "desc": "W40-45 Pentathlon"
-  },
-  {
-    "eventCode": "60H",
-    "gender": "F",
-    "ageGroup": "V35",
-    "day": 6,
-    "time": "14:26",
-    "desc": "60 m hurdles Pentathlon W35"
-  },
-  {
-    "eventCode": "PEN",
-    "gender": "F",
-    "ageGroup": "V35",
-    "day": 6,
+    "ageGroup": "V70",
+    "day": 1,
     "time": "16:30",
-    "desc": "W35 Pentathlon"
+    "desc": "Pole Vault M70 Final"
   },
   {
     "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "13:30",
+    "desc": "Pentathlon 800 m Pentathlon W70+"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "13:30",
+    "desc": "Pentathlon 800 m Pentathlon W70+"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "13:30",
+    "desc": "Pentathlon 800 m Pentathlon W70+"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "13:30",
+    "desc": "Pentathlon 800 m Pentathlon W70+"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "13:30",
+    "desc": "Pentathlon 800 m Pentathlon W70+"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "13:30",
+    "desc": "Pentathlon 800 m Pentathlon W70+"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "13:38",
+    "desc": "Pentathlon 800 m Pentathlon W60-65"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "13:38",
+    "desc": "Pentathlon 800 m Pentathlon W60-65"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V70",
+    "day": 1,
+    "time": "10:30",
+    "desc": "Pentathlon W70+ Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V75",
+    "day": 1,
+    "time": "10:30",
+    "desc": "Pentathlon W70+ Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V80",
+    "day": 1,
+    "time": "10:30",
+    "desc": "Pentathlon W70+ Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V85",
+    "day": 1,
+    "time": "10:30",
+    "desc": "Pentathlon W70+ Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V90",
+    "day": 1,
+    "time": "10:30",
+    "desc": "Pentathlon W70+ Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V95",
+    "day": 1,
+    "time": "10:30",
+    "desc": "Pentathlon W70+ Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V60",
+    "day": 1,
+    "time": "11:20",
+    "desc": "Pentathlon W60-65 Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V65",
+    "day": 1,
+    "time": "11:20",
+    "desc": "Pentathlon W60-65 Pentathlon"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "13:46",
+    "desc": "Pentathlon 1500m Heats M35"
+  },
+  {
+    "eventCode": "PEN",
     "gender": "F",
     "ageGroup": "V55",
-    "day": 6,
+    "day": 1,
+    "time": "12:20",
+    "desc": "Pentathlon W55 Pentathlon"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "14:10",
+    "desc": "Pentathlon 1500m Heats M40"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V50",
+    "day": 1,
+    "time": "13:40",
+    "desc": "Pentathlon W50 Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "15:00",
+    "desc": "Pentathlon W40-45 Pentathlon"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "15:00",
+    "desc": "Pentathlon W40-45 Pentathlon"
+  },
+  {
+    "eventCode": "60H",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "14:26",
+    "desc": "Pentathlon 60 m hurdles Pentathlon W35"
+  },
+  {
+    "eventCode": "PEN",
+    "gender": "F",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "16:30",
+    "desc": "Pentathlon W35 Pentathlon"
+  },
+  {
+    "eventCode": "800",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 1,
     "time": "14:36",
-    "desc": "800 m Pentathlon W55"
+    "desc": "Pentathlon 800 m Pentathlon W55"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 6,
+    "day": 1,
     "time": "14:52",
-    "desc": "1500m Heats M45"
+    "desc": "Pentathlon 1500m Heats M45"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 6,
+    "day": 1,
     "time": "15:08",
-    "desc": "1500m Heats M50"
+    "desc": "Pentathlon 1500m Heats M50"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 6,
+    "day": 1,
     "time": "15:32",
-    "desc": "1500m Heats M55"
+    "desc": "Pentathlon 1500m Heats M55"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 6,
+    "day": 1,
     "time": "15:59",
-    "desc": "1500m Heats M60"
+    "desc": "Pentathlon 1500m Heats M60"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 6,
+    "day": 1,
     "time": "16:26",
-    "desc": "1500m Heats M65"
+    "desc": "Pentathlon 1500m Heats M65"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 6,
+    "day": 1,
     "time": "16:53",
-    "desc": "1500m Heats M70"
+    "desc": "Pentathlon 1500m Heats M70"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 6,
+    "day": 1,
     "time": "17:11",
-    "desc": "1500m Heats M75"
+    "desc": "Pentathlon 1500m Heats M75"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V50",
-    "day": 6,
+    "day": 1,
     "time": "17:29",
-    "desc": "800 m Pentathlon W50"
+    "desc": "Pentathlon 800 m Pentathlon W50"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V45",
-    "day": 6,
+    "day": 1,
     "time": "17:37",
-    "desc": "1500m Heats W45"
+    "desc": "Pentathlon 1500m Heats W45"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V50",
-    "day": 6,
+    "day": 1,
     "time": "17:53",
-    "desc": "1500m Heats W50"
+    "desc": "Pentathlon 1500m Heats W50"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V55",
-    "day": 6,
+    "day": 1,
     "time": "18:09",
-    "desc": "1500m Heats W55"
+    "desc": "Pentathlon 1500m Heats W55"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V40",
-    "day": 6,
+    "day": 1,
     "time": "18:27",
-    "desc": "800 m Pentathlon W40-45"
+    "desc": "Pentathlon 800 m Pentathlon W40-45"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V45",
-    "day": 6,
+    "day": 1,
     "time": "18:27",
-    "desc": "800 m Pentathlon W40-45"
+    "desc": "Pentathlon 800 m Pentathlon W40-45"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V35",
-    "day": 6,
+    "day": 1,
     "time": "18:43",
-    "desc": "200 m Final W35"
+    "desc": "Pentathlon 200 m Final W35"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V40",
-    "day": 6,
+    "day": 1,
     "time": "18:48",
-    "desc": "200 m Final W40"
+    "desc": "Pentathlon 200 m Final W40"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V45",
-    "day": 6,
+    "day": 1,
     "time": "18:53",
-    "desc": "200 m Final W45"
+    "desc": "Pentathlon 200 m Final W45"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V50",
-    "day": 6,
+    "day": 1,
     "time": "18:58",
-    "desc": "200 m Final W50"
+    "desc": "Pentathlon 200 m Final W50"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V55",
-    "day": 6,
+    "day": 1,
     "time": "19:03",
-    "desc": "200 m Final W55"
+    "desc": "Pentathlon 200 m Final W55"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V60",
-    "day": 6,
+    "day": 1,
     "time": "19:08",
-    "desc": "200 m Final W60"
+    "desc": "Pentathlon 200 m Final W60"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V65",
-    "day": 6,
+    "day": 1,
     "time": "19:13",
-    "desc": "200 m Final W65"
+    "desc": "Pentathlon 200 m Final W65"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V70",
-    "day": 6,
+    "day": 1,
     "time": "19:18",
-    "desc": "200 m Final W70"
+    "desc": "Pentathlon 200 m Final W70"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V75",
-    "day": 6,
+    "day": 1,
     "time": "19:23",
-    "desc": "200 m Final W75"
+    "desc": "Pentathlon 200 m Final W75"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V80",
-    "day": 6,
+    "day": 1,
     "time": "19:28",
-    "desc": "200 m Final W80"
+    "desc": "Pentathlon 200 m Final W80"
   },
   {
     "eventCode": "200",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V85",
-    "day": 6,
+    "day": 1,
     "time": "19:33",
-    "desc": "200 m Final W85"
+    "desc": "Pentathlon 200 m Final W85"
   },
   {
     "eventCode": "800",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V35",
-    "day": 6,
+    "day": 1,
     "time": "19:38",
-    "desc": "800 m Pentathlon W35"
+    "desc": "Pentathlon 800 m Pentathlon W35"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 6,
+    "day": 1,
     "time": "19:46",
-    "desc": "200 m Final M95"
+    "desc": "Pentathlon 200 m Final M95"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 6,
+    "day": 1,
     "time": "19:51",
-    "desc": "200 m Final M90"
+    "desc": "Pentathlon 200 m Final M90"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 6,
+    "day": 1,
     "time": "19:56",
-    "desc": "200 m Final M85"
+    "desc": "Pentathlon 200 m Final M85"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 6,
+    "day": 1,
     "time": "20:01",
-    "desc": "200 m Final M80"
+    "desc": "Pentathlon 200 m Final M80"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 6,
+    "day": 1,
     "time": "20:06",
-    "desc": "200 m Final M75"
+    "desc": "Pentathlon 200 m Final M75"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 6,
+    "day": 1,
     "time": "20:11",
-    "desc": "200 m Final M70"
+    "desc": "Pentathlon 200 m Final M70"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 6,
+    "day": 1,
     "time": "20:16",
-    "desc": "200 m Final M65"
+    "desc": "Pentathlon 200 m Final M65"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 6,
+    "day": 1,
     "time": "20:21",
-    "desc": "200 m Final M60"
+    "desc": "Pentathlon 200 m Final M60"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 6,
+    "day": 1,
     "time": "20:26",
-    "desc": "200 m Final M55"
+    "desc": "Pentathlon 200 m Final M55"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 6,
+    "day": 1,
     "time": "20:31",
-    "desc": "200 m Final M50"
+    "desc": "Pentathlon 200 m Final M50"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 6,
+    "day": 1,
     "time": "20:36",
-    "desc": "200 m Final M45"
+    "desc": "Pentathlon 200 m Final M45"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 6,
+    "day": 1,
     "time": "20:41",
-    "desc": "200 m Final M40"
+    "desc": "Pentathlon 200 m Final M40"
   },
   {
     "eventCode": "200",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 6,
+    "day": 1,
     "time": "20:46",
-    "desc": "200 m Final M35"
+    "desc": "Pentathlon 200 m Final M35"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 6,
+    "day": 1,
     "time": "20:51",
-    "desc": "60 m hurdles Final M85+"
+    "desc": "Pentathlon 60 m hurdles Final M85+"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 6,
+    "day": 1,
     "time": "20:51",
-    "desc": "60 m hurdles Final M85+"
+    "desc": "Pentathlon 60 m hurdles Final M85+"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 6,
+    "day": 1,
     "time": "20:51",
-    "desc": "60 m hurdles Final M85+"
+    "desc": "Pentathlon 60 m hurdles Final M85+"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 6,
+    "day": 1,
     "time": "20:56",
-    "desc": "60 m hurdles Final M80"
+    "desc": "Pentathlon 60 m hurdles Final M80"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 6,
+    "day": 1,
     "time": "21:01",
-    "desc": "60 m hurdles Final M75"
+    "desc": "Pentathlon 60 m hurdles Final M75"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 6,
+    "day": 1,
     "time": "21:06",
-    "desc": "60 m hurdles Final M70"
+    "desc": "Pentathlon 60 m hurdles Final M70"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 6,
+    "day": 1,
     "time": "21:11",
-    "desc": "60 m hurdles Final M65"
+    "desc": "Pentathlon 60 m hurdles Final M65"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 6,
+    "day": 1,
     "time": "21:16",
-    "desc": "60 m hurdles Final M60"
+    "desc": "Pentathlon 60 m hurdles Final M60"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 6,
+    "day": 1,
     "time": "21:21",
-    "desc": "60 m hurdles Final M55"
+    "desc": "Pentathlon 60 m hurdles Final M55"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 6,
+    "day": 1,
     "time": "21:26",
-    "desc": "60 m hurdles Final M50"
+    "desc": "Pentathlon 60 m hurdles Final M50"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 6,
+    "day": 1,
     "time": "21:31",
-    "desc": "60 m hurdles Final M45"
+    "desc": "Pentathlon 60 m hurdles Final M45"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 6,
+    "day": 1,
     "time": "21:36",
-    "desc": "60 m hurdles Final M40"
+    "desc": "Pentathlon 60 m hurdles Final M40"
   },
   {
     "eventCode": "60H",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 6,
+    "day": 1,
     "time": "21:41",
-    "desc": "60 m hurdles Final M35"
+    "desc": "Pentathlon 60 m hurdles Final M35"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:00",
+    "desc": "4x200 4x200 m Final M80"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:00",
+    "desc": "4x200 4x200 m Final M80"
   },
   {
     "eventCode": "4x200",
@@ -3653,15 +6805,55 @@ const emacs2026Schedule = [
     "ageGroup": "V80",
     "day": 7,
     "time": "09:00",
-    "desc": "4x200 m Final M80 Triple Jump"
+    "desc": "4x200 4x200 m Final M80"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:10",
+    "desc": "4x200 4x200 m Final W80"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:10",
+    "desc": "4x200 4x200 m Final W80"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V80",
     "day": 7,
     "time": "09:10",
-    "desc": "4x200 m Final W80"
+    "desc": "4x200 4x200 m Final W80"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V50",
+    "day": 7,
+    "time": "09:00",
+    "desc": "Triple Jump M50 Final"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:20",
+    "desc": "4x200 4x200 m Final M75"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:20",
+    "desc": "4x200 4x200 m Final M75"
   },
   {
     "eventCode": "4x200",
@@ -3669,15 +6861,55 @@ const emacs2026Schedule = [
     "ageGroup": "V75",
     "day": 7,
     "time": "09:20",
-    "desc": "4x200 m Final M75"
+    "desc": "4x200 4x200 m Final M75"
+  },
+  {
+    "eventCode": "TJ",
+    "gender": "M",
+    "ageGroup": "V55",
+    "day": 7,
+    "time": "10:30",
+    "desc": "Triple Jump M55 Final"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:30",
+    "desc": "4x200 4x200 m Final W75"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:30",
+    "desc": "4x200 4x200 m Final W75"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V75",
     "day": 7,
     "time": "09:30",
-    "desc": "4x200 m Final W75"
+    "desc": "4x200 4x200 m Final W75"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:40",
+    "desc": "4x200 4x200 m Final M70"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:40",
+    "desc": "4x200 4x200 m Final M70"
   },
   {
     "eventCode": "4x200",
@@ -3685,15 +6917,47 @@ const emacs2026Schedule = [
     "ageGroup": "V70",
     "day": 7,
     "time": "09:40",
-    "desc": "4x200 m Final M70"
+    "desc": "4x200 4x200 m Final M70"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:50",
+    "desc": "4x200 4x200 m Final W70"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "09:50",
+    "desc": "4x200 4x200 m Final W70"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V70",
     "day": 7,
     "time": "09:50",
-    "desc": "4x200 m Final W70 Pole Vault"
+    "desc": "4x200 4x200 m Final W70"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:00",
+    "desc": "4x200 4x200 m Final M65"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:00",
+    "desc": "4x200 4x200 m Final M65"
   },
   {
     "eventCode": "4x200",
@@ -3701,15 +6965,87 @@ const emacs2026Schedule = [
     "ageGroup": "V65",
     "day": 7,
     "time": "10:00",
-    "desc": "4x200 m Final M65"
+    "desc": "4x200 4x200 m Final M65"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V75",
+    "day": 7,
+    "time": "09:00",
+    "desc": "Pole Vault M75 Final"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:10",
+    "desc": "4x200 4x200 m Final W65"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:10",
+    "desc": "4x200 4x200 m Final W65"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V65",
     "day": 7,
     "time": "10:10",
-    "desc": "4x200 m Final W65"
+    "desc": "4x200 4x200 m Final W65"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V80",
+    "day": 7,
+    "time": "11:00",
+    "desc": "Pole Vault M80+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V85",
+    "day": 7,
+    "time": "11:00",
+    "desc": "Pole Vault M80+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V90",
+    "day": 7,
+    "time": "11:00",
+    "desc": "Pole Vault M80+ Final"
+  },
+  {
+    "eventCode": "PV",
+    "gender": "M",
+    "ageGroup": "V95",
+    "day": 7,
+    "time": "11:00",
+    "desc": "Pole Vault M80+ Final"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:20",
+    "desc": "4x200 4x200 m Final M60"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:20",
+    "desc": "4x200 4x200 m Final M60"
   },
   {
     "eventCode": "4x200",
@@ -3717,15 +7053,47 @@ const emacs2026Schedule = [
     "ageGroup": "V60",
     "day": 7,
     "time": "10:20",
-    "desc": "4x200 m Final M60"
+    "desc": "4x200 4x200 m Final M60"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:30",
+    "desc": "4x200 4x200 m Final W60"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:30",
+    "desc": "4x200 4x200 m Final W60"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V60",
     "day": 7,
     "time": "10:30",
-    "desc": "4x200 m Final W60"
+    "desc": "4x200 4x200 m Final W60"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:40",
+    "desc": "4x200 4x200 m Final M55"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:40",
+    "desc": "4x200 4x200 m Final M55"
   },
   {
     "eventCode": "4x200",
@@ -3733,15 +7101,47 @@ const emacs2026Schedule = [
     "ageGroup": "V55",
     "day": 7,
     "time": "10:40",
-    "desc": "4x200 m Final M55"
+    "desc": "4x200 4x200 m Final M55"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:50",
+    "desc": "4x200 4x200 m Final W55"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "10:50",
+    "desc": "4x200 4x200 m Final W55"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V55",
     "day": 7,
     "time": "10:50",
-    "desc": "4x200 m Final W55"
+    "desc": "4x200 4x200 m Final W55"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:00",
+    "desc": "4x200 4x200 m Final M50"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:00",
+    "desc": "4x200 4x200 m Final M50"
   },
   {
     "eventCode": "4x200",
@@ -3749,15 +7149,47 @@ const emacs2026Schedule = [
     "ageGroup": "V50",
     "day": 7,
     "time": "11:00",
-    "desc": "4x200 m Final M50"
+    "desc": "4x200 4x200 m Final M50"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:10",
+    "desc": "4x200 4x200 m Final W50"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:10",
+    "desc": "4x200 4x200 m Final W50"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V50",
     "day": 7,
     "time": "11:10",
-    "desc": "4x200 m Final W50"
+    "desc": "4x200 4x200 m Final W50"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:20",
+    "desc": "4x200 4x200 m Final M45"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:20",
+    "desc": "4x200 4x200 m Final M45"
   },
   {
     "eventCode": "4x200",
@@ -3765,15 +7197,47 @@ const emacs2026Schedule = [
     "ageGroup": "V45",
     "day": 7,
     "time": "11:20",
-    "desc": "4x200 m Final M45"
+    "desc": "4x200 4x200 m Final M45"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:30",
+    "desc": "4x200 4x200 m Final W45"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:30",
+    "desc": "4x200 4x200 m Final W45"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V45",
     "day": 7,
     "time": "11:30",
-    "desc": "4x200 m Final W45"
+    "desc": "4x200 4x200 m Final W45"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:40",
+    "desc": "4x200 4x200 m Final M40"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:40",
+    "desc": "4x200 4x200 m Final M40"
   },
   {
     "eventCode": "4x200",
@@ -3781,15 +7245,47 @@ const emacs2026Schedule = [
     "ageGroup": "V40",
     "day": 7,
     "time": "11:40",
-    "desc": "4x200 m Final M40"
+    "desc": "4x200 4x200 m Final M40"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:50",
+    "desc": "4x200 4x200 m Final W40"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "11:50",
+    "desc": "4x200 4x200 m Final W40"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V40",
     "day": 7,
     "time": "11:50",
-    "desc": "4x200 m Final W40"
+    "desc": "4x200 4x200 m Final W40"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "12:00",
+    "desc": "4x200 4x200 m Final M35"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "12:00",
+    "desc": "4x200 4x200 m Final M35"
   },
   {
     "eventCode": "4x200",
@@ -3797,302 +7293,630 @@ const emacs2026Schedule = [
     "ageGroup": "V35",
     "day": 7,
     "time": "12:00",
-    "desc": "4x200 m Final M35"
+    "desc": "4x200 4x200 m Final M35"
   },
   {
     "eventCode": "4x200",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "12:10",
+    "desc": "4x200 4x200 m Final W35"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "12:10",
+    "desc": "4x200 4x200 m Final W35"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "M",
     "ageGroup": "V35",
     "day": 7,
     "time": "12:10",
-    "desc": "4x200 m Final W35"
+    "desc": "4x200 4x200 m Final W35"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "12:20",
+    "desc": "4x200 1500 m Final W70+"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "M",
     "ageGroup": "V70",
     "day": 7,
     "time": "12:20",
-    "desc": "1500 m Final W70+"
+    "desc": "4x200 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V75",
     "day": 7,
     "time": "12:20",
-    "desc": "1500 m Final W70+"
+    "desc": "4x200 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V80",
     "day": 7,
     "time": "12:20",
-    "desc": "1500 m Final W70+"
+    "desc": "4x200 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V85",
     "day": 7,
     "time": "12:20",
-    "desc": "1500 m Final W70+"
+    "desc": "4x200 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V90",
     "day": 7,
     "time": "12:20",
-    "desc": "1500 m Final W70+"
+    "desc": "4x200 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "M",
     "ageGroup": "V95",
     "day": 7,
     "time": "12:20",
-    "desc": "1500 m Final W70+"
+    "desc": "4x200 1500 m Final W70+"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "12:30",
+    "desc": "4x200 1500 m Final W65"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "M",
     "ageGroup": "V65",
     "day": 7,
     "time": "12:30",
-    "desc": "1500 m Final W65"
+    "desc": "4x200 1500 m Final W65"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "12:40",
+    "desc": "4x200 1500 m Final W60"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "M",
     "ageGroup": "V60",
     "day": 7,
     "time": "12:40",
-    "desc": "1500 m Final W60"
+    "desc": "4x200 1500 m Final W60"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "12:50",
+    "desc": "4x200 1500 m Final W55"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "M",
     "ageGroup": "V55",
     "day": 7,
     "time": "12:50",
-    "desc": "1500 m Final W55"
+    "desc": "4x200 1500 m Final W55"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 7,
+    "time": "13:00",
+    "desc": "4x200 1500 m Final W50"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "M",
     "ageGroup": "V50",
     "day": 7,
     "time": "13:00",
-    "desc": "1500 m Final W50"
+    "desc": "4x200 1500 m Final W50"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
-    "ageGroup": "V45",
-    "day": 7,
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
     "time": "13:10",
-    "desc": "1500 m Final W45"
+    "desc": "4x200 1500 m Final W45"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
-    "ageGroup": "V40",
-    "day": 7,
+    "gender": "M",
+    "ageGroup": "V45",
+    "day": 1,
+    "time": "13:10",
+    "desc": "4x200 1500 m Final W45"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
     "time": "13:19",
-    "desc": "1500 m Final W40"
+    "desc": "4x200 1500 m Final W40"
   },
   {
     "eventCode": "1500",
-    "gender": "F",
-    "ageGroup": "V35",
-    "day": 7,
+    "gender": "M",
+    "ageGroup": "V40",
+    "day": 1,
+    "time": "13:19",
+    "desc": "4x200 1500 m Final W40"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
     "time": "13:28",
-    "desc": "1500 m Final W35"
+    "desc": "4x200 1500 m Final W35"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "M",
+    "ageGroup": "V35",
+    "day": 1,
+    "time": "13:28",
+    "desc": "4x200 1500 m Final W35"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "13:37",
+    "desc": "4x200 1500 m Final M80+"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V80",
-    "day": 7,
+    "day": 1,
     "time": "13:37",
-    "desc": "1500 m Final M80+"
+    "desc": "4x200 1500 m Final M80+"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V85",
-    "day": 7,
+    "day": 1,
     "time": "13:37",
-    "desc": "1500 m Final M80+"
+    "desc": "4x200 1500 m Final M80+"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V90",
-    "day": 7,
+    "day": 1,
     "time": "13:37",
-    "desc": "1500 m Final M80+"
+    "desc": "4x200 1500 m Final M80+"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V95",
-    "day": 7,
+    "day": 1,
     "time": "13:37",
-    "desc": "1500 m Final M80+"
+    "desc": "4x200 1500 m Final M80+"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "13:47",
+    "desc": "4x200 1500 m Final M75"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V75",
-    "day": 7,
+    "day": 1,
     "time": "13:47",
-    "desc": "1500 m Final M75"
+    "desc": "4x200 1500 m Final M75"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "13:57",
+    "desc": "4x200 1500 m Final M70"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V70",
-    "day": 7,
+    "day": 1,
     "time": "13:57",
-    "desc": "1500 m Final M70"
+    "desc": "4x200 1500 m Final M70"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "14:07",
+    "desc": "4x200 1500 m Final M65"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V65",
-    "day": 7,
+    "day": 1,
     "time": "14:07",
-    "desc": "1500 m Final M65"
+    "desc": "4x200 1500 m Final M65"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "14:16",
+    "desc": "4x200 1500 m Final M60"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V60",
-    "day": 7,
+    "day": 1,
     "time": "14:16",
-    "desc": "1500 m Final M60"
+    "desc": "4x200 1500 m Final M60"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "14:25",
+    "desc": "4x200 1500 m Final M55"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V55",
-    "day": 7,
+    "day": 1,
     "time": "14:25",
-    "desc": "1500 m Final M55"
+    "desc": "4x200 1500 m Final M55"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "14:34",
+    "desc": "4x200 1500 m Final M50"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V50",
-    "day": 7,
+    "day": 1,
     "time": "14:34",
-    "desc": "1500 m Final M50"
+    "desc": "4x200 1500 m Final M50"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "14:42",
+    "desc": "4x200 1500 m Final M45"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V45",
-    "day": 7,
+    "day": 1,
     "time": "14:42",
-    "desc": "1500 m Final M45"
+    "desc": "4x200 1500 m Final M45"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "14:50",
+    "desc": "4x200 1500 m Final M40"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V40",
-    "day": 7,
+    "day": 1,
     "time": "14:50",
-    "desc": "1500 m Final M40"
+    "desc": "4x200 1500 m Final M40"
+  },
+  {
+    "eventCode": "1500",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "14:58",
+    "desc": "4x200 1500 m Final M35"
   },
   {
     "eventCode": "1500",
     "gender": "M",
     "ageGroup": "V35",
-    "day": 7,
+    "day": 1,
     "time": "14:58",
-    "desc": "1500 m Final M35"
+    "desc": "4x200 1500 m Final M35"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "15:10",
+    "desc": "4x200 Closing Ceremony"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "15:30",
+    "desc": "4x200 4x200 MIX Final 80"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "15:30",
+    "desc": "4x200 4x200 MIX Final 80"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V80",
-    "day": 7,
+    "day": 1,
     "time": "15:30",
-    "desc": "4x200 MIX Final 80"
+    "desc": "4x200 4x200 MIX Final 80"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "15:40",
+    "desc": "4x200 4x200 MIX Final 75"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "15:40",
+    "desc": "4x200 4x200 MIX Final 75"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V75",
-    "day": 7,
+    "day": 1,
     "time": "15:40",
-    "desc": "4x200 MIX Final 75"
+    "desc": "4x200 4x200 MIX Final 75"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "15:50",
+    "desc": "4x200 4x200 MIX Final 70"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "15:50",
+    "desc": "4x200 4x200 MIX Final 70"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V70",
-    "day": 7,
+    "day": 1,
     "time": "15:50",
-    "desc": "4x200 MIX Final 70"
+    "desc": "4x200 4x200 MIX Final 70"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:00",
+    "desc": "4x200 4x200 MIX Final 65"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:00",
+    "desc": "4x200 4x200 MIX Final 65"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V65",
-    "day": 7,
+    "day": 1,
     "time": "16:00",
-    "desc": "4x200 MIX Final 65"
+    "desc": "4x200 4x200 MIX Final 65"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:10",
+    "desc": "4x200 4x200 MIX Final 60"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:10",
+    "desc": "4x200 4x200 MIX Final 60"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V60",
-    "day": 7,
+    "day": 1,
     "time": "16:10",
-    "desc": "4x200 MIX Final 60"
+    "desc": "4x200 4x200 MIX Final 60"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:20",
+    "desc": "4x200 4x200 MIX Final 55"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:20",
+    "desc": "4x200 4x200 MIX Final 55"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V55",
-    "day": 7,
+    "day": 1,
     "time": "16:20",
-    "desc": "4x200 MIX Final 55"
+    "desc": "4x200 4x200 MIX Final 55"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:30",
+    "desc": "4x200 4x200 MIX Final 50"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:30",
+    "desc": "4x200 4x200 MIX Final 50"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V50",
-    "day": 7,
+    "day": 1,
     "time": "16:30",
-    "desc": "4x200 MIX Final 50"
+    "desc": "4x200 4x200 MIX Final 50"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:40",
+    "desc": "4x200 4x200 MIX Final 45"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:40",
+    "desc": "4x200 4x200 MIX Final 45"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V45",
-    "day": 7,
+    "day": 1,
     "time": "16:40",
-    "desc": "4x200 MIX Final 45"
+    "desc": "4x200 4x200 MIX Final 45"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:49",
+    "desc": "4x200 4x200 MIX Final 40"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:49",
+    "desc": "4x200 4x200 MIX Final 40"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V40",
-    "day": 7,
+    "day": 1,
     "time": "16:49",
-    "desc": "4x200 MIX Final 40"
+    "desc": "4x200 4x200 MIX Final 40"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:58",
+    "desc": "4x200 4x200 MIX Final 35"
+  },
+  {
+    "eventCode": "4x200",
+    "gender": "X",
+    "ageGroup": "V20",
+    "day": 1,
+    "time": "16:58",
+    "desc": "4x200 4x200 MIX Final 35"
   },
   {
     "eventCode": "4x200",
     "gender": "X",
     "ageGroup": "V35",
-    "day": 7,
+    "day": 1,
     "time": "16:58",
-    "desc": "4x200 MIX Final 35"
+    "desc": "4x200 4x200 MIX Final 35"
   }
 ];

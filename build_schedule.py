@@ -1,140 +1,111 @@
 import json
 import re
 
-with open('parsed_timetable_plumber.json', 'r') as f:
+with open('parsed_timetable_v6.json', 'r') as f:
     events = json.load(f)
 
-current_day = "Day 1, Friday, March 27"
-clean_events = []
-
-for e in events:
-    if e['day_text'].strip():
-        current_day = e['day_text'].strip()
-    
-    desc = e['desc']
-    # Clean up desc - remove day texts if leaked
-    desc = re.sub(r'Day \d,.*$', '', desc).strip()
-    if not desc:
-        continue
-        
-    day_match = re.search(r'Day (\d)', current_day)
-    day_idx = int(day_match.group(1)) if day_match else 1
-    
-    clean_events.append({
-        'day': day_idx,
-        'time': e['time'],
-        'desc': desc
-    })
-
-# Now we have clean_events with day, time, desc
-# We need to map desc to eventCode, ageGroup, gender
-# Desc examples:
-# "400 m Heats M35"
-# "W80+ Final"
-# "3000 m Final W65+"
-# "3000m RW Final W35-40"
-# "60m hurdles Heats W35"
-
 schedule = []
-for ce in clean_events:
-    desc = ce['desc']
+for e in events:
+    desc = e['desc']
+    event_header = e['event']
+    full_text = f"{event_header or ''} {desc}".strip()
     
-    # Try to find age groups (M/W + numbers)
-    # Examples: M35, W80+, W65+, W35-40
-    age_groups = re.findall(r'([MW])(\d{2}(?:-\d{2})?(?:\+)?)(?:\s|$|I|gr\.\d)', desc)
+    # Improved regex: look for Gender, then some optional text, then Age
+    # Gender candidates: M, W, MIX, MIXED, M/W, M+W
+    # Age candidates: 35, 70+, 35-50
+    gender_pattern = r'(M/W|MIXED|MIX|M|W|X)'
+    age_pattern = r'(\d{2}(?:-\d{2})?(?:\+)?)'
     
-    # Also handle MIX events (e.g., 4x200 MIX Final 80)
-    if 'MIX' in desc.upper():
-        mix_ags = re.findall(r'(?:MIX|MIXED).*?\s(\d{2}(?:-\d{2})?(?:\+)?)', desc, re.IGNORECASE)
-        for ag in mix_ags:
-            age_groups.append(('X', ag))
+    # Try multiple matches in the full text
+    matches = []
     
-    # Identify event type
-    event_map = {
-        '4x200 m': '4x200',
-        '4x200m': '4x200',
-        '60m hurdles': '60H',
-        '60 m hurdles': '60H',
-        '60 m ': '60',
-        '60m ': '60',
-        '200 m': '200',
-        '200m': '200',
-        '400 m': '400',
-        '400m': '400',
-        '800 m': '800',
-        '800m': '800',
-        '1500 m': '1500',
-        '1500m': '1500',
-        '3000 m': '3000',
-        '3000m': '3000',
-        '3000m RW': '3000W',
-        '3000 m RW': '3000W',
-        '5 km RW': '5KW',
-        '5 km': '5K',
-        'Cross Country': 'XC',
-        'High Jump': 'HJ',
-        'Long Jump': 'LJ',
-        'Triple Jump': 'TJ',
-        'TripleJump': 'TJ',
-        'Pole Vault': 'PV',
-        'Shot Put': 'SP',
-        'Discus': 'DT',
-        'Hammer': 'HT',
-        'Javelin': 'JT',
-        'Weight Throw': 'WT',
-        'Pentathlon': 'PEN'
+    # Case 1: Gender AND Age on the same line (potentially separated by words)
+    # e.g., "M35", "M/W 70+", "MIX Final 80", "400 m Heats M35"
+    found = re.findall(f'{gender_pattern}.*?{age_pattern}', full_text, re.IGNORECASE)
+    if found:
+        matches.extend(found)
+    
+    # Case 2: Just an age group (sometimes gender is implied by the column or event header)
+    # e.g., "High Jump W35-40" -> if no local gender, it might be just "35-40" if gender was in header
+    if not matches:
+        # If no explicit gender+age pair, try just finding an age group
+        # and we'll infer gender from header if possible
+        ages_only = re.findall(age_pattern, full_text)
+        if ages_only:
+            # Infer gender
+            inferred_gender = 'X' if 'MIX' in full_text.upper() else ('F' if 'W' in full_text.upper() else 'M')
+            for ag in ages_only:
+                matches.append((inferred_gender, ag))
+
+    # Event Mapping
+    event_code = None
+    header_map = {
+        'High Jump': 'HJ', 'Long Jump': 'LJ', 'Triple Jump': 'TJ', 'TripleJump': 'TJ',
+        'Pole Vault': 'PV', 'Shot Put': 'SP', 'Discus': 'DT', 'Hammer': 'HT',
+        'Javelin': 'JT', 'Weight Throw': 'WT', 'Pentathlon': 'PEN',
+        'Cross Country': 'XC', 'XC': 'XC', 'Road Race': '5K', 'RW': '3000W', '4x200': '4x200'
     }
     
-    event_code = None
-    for k, v in event_map.items():
+    if event_header:
+        for k, v in header_map.items():
+            if k.lower() in event_header.lower():
+                event_code = v
+                break
+    
+    desc_map = {
+        '4x200': '4x200', '60m hurdles': '60H', '60 m hurdles': '60H', '60H': '60H',
+        '60 m': '60', '60m': '60', '200 m': '200', '200m': '200',
+        '400 m': '400', '400m': '400', '800 m': '800', '800m': '800',
+        '1500 m': '1500', '1500m': '1500', '3000 m': '3000', '3000m': '3000',
+        '3000m RW': '3000W', '3000 m RW': '3000W', '5 km RW': '5KW', '5 km': '5K',
+        'Cross Country': 'XC', 'XC': 'XC'
+    }
+    
+    for k, v in desc_map.items():
         if k.lower() in desc.lower():
-            if v == '3000' and 'RW' in desc:
-                continue # Skip if it's RW
-            if v == '60' and 'hurdles' in desc.lower():
-                continue # Skip if hurdles
+            if v == '3000' and 'RW' in desc.upper(): continue
+            if v == '60' and 'hurdles' in desc.lower(): continue
             event_code = v
             break
+
+    if event_code and matches:
+        day_match = re.search(r'Day (\d)', e['day_text'])
+        day_idx = int(day_match.group(1)) if day_match else 1
+        
+        for genders_str, ag in matches:
+            target_genders = []
+            gs = genders_str.upper()
+            if gs in ['MIX', 'MIXED', 'X']: target_genders = ['X']
+            elif '/' in gs or gs == 'M+W': target_genders = ['M', 'F']
+            elif gs == 'W': target_genders = ['F']
+            else: target_genders = ['M']
             
-    if event_code and age_groups:
-        for gender, ag in age_groups:
-            # Map gender to match prog.json (M=M, W=F, X=X)
-            gender_code = 'F' if gender == 'W' else gender
-            
-            # Handle ranges like W35-40
+            target_ages = []
             if '-' in ag:
                 parts = ag.split('-')
                 start = int(parts[0])
-                end = int(parts[1])
+                # Clean up end part (could be 50+)
+                end_str = re.sub(r'\D', '', parts[1])
+                end = int(end_str) if end_str else start
                 for age_val in range(start, end + 5, 5):
-                     schedule.append({
-                         'eventCode': event_code,
-                         'gender': gender_code,
-                         'ageGroup': f'V{age_val}',
-                         'day': ce['day'],
-                         'time': ce['time'],
-                         'desc': desc
-                     })
+                    target_ages.append(f'V{age_val}')
             elif '+' in ag:
-                # W65+ means W65, W70, W75, W80, W85, W90, W95
                 start = int(ag.replace('+', ''))
                 for age_val in range(start, 100, 5):
-                     schedule.append({
-                         'eventCode': event_code,
-                         'gender': gender_code,
-                         'ageGroup': f'V{age_val}',
-                         'day': ce['day'],
-                         'time': ce['time'],
-                         'desc': desc
-                     })
+                    target_ages.append(f'V{age_val}')
             else:
-                schedule.append({
-                    'eventCode': event_code,
-                    'gender': gender_code,
-                    'ageGroup': f'V{ag}',
-                    'day': ce['day'],
-                    'time': ce['time'],
-                    'desc': desc
-                })
+                target_ages.append(f'V{ag}')
+            
+            for tg in target_genders:
+                for ta in target_ages:
+                    schedule.append({
+                        'eventCode': event_code,
+                        'gender': tg,
+                        'ageGroup': ta,
+                        'day': day_idx,
+                        'time': e['time'],
+                        'desc': full_text
+                    })
 
 with open('schedule.json', 'w') as f:
     json.dump(schedule, f, indent=2)
