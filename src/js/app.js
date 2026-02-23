@@ -188,16 +188,16 @@ function initializeFilters(data) {
 
     thead.innerHTML = `<tr>
         ${displayColumns.map(col => `
-            <th style="padding: 0.5rem 1rem;">
+            <th>
                 <div class="sort-target" data-column="${col}" style="cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
                     <span>${col} <span class="sort-icon" data-icon-column="${col}" style="opacity: 0.2; margin-left: 0.25rem;">↕</span></span>
                 </div>
-                <select data-filter-column="${col}" class="column-filter" style="width: 100%; padding: 0.25rem 0.5rem; font-size: 0.875rem; min-height: 2rem; height: 2rem; border-radius: 0.25rem; background-color: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-primary); outline: none;">
+                <select data-filter-column="${col}" class="column-filter">
                     <option value="">All</option>
                 </select>
             </th>
         `).join('')}
-        <th style="vertical-align: top; padding: 0.5rem 1rem;">Profile</th>
+        <th style="vertical-align: top; padding-top: 1rem;">Profile</th>
     </tr>`;
 
     // Add sort listeners
