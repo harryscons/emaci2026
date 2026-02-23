@@ -148,9 +148,13 @@ header {
     border-bottom: 1px solid var(--border-color);
     padding: 0.5rem 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     gap: 0.5rem;
     flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .column-filter {
@@ -186,7 +190,8 @@ header {
 
 #report-table thead {
     position: sticky;
-    top: 0;
+    top: 41px;
+    /* Height of filter-controls */
     z-index: 10;
     background-color: var(--bg-secondary);
 }
@@ -243,6 +248,31 @@ header {
 
 .td-event {
     color: var(--accent-primary);
+    font-weight: 700 !important;
+}
+
+/* Specific Column Widths */
+.td-last-name,
+.th-last-name,
+.td-first-name,
+.th-first-name {
+    width: 6%;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.td-when,
+.th-when {
+    width: 1%;
+    /* Shrink to fit content */
+    white-space: nowrap;
+}
+
+.td-result,
+.th-result {
+    color: var(--accent-gold);
     font-weight: 700 !important;
 }
 

@@ -62,7 +62,7 @@ function showSection(id) {
 let allData = [];
 let activeFilters = {};
 let currentSort = { column: 'When', direction: 'asc' };
-const FILTER_COLUMNS = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP"];
+const FILTER_COLUMNS = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP", "RESULT"];
 
 async function loadReportData() {
     const splash = document.getElementById('splash-screen');
@@ -141,7 +141,7 @@ function processData(source) {
         };
 
         if (!athlete.eventsEntered || athlete.eventsEntered.length === 0) {
-            processed.push({ ...base, Event: "-", When: "-", QP: "-" });
+            processed.push({ ...base, Event: "-", When: "-", QP: "-", RESULT: "-" });
         } else {
             athlete.eventsEntered.forEach(event => {
                 let dayNum = eventToDay[event.eventCode] || "1";
@@ -204,7 +204,8 @@ function processData(source) {
                     ...base,
                     Event: event.eventCode,
                     When: whenStr,
-                    QP: event.qp || "-"
+                    QP: event.qp || "-",
+                    RESULT: "-"
                 });
             });
         }
@@ -221,7 +222,7 @@ function initializeFilters(data) {
     if (data.length === 0) return;
 
     const thead = document.querySelector('#report-table thead');
-    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP"];
+    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP", "RESULT"];
 
     // Set up compact table headers
     thead.innerHTML = `<tr>
@@ -300,7 +301,7 @@ function applyFilters(data) {
 function renderTable(data) {
     const tbody = document.querySelector('#report-table tbody');
     const thead = document.querySelector('#report-table thead');
-    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP"];
+    const displayColumns = ["Bib", "Last Name", "First Name", "Age Group", "Gender", "Event", "When", "Team Name", "QP", "RESULT"];
 
     // Update sort icons without rewriting thead, which would destroy select focus
     displayColumns.forEach(col => {
