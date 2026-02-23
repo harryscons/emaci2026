@@ -1,14 +1,14 @@
 :root {
-    /* Premium Pastel Light Theme Palette */
-    --bg-primary: #fdfbf7;
-    --bg-secondary: #ffffff;
-    --text-primary: #334155;
-    --text-secondary: #64748b;
-    --accent-color: #8b5cf6;
-    --border-color: rgba(15, 23, 42, 0.08);
+    /* Solid Dark Theme Palette */
+    --bg-primary: #121212;
+    --bg-secondary: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --accent-color: #3b82f6;
+    --border-color: rgba(255, 255, 255, 0.1);
     --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-    --glass-bg: rgba(255, 255, 255, 0.6);
-    --glass-border: rgba(15, 23, 42, 0.05);
+    --glass-bg: #1e1e1e;
+    --glass-border: rgba(255, 255, 255, 0.05);
 }
 
 * {
@@ -21,10 +21,6 @@
 body {
     font-family: var(--font-sans);
     background-color: var(--bg-primary);
-    background-image:
-        radial-gradient(at 0% 0%, hsla(253, 100%, 94%, 1) 0, transparent 50%),
-        radial-gradient(at 50% 0%, hsla(225, 100%, 94%, 1) 0, transparent 50%),
-        radial-gradient(at 100% 0%, hsla(339, 100%, 94%, 1) 0, transparent 50%);
     color: var(--text-primary);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
@@ -42,18 +38,13 @@ h1 {
     font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: -0.025em;
-    background: linear-gradient(to right, #334155, #64748b);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--text-primary);
     margin-bottom: 0.5rem;
 }
 
 .card {
     background: var(--glass-bg);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid var(--glass-border);
+    border: 1px solid var(--border-color);
     border-radius: 1rem;
     padding: 2rem;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.08);
@@ -153,10 +144,6 @@ button:hover,
     width: 100%;
     height: 100%;
     background-color: var(--bg-primary);
-    background-image:
-        radial-gradient(at 0% 0%, hsla(253, 100%, 94%, 1) 0, transparent 50%),
-        radial-gradient(at 50% 0%, hsla(225, 100%, 94%, 1) 0, transparent 50%),
-        radial-gradient(at 100% 0%, hsla(339, 100%, 94%, 1) 0, transparent 50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,7 +175,7 @@ button:hover,
 .loader-container {
     width: 100%;
     height: 4px;
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 2px;
     overflow: hidden;
     margin-bottom: 1rem;
@@ -197,7 +184,7 @@ button:hover,
 .loader-bar {
     height: 100%;
     width: 0%;
-    background: linear-gradient(to right, var(--accent-color), #f472b6);
+    background: var(--accent-color);
     transition: width 0.3s ease;
 }
 
@@ -291,11 +278,11 @@ th {
 }
 
 th:hover {
-    background-color: rgba(139, 92, 246, 0.08);
+    background-color: rgba(59, 130, 246, 0.2);
 }
 
 tr:hover {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Form Controls */
@@ -315,7 +302,7 @@ select {
 
 select:focus {
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
 }
 
 select option {
@@ -350,7 +337,7 @@ select option {
 }
 
 .profile-link:hover {
-    color: var(--accent-color);
-    background: rgba(139, 92, 246, 0.1);
+    color: var(--text-primary);
+    background: rgba(59, 130, 246, 0.2);
     transform: scale(1.1);
 }
