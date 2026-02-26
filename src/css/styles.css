@@ -254,7 +254,15 @@ header {
 
 /* Specific Column Widths */
 .td-last-name,
-.th-last-name,
+.th-last-name {
+    width: 12%;
+    /* Increased from 6% */
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .td-first-name,
 .th-first-name {
     width: 6%;
@@ -269,7 +277,9 @@ header {
 .td-age-group,
 .th-age-group,
 .td-event,
-.th-event {
+.th-event,
+.td-bib,
+.th-bib {
     width: 1%;
     /* Shrink to fit content */
     white-space: nowrap;
