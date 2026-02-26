@@ -277,11 +277,16 @@ header {
 .td-age-group,
 .th-age-group,
 .td-event,
-.th-event,
-.td-bib,
-.th-bib {
+.th-event {
     width: 1%;
     /* Shrink to fit content */
+    white-space: nowrap;
+}
+
+.td-bib,
+.th-bib {
+    width: 70px;
+    /* Slightly wider than 5-char data */
     white-space: nowrap;
 }
 
