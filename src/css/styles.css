@@ -322,7 +322,7 @@ header {
 
 .td-result,
 .th-result {
-    width: 100px;
+    width: 60px;
     white-space: nowrap;
     color: var(--accent-gold);
     font-weight: 700 !important;
