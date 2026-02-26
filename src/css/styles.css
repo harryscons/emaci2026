@@ -255,9 +255,9 @@ header {
 /* Specific Column Widths */
 .td-last-name,
 .th-last-name {
-    width: 12%;
-    /* Increased from 6% */
-    max-width: 250px;
+    width: 15%;
+    min-width: 120px;
+    max-width: 300px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -265,35 +265,56 @@ header {
 
 .td-first-name,
 .th-first-name {
-    width: 6%;
-    max-width: 150px;
+    width: 10%;
+    min-width: 100px;
+    max-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .td-when,
-.th-when,
+.th-when {
+    width: 150px;
+    white-space: nowrap;
+}
+
 .td-age-group,
-.th-age-group,
+.th-age-group {
+    width: 90px;
+    white-space: nowrap;
+}
+
 .td-event,
 .th-event {
-    width: 1%;
-    /* Shrink to fit content */
+    width: 100px;
+    white-space: nowrap;
+}
+
+.td-gender,
+.th-gender {
+    width: 75px;
+    white-space: nowrap;
+}
+
+.td-qp,
+.th-qp {
+    width: 60px;
     white-space: nowrap;
 }
 
 .td-bib,
 .th-bib {
-    width: 70px;
+    width: 80px;
     /* Slightly wider than 5-char data */
     white-space: nowrap;
 }
 
 .td-team-name,
 .th-team-name {
-    width: 8%;
-    max-width: 180px;
+    width: 12%;
+    min-width: 150px;
+    max-width: 280px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -301,6 +322,8 @@ header {
 
 .td-result,
 .th-result {
+    width: 100px;
+    white-space: nowrap;
     color: var(--accent-gold);
     font-weight: 700 !important;
 }
